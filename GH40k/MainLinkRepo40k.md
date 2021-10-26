@@ -70,6 +70,6 @@ If you're looking for 40k alternatives, check out:
 - Suggested Background: https://git.io/Jilu2   
 ## Paper Scenery:
 - 1/144 scale Roads and Buildings from Dropzone Commander: https://ttcombat.com/pages/dropzone-commander-resources 
-## 2D Standees
+## 2D Standees, 1:144 scale
 - EFSF 0079-0080: https://git.io/Jildk
 - Zeon 0079-0080: https://git.io/Jildm
