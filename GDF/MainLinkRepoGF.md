@@ -27,6 +27,6 @@ One of the best Grimdark Future videos from Wyloch: https://www.youtube.com/watc
 - UN Spacy: https://git.io/Jil5Q
 - Zentradi: https://git.io/Jil5F
 
-## 2D Standees
+## 2D Standees, 1/144 scale
 - EFSF 0079-0080: https://git.io/Jildk
 - Zeon 0079-0080: https://git.io/Jildm
