@@ -7,8 +7,8 @@ One of the best Grimdark Future videos from Wyloch: https://www.youtube.com/watc
 
 ## Universal Century
 ### UC 0079-0080 (Gundam, 0080, MSV)
-- EFSF 0079-0080: https://git.io/JilyU
-- Zeon 0079-0080: https://git.io/JilyN
+- EFSF 0079-0080: https://git.io/JXK1C
+- Zeon 0079-0080: https://git.io/JXK1G
 
 ## Cosmic Era
 ### CE 71 (Gundam SEED)
