@@ -10,7 +10,7 @@ Gundark Future is a different set of rules for battling with your giant mecha un
 Mecha: HEX is similar to Battletech, in that it's designed around smaller scale mecha duking it out over hex-grid or free-form maps.  Based on Warfleets: FTL from OnePageRules, it's a total conversion of that system, with similar but a few different mechanics.
 
 - GundamHammer 40k (based on Warhammer 40k from Games Workshop): https://tinyurl.com/GH40000
-- Gundark Future (40k alternative, based on Grimdark Future from OnePageRules): https://tinyurl.com/GundarkFuture
-- Mecha: HEX (Battletech alternative, based on Warfleets FTL from OnePageRules): https://tinyurl.com/MechaHex
+- Gundark Future (based on Grimdark Future from OnePageRules): https://tinyurl.com/GundarkFuture
+- Mecha: HEX (based on Warfleets FTL from OnePageRules): https://tinyurl.com/MechaHex
 
 Find us on Facebook: https://www.facebook.com/GundamHammer40k/
