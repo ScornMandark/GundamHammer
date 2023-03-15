@@ -5,3 +5,9 @@ Find the rules and army lists for Warfleets FTL here: https://onepagerules.com/p
 
 # Core Rules
 - Core Rules Here: https://git.io/JilFk
+
+# Discussion Forum
+- https://forum.onepagerules.com/thread/1913/mecha-hex?page=1
+
+# YouTube review!
+- https://youtu.be/cCDHbi4-pbY
