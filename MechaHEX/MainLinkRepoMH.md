@@ -11,6 +11,10 @@ Find the rules and army lists for Grimdark Future FTL here!
 - https://git.io/JilFk
 
 
+# Mecha: HEX Army Lists
+- Coming soon!
+
+
 # Discussion Forum
 - https://forum.onepagerules.com/thread/1913/mecha-hex?page=1
 
