@@ -1,0 +1,1883 @@
+{
+  "category": {
+    "uuid": "234bd547-4b4e-41e5-9082-7771a705b9cb",
+    "name": "EFSF Units",
+    "cards": [
+      {
+        "id": "d24d90b4-dffe-45d9-b704-3a795cfd9ee2",
+        "name": "RGM-79 GM",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RGM-79 GM"
+        ],
+        "loadout": "This model is equipped with: Beam Spray Gun, Beam Saber.",
+        "wargear": [
+          "This model’s Beam Spray Gun can be replaced with one of the following: ◦ 1 Hyper Bazooka ◦ 1 Machine Gun"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "180",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Safety in Numbers",
+              "description": "Each time a ranged attack targets this model, and there is an EARTH FEDERATION BATTLELINE WALKER unit within 6\" of this model, reduce the AP of the incoming attack by 1.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "8",
+            "name": "RGM-79 GM",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Spray Gun",
+                "keywords": [
+                  "melta 4",
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-4",
+                "damage": "D6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Hyper Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Machine Gun",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Battleline",
+          "Titanic",
+          "Towering",
+          "RGM-79 GM"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "d24d90b4-dffe-45d9-b704-3a795cfd9ee2"
+      },
+      {
+        "id": "adc2b5e9-912e-4596-b14d-ce552d9b62a6",
+        "name": "RGM-79G\/Gs GM Command",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RGM-79G/Gs GM Command"
+        ],
+        "loadout": "This model is equipped with: Beam Gun, Beam Saber.",
+        "wargear": [
+          "This model’s Beam Gun can be replaced with one of the following: ◦ 1 Hyper Bazooka ◦ 1 Machine Gun"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "210",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Ace",
+              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Safety in Numbers",
+              "description": "Each time a ranged attack targets this model, and there is an EARTH FEDERATION BATTLELINE WALKER unit within 6\" of this model, reduce the AP of the incoming attack by 1.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "12",
+            "ld": "6+",
+            "oc": "8",
+            "name": "RGM-79G/Gs GM Command",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Gun",
+                "keywords": [
+                  "melta 4",
+                  "assault"
+                ],
+                "range": "30\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-4",
+                "damage": "D6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Hyper Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Machine Gun",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "8",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Titanic",
+          "Towering",
+          "RGM-79G\/Gs GM Command"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "adc2b5e9-912e-4596-b14d-ce552d9b62a6"
+      },
+      {
+        "id": "a90a9801-573f-416e-8ba2-c434ec054774",
+        "name": "RGM-79[G] GM",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RGM-79[G] GM"
+        ],
+        "loadout": "This model is equipped with: Machine Gun, Beam Saber.",
+        "wargear": [
+          "This model’s Machine Gun can be replaced with one of the following: ◦ 1 Beam Rifle ◦ 1 Hyper Bazooka ◦ 1 Missile Launcher"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "250",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Limited Production",
+              "description": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "2+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "8",
+            "name": "RGM-79[G] GM",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle",
+                "keywords": [
+                  "devastating wounds",
+                  "heavy"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Hyper Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Machine Gun",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher",
+                "keywords": [
+                  "blast",
+                  "twin linked"
+                ],
+                "range": "24\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Battleline",
+          "Titanic",
+          "Towering",
+          "RGM-79[G] GM"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "a90a9801-573f-416e-8ba2-c434ec054774"
+      },      
+      {
+        "id": "f016e6d4-c686-4624-b00f-49b646943fa8",
+        "name": "RGM-79[G] GM Sniper",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RGM-79[G] GM Sniper"
+        ],
+        "loadout": "This model is equipped with: Long Beam Rifle, Beam Saber.",
+        "wargear": [
+          "None"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "350",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Long Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Sniper Smite",
+              "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the Lethal Hits ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "2+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "8",
+            "name": "RGM-79[G] GM Sniper",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Beam Rifle",
+                "keywords": [
+                  "devastating wounds",
+                  "heavy",
+                  "blast"
+                ],
+                "range": "72\"",
+                "attacks": "D3",
+                "skill": "4+",
+                "strength": "18",
+                "ap": "-5",
+                "damage": "D6+8"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "RGM-79[G] GM"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "f016e6d4-c686-4624-b00f-49b646943fa8"
+      },
+      {
+        "id": "8dd677a9-3731-4b18-af88-7fc82e0c2cf8",
+        "name": "RX-79[G] Gundam Ground Type",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RX-79[G] Gundam Ground Type"
+        ],
+        "loadout": "This model is equipped with: Machine Gun; Beam Saber.",
+        "wargear": [
+          "This model’s Machine Gun can be replaced with one of the following: ◦ 1 180mm Cannon ◦ 1 Beam Rifle ◦ 1 Hyper Bazooka ◦ 1 Missile Launcher"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "450",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "This model scores a Critical Wound on a 5+ when targeting a Vehicle or a Monster.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Limited Prototype",
+              "description": "Each time this model makes an attack that targets a Monster or Vehicle unit, add 1 to the Hit roll. If that target is Titanic or Towering, add 1 to the Wound roll as well.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "10",
+            "name": "RX-79[G] Gundam Ground Type",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "180mm Cannon",
+                "keywords": [
+                  "blast",
+                  "heavy",
+                  "indirect fire"
+                ],
+                "range": "48\"",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Hyper Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Machine Gun",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "24\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Titanic",
+          "Towering",
+          "RX-79[G]",
+          "Gundam"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "8dd677a9-3731-4b18-af88-7fc82e0c2cf8"
+      },
+      {
+        "id": "e4f4221f-91b8-4d43-bcbb-b4e55c8c5c45",
+        "name": "RX-75 Guntank Mass Production",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RX-75 Guntank Mass Production"
+        ],
+        "loadout": "This model is equipped with: 1 120mm Low Recoil Cannons; 2 Missile Launchers; 1 Crushing Treads.",
+        "wargear": [
+          "None"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "400",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Fire Support",
+              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "7+",
+            "oc": "10",
+            "name": "RX-75 Guntank Mass Production",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "120mm Low Recoil Cannons",
+                "keywords": [
+                  "anti-titanic 4+",
+                  "indirect fire",
+                  "twin-linked"
+                ],
+                "range": "48\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher",
+                "keywords": [
+                  "blast",
+                  "twin linked"
+                ],
+                "range": "24\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Crushing Treads",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "RX-75",
+          "Guntank"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "e4f4221f-91b8-4d43-bcbb-b4e55c8c5c45"
+      },      
+      {
+        "id": "01f35dbf-2fd6-4a03-86c2-1549d308cf41",
+        "name": "Hayato Kobayashi",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Hayato Kobayashi in an RX-75 Guntank"
+        ],
+        "loadout": "This model is equipped with: 2 120mm Low Recoil Cannons; 2 Missile Launchers; 1 Crushing Treads.",
+        "wargear": [
+          "None"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "500",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Tactical Thinking",
+              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability and can ignore the penalty to their Hit rolls when making attacks with Indirect Fire weapons against targets that are not visible to them.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "10",
+            "name": "RX-75 Guntank",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "120mm Low Recoil Cannon",
+                "keywords": [
+                  "anti-titanic 4+",
+                  "indirect fire"
+                ],
+                "range": "48\"",
+                "attacks": "6",
+                "skill": "2+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher",
+                "keywords": [
+                  "blast",
+                  "twin-linked"
+                ],
+                "range": "24\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Crushing Treads",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "RX-75",
+          "Guntank",
+          "Hayato Kobayashi"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "01f35dbf-2fd6-4a03-86c2-1549d308cf41"
+      },      
+      {
+        "id": "e68770bd-0528-48bf-8669-ec6ac93dec45",
+        "name": "RX-77-2 Guncannon",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 RX-77-2 Guncannon"
+        ],
+        "loadout": "This model is equipped with: 1 240mm Cannons; 1 Beam Rifle; 1 Crushing Treads.",
+        "wargear": [
+          "This model's 240mm Cannons may be replaced with 1 Spray Missile Launchers"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "400",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }   
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Fire Support",
+              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "7+",
+            "oc": "10",
+            "name": "RX-77-2 Guncannon",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "240mm Cannons",
+                "keywords": [
+                  "blast",
+                  "indirect fire",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Spray Missile Launchers",
+                "keywords": [
+                  "blast",
+                  "twin linked"
+                ],
+                "range": "24\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Character",
+          "Towering",
+          "RX-77-2",
+          "Guncannon"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "e68770bd-0528-48bf-8669-ec6ac93dec45"
+      },      
+      {
+        "id": "fce3cf28-9b16-45ac-aaf7-aa9c4f13e69a",
+        "name": "Kai Shiden",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Kai Shiden in an RX-77-2 Guncannon"
+        ],
+        "loadout": "This model is equipped with: 2 240mm Cannons; 1 Beam Rifle; 1 Crushing Treads.",
+        "wargear": [
+          "This model's 2 240mm Cannons may be replaced with 2 Spray Missile Launchers"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "450",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }   
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Self Preservation",
+              "description": "If this model is Below Half-strength, ranged attacks made by this model gain the [Assault] keyword.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "6+",
+            "oc": "10",
+            "name": "RX-77-2 Guncannon",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "240mm Cannon",
+                "keywords": [
+                  "blast",
+                  "indirect fire"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Spray Missile Launcher",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "24\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Character",
+          "Epic Hero",
+          "Towering",
+          "RX-77-2",
+          "Guncannon",
+          "Kai Shiden"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "fce3cf28-9b16-45ac-aaf7-aa9c4f13e69a"
+      },      
+      {
+        "id": "f03087e4-026b-4c9c-93d2-9fd9ef655387",
+        "name": "Amuro Rei",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Amuro Rei in an RX-78-2 Gundam"
+        ],
+        "loadout": "This model is equipped with: Beam Rifle, Beam Saber.",
+        "wargear": [
+          "This model’s Beam Rifle can be replaced with 1 Hyper Bazooka.",
+          "This model's Beam Saber can be replaced with 1 Beam Javelin."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "550",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Plot Armor",
+              "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Terrifynig Visage (Psychic)",
+              "description": "At the start of your Shooting phase, select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "5+",
+            "oc": "10",
+            "name": "RX-78-2 Gundam",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Hyper Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "2+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Javelin",
+                "keywords": [
+                  "devastating wounds",
+                  "lance"
+                ],
+                "range": "Melee",
+                "attacks": "5",
+                "skill": "2+",
+                "strength": "16",
+                "ap": "-4",
+                "damage": "6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "2+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "12",
+                "skill": "2+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "RX-78-2",
+          "Gundam",
+          "Amuro Rei"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "f03087e4-026b-4c9c-93d2-9fd9ef655387"
+      },
+      {
+        "id": "52d4d5c6-ee34-4187-8c90-f03d9b2c13af",
+        "name": "Heinz Baer",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Heinz Baer in an FA-78-1 Full Armor Gundam"
+        ],
+        "loadout": "This model is equipped with: 1 360mm Cannon; 1 Beam Saber; 1 Missile Launchers; 1 Twin Beam Rifle.",
+        "wargear": [
+          "None"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "750",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Twin Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Earth Born Might, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "4+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Full Armored Firepower",
+              "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [Lethal Hits] ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-10 WOUNDS REMAINING",
+            "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "13",
+            "sv": "2+",
+            "w": "30",
+            "ld": "5+",
+            "oc": "10",
+            "name": "FA-78-1 Full Armor Gundam",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "360mm Cannon",
+                "keywords": [
+                  "blast",
+                  "indirect fire"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launchers",
+                "keywords": [
+                  "blast",
+                  "twin-linked"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Beam Rifle",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "2+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "12",
+                "skill": "2+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "FA-78-1",
+          "Gundam",
+          "Heinz Baer"
+        ],
+        "factions": [
+          "Earth Federation"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "52d4d5c6-ee34-4187-8c90-f03d9b2c13af"
+      }
+    ],
+    "closed": false
+  },
+  "createdAt": "2023-07-11T20:02:15.745Z",
+  "version": "2.1.0",
+  "website": "https://game-datacards.eu"
+}

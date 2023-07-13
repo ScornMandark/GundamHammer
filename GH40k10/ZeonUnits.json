@@ -1,0 +1,202 @@
+{
+  "category": {
+    "uuid": "92fa512f-a26f-4db6-810c-db7def894bb1",
+    "name": "Zeon Units",
+    "cards": [
+      {
+        "id": "ae22e85d-4586-4f79-baa5-555dd63afb74",
+        "name": "MS-06 Zaku",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 MS-06 Zaku"
+        ],
+        "loadout": "This model is equipped with: Zaku Machine Gun; Heat Hawk.",
+        "wargear": [
+          "This model’s Zaku Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon",
+          "This model may be equipped with 1 Leg Missiles."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "160",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Squad Tactics",
+              "description": "Each time this model makes a ranged attack, and there is a PRINCIPALITY OF ZEON BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "8",
+            "name": "MS-06 Zaku",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Leg Missiles",
+                "keywords": [
+                  "blast",
+                  "heavy",
+                  "twin linked"
+                ],
+                "range": "24\"",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "D6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Top Cannon",
+                "keywords": [
+                  "blast",
+                  "heavy",
+                  "indirect fire"
+                ],
+                "range": "48\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "12",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Zaku Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Zaku Machine Gun",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heat Hawk – strike",
+                "keywords": ["sustained hits 1"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-3",
+                "damage": "D6"
+              },
+              {
+                "active": true,
+                "name": "Heat Hawk – sweep",
+                "keywords": ["sustained hits 1"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Battleline",
+          "Titanic",
+          "Towering",
+          "MS-06 Zaku"
+        ],
+        "factions": [
+          "Principality of Zeon"
+        ],
+        "isCustom": false,
+        "uuid": "ae22e85d-4586-4f79-baa5-555dd63afb74"
+      }
+
+    ],
+    "closed": false
+  },
+  "createdAt": "2023-07-11T20:02:15.745Z",
+  "version": "2.1.0",
+  "website": "https://game-datacards.eu"
+}
