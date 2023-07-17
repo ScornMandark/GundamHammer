@@ -918,6 +918,193 @@
         "uuid": "ae22e85d-4586-4f79-baa5-555dd63afb74"
       },
       {
+        "id": "a0a717c6-db40-4853-8f6f-4c60f926166c",
+        "name": "MS-06FZ Zaku II Kai",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 MS-06FZ Zaku II Kai"
+        ],
+        "loadout": "This model is equipped with: MMP Machine Gun; Heat Hawk.",
+        "wargear": [
+          "This model’s MMP Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Zaku Machine Gun"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "175",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Squad Tactics",
+              "description": "Each time this model makes a ranged attack, and there is a PRINCIPALITY OF ZEON BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "12",
+            "ld": "7+",
+            "oc": "9",
+            "name": "MS-06FZ Zaku II Kai",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "MMP Machine Gun",
+                "keywords": [
+                  "rapid fire D6+6"
+                ],
+                "range": "30\"",
+                "attacks": "D6+6",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Top Cannon",
+                "keywords": [
+                  "blast",
+                  "heavy",
+                  "indirect fire"
+                ],
+                "range": "48\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "12",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Zaku Bazooka",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Zaku Machine Gun",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heat Hawk – strike",
+                "keywords": ["sustained hits 1"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-3",
+                "damage": "D6"
+              },
+              {
+                "active": true,
+                "name": "Heat Hawk – sweep",
+                "keywords": ["sustained hits 1"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Battleline",
+          "Grenades",
+          "Titanic",
+          "Towering",
+          "MS-06 Zaku II"
+        ],
+        "factions": [
+          "Principality of Zeon"
+        ],
+        "isCustom": false,
+        "uuid": "a0a717c6-db40-4853-8f6f-4c60f926166c"
+      },
+      {
         "id": "0e1c9e77-32ba-4b79-b88f-ae94730148a0",
         "name": "MS-06K Zaku Cannon",
         "source": "40k-10e",
@@ -3986,7 +4173,7 @@
           "other": [
             {
               "name": "Aquatic Tactics",
-              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Twin-Linked] ability.",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
               "showAbility": true,
               "showDescription": true
             }
@@ -4006,7 +4193,7 @@
             "sv": "3+",
             "w": "15",
             "ld": "7+",
-            "oc": "8",
+            "oc": "10",
             "name": "MSM-04 Acguy",
             "showDamagedMarker": true,
             "showName": false,
@@ -4019,7 +4206,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Mega Particle Cannon",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -4066,7 +4253,7 @@
                 "skill": "3+",
                 "strength": "14",
                 "ap": "-3",
-                "damage": "D+3"
+                "damage": "D6+3"
               },
               {
                 "active": true,
@@ -4095,6 +4282,479 @@
         ],
         "isCustom": false,
         "uuid": "0b5cf0e1-6687-4d21-8d87-c212d574d4cb"
+      },
+      {
+        "id": "3989b130-9cae-41e8-9300-e43dbfd78e4f",
+        "name": "MSM-07 Z'Gok",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 MSM-07 Z'Gok"
+        ],
+        "loadout": "This model is equipped with: 1 Twin Mega Particle Cannon; 1 Missile Launcher; 1 Twin Iron Nails.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "250",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Twin Mega Particle Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Aquatic Tactics",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-6 WOUNDS REMAINING",
+            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "11",
+            "sv": "3+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "10",
+            "name": "MSM-07 Z'Gok",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher",
+                "keywords": [
+                  "blast",
+                  "heavy"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Mega Particle Cannon",
+                "keywords": [
+                  "devastating wounds",
+                  "heavy",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Iron Nails – strike",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-3",
+                "damage": "D6+3"
+              },
+              {
+                "active": true,
+                "name": "Iron Nails – sweep",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "7",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Titanic",
+          "Towering",
+          "MSM-07 Z'Gok"
+        ],
+        "factions": [
+          "Principality of Zeon"
+        ],
+        "isCustom": false,
+        "uuid": "3989b130-9cae-41e8-9300-e43dbfd78e4f"
+      },
+      {
+        "id": "8e59345e-fd00-4acc-b5ae-257020d91df9",
+        "name": "Char Aznable",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Char Aznable in an MSM-07S Z'Gok Commander Type"
+        ],
+        "loadout": "This model is equipped with: 1 Twin Mega Particle Cannon; 1 Missile Launcher; 1 Twin Iron Nails.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "300",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Twin Mega Particle Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Aquatic Tactics",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-6 WOUNDS REMAINING",
+            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "3+",
+            "w": "18",
+            "ld": "5+",
+            "oc": "10",
+            "name": "MSM-07S Z'Gok Commander Type",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher",
+                "keywords": [
+                  "blast",
+                  "heavy"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Mega Particle Cannon",
+                "keywords": [
+                  "devastating wounds",
+                  "heavy",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Iron Nails – strike",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "14",
+                "ap": "-3",
+                "damage": "D6+3"
+              },
+              {
+                "active": true,
+                "name": "Iron Nails – sweep",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "7",
+                "skill": "2+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "MSM-07 Z'Gok",
+          "Char Aznable"
+        ],
+        "factions": [
+          "Principality of Zeon"
+        ],
+        "isCustom": false,
+        "uuid": "8e59345e-fd00-4acc-b5ae-257020d91df9"
+      },
+      {
+        "id": "907d612d-1629-4a6a-903f-5e973b8b1d72",
+        "name": "MSM-10 Zock",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 MSM-10 Zock"
+        ],
+        "loadout": "This model is equipped with: 2 Quad Mega Particle Cannons; 1 Twin Iron Nails.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "650",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Quad Mega Particle Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Fire Support",
+              "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [Lethal Hits] ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-10 WOUNDS REMAINING",
+            "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "13",
+            "sv": "3+",
+            "w": "30",
+            "ld": "6+",
+            "oc": "10",
+            "name": "MSM-10 Zock",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Quad Mega Particle Cannon",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "48\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Iron Nails – strike",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-3",
+                "damage": "D6+3"
+              },
+              {
+                "active": true,
+                "name": "Iron Nails – sweep",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "7",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "MSM-10 Zock"
+        ],
+        "factions": [
+          "Principality of Zeon"
+        ],
+        "isCustom": false,
+        "uuid": "907d612d-1629-4a6a-903f-5e973b8b1d72"
       }     
 
     ],

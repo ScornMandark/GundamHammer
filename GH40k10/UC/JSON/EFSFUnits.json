@@ -1885,7 +1885,8 @@
         ],
         "loadout": "This model is equipped with: 1 Machine Gun; 1 Beam Saber.",
         "wargear": [
-          "This model’s Machine Gun can be replaced with one of the following: ◦ 1 180mm Cannon ◦ 1 Beam Rifle ◦ 1 Hyper Bazooka ◦ 1 Missile Launcher"
+          "This model’s Machine Gun can be replaced with one of the following: ◦ 1 180mm Cannon ◦ 1 Beam Rifle ◦ 1 Hyper Bazooka ◦ 1 Missile Launcher",
+          "This model may be equipped with a Parachute Pack."
         ],
         "transport": "",
         "points": [
@@ -1902,7 +1903,13 @@
               "description": "This model scores a Critical Wound on a 5+ when targeting a Vehicle or a Monster.",
               "showAbility": true,
               "showDescription": true
-            }            
+            },
+            {
+              "name": "Parachute Pack",
+              "description": "This model gains the [Deep Strike] ability.",
+              "showAbility": true,
+              "showDescription": true              
+            }
           ],
           "core": [
             "Deadly Demise D6"
