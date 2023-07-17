@@ -1572,7 +1572,7 @@
         "composition": [
           "1 Shani Andras in a GAT-X252 Forbidden Gundam"
         ],
-        "loadout": "This model is equipped with: 1 Bazooka; 1 Energy Cannon; 1 Shield Cannons; 1 Shoulder Beam Cannons; 1 Titanic Feet.",
+        "loadout": "This model is equipped with: 1 Plasma Cannon; 1 Railgun; 1 Twin Machine Gun; 1 Heavy Scythe.",
         "wargear": [
           "None."
         ],
@@ -1587,8 +1587,8 @@
         "abilities": {
           "wargear": [
             {
-              "name": "Energy Cannon / Shield Beam Cannons / Shoulder Beam Cannons",
-              "description": "When targeting a Vehicle or a Monster, attacks from these weapons score Critical Wounds on a 5+.",
+              "name": "Plasma Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
             }            
@@ -1798,8 +1798,8 @@
               "showDescription": true
             },
             {
-              "name": "Geschmedig Panzer",
-              "description": "Each time a ranged attack is allocated to this model, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.",
+              "name": "High Speed Transformation",
+              "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, this unit gains the [Aircraft] keyword and it's Movement characteristic becomes 20+.",
               "showAbility": true,
               "showDescription": true
             }
@@ -1832,13 +1832,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Plasma Cannon",
+                "name": "Energy Cannon",
                 "keywords": [
                   "ignores cover",
                   "indirect"
                 ],
                 "range": "36\"",
-                "attacks": "D6",
+                "attacks": "3",
                 "skill": "3+",
                 "strength": "18",
                 "ap": "-4",
@@ -1851,14 +1851,15 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Railgun",
+                "name": "Shield Cannons",
                 "keywords": [
-                  "twin-linked"
+                  "twin-linked",
+                  "rapid fire 3"
                 ],
                 "range": "48\"",
-                "attacks": "D6",
+                "attacks": "3",
                 "skill": "3+",
-                "strength": "12",
+                "strength": "8",
                 "ap": "-3",
                 "damage": "3"
               }
@@ -1869,7 +1870,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Machine Gun",
+                "name": "Twin Machine Guns",
                 "keywords": [
                   "assault",
                   "twin-linked"
@@ -1890,36 +1891,37 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heavy Scythe – strike",
+                "name": "Mjolnir Spherical Breaker – strike",
                 "keywords": [],
                 "range": "Melee",
-                "attacks": "5",
+                "attacks": "3",
                 "skill": "3+",
                 "strength": "20",
-                "ap": "-4",
-                "damage": "8"
+                "ap": "-3",
+                "damage": "10"
               },
               {
                 "active": true,
-                "name": "Heavy Scythe – sweep",
+                "name": "Mjolnir Spherical Breaker – sweep",
                 "keywords": [],
                 "range": "Melee",
-                "attacks": "10",
+                "attacks": "14",
                 "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "3"
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
               }
             ]
           }        ],
         "keywords": [
           "Vehicle",
           "Walker",
+          "Fly",
           "Character",
           "Epic Hero",
           "Titanic",
           "Towering",
-          "GAT-X2370 Raider",
+          "GAT-X370 Raider",
           "Gundam",
           "Clotho Buer"
         ],
