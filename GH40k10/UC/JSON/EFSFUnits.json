@@ -1,7 +1,7 @@
 {
   "category": {
     "uuid": "234bd547-4b4e-41e5-9082-7771a705b9cb",
-    "name": "EFSF Units",
+    "name": "EFSF Units 0079",
     "cards": [
       {
         "id": "dcb1a108-1fc5-4579-ab89-e8dbc91b449c",
@@ -86,7 +86,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "180mm Cannon",
+                "name": "180mm Cannon ",
                 "keywords": [
 
                 ],
@@ -104,7 +104,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin 150mm Machine Gun",
+                "name": "Twin 150mm Machine Gun ",
                 "keywords": [
                   "assault",
                   "twin-linked"
@@ -125,7 +125,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Manipulator Arms",
+                "name": "Manipulator Arms ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "2",
@@ -233,7 +233,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Nose Vulcans",
+                "name": "Nose Vulcans ",
                 "keywords": [],
                 "range": "24\"",
                 "attacks": "12",
@@ -249,7 +249,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Wing Missiles",
+                "name": "Wing Missiles ",
                 "keywords": [
                   "anti-fly 2+",
                   "twin-linked"
@@ -270,7 +270,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Hull",
+                "name": "Armored Hull ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "6",
@@ -374,7 +374,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Rifle",
+                "name": "Twin Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -393,7 +393,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Wing Missiles",
+                "name": "Wing Missiles ",
                 "keywords": [
                   "anti-fly 2+",
                   "twin-linked"
@@ -414,7 +414,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Hull",
+                "name": "Armored Hull ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "3",
@@ -519,7 +519,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Rifle",
+                "name": "Twin Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -538,7 +538,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Wing Missiles",
+                "name": "Wing Missiles ",
                 "keywords": [
                   "anti-fly 2+",
                   "twin-linked"
@@ -559,7 +559,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Hull",
+                "name": "Armored Hull ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "3",
@@ -667,7 +667,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Cannon",
+                "name": "Beam Cannon ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -685,7 +685,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Nose Vulcans",
+                "name": "Nose Vulcans ",
                 "keywords": [],
                 "range": "24\"",
                 "attacks": "12",
@@ -703,7 +703,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Hull",
+                "name": "Armored Hull ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "3",
@@ -811,7 +811,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin 155mm Cannons",
+                "name": "Twin 155mm Cannons ",
                 "keywords": [
                   "twin-linked"
                 ],
@@ -829,7 +829,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heavy Machine Gun",
+                "name": "Heavy Machine Gun ",
                 "keywords": [
                   "rapid fire 3"
                 ],
@@ -849,7 +849,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Tracks",
+                "name": "Armored Tracks ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "3",
@@ -946,7 +946,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Spray Gun",
+                "name": "Beam Spray Gun ",
                 "keywords": [
                   "melta 4",
                   "assault"
@@ -965,7 +965,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -983,7 +983,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1003,7 +1003,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1014,7 +1014,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1114,7 +1114,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "240mm Cannon",
+                "name": "240mm Cannon ",
                 "keywords": [
                   "blast",
                   "indirect fire"
@@ -1133,7 +1133,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Spray Gun",
+                "name": "Beam Spray Gun ",
                 "keywords": [
                   "melta 4",
                   "assault"
@@ -1152,7 +1152,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1170,7 +1170,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1190,7 +1190,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1201,7 +1201,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1307,7 +1307,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Long Beam Rifle",
+                "name": "Long Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy",
@@ -1329,7 +1329,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1340,7 +1340,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1445,7 +1445,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Gun",
+                "name": "Beam Gun ",
                 "keywords": [
                   "melta 4",
                   "assault"
@@ -1464,7 +1464,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1482,7 +1482,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1502,7 +1502,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "3",
@@ -1513,7 +1513,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "8",
@@ -1620,7 +1620,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -1639,7 +1639,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1657,7 +1657,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1675,7 +1675,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast",
                   "twin linked"
@@ -1696,7 +1696,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1707,7 +1707,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1814,7 +1814,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Long Beam Rifle",
+                "name": "Long Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy",
@@ -1836,7 +1836,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1847,7 +1847,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1960,7 +1960,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "180mm Cannon",
+                "name": "180mm Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -1980,7 +1980,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -1998,7 +1998,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2016,7 +2016,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -2034,7 +2034,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast"
                 ],
@@ -2054,7 +2054,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -2065,7 +2065,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",
@@ -2154,7 +2154,7 @@
             "w": "24",
             "ld": "7+",
             "oc": "10",
-            "name": "RX-75 Guntank Mass Production",
+            "name": "RX-75 Guntank Mass Production ",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -2166,7 +2166,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "120mm Low Recoil Cannons",
+                "name": "120mm Low Recoil Cannons ",
                 "keywords": [
                   "anti-titanic 4+",
                   "indirect fire",
@@ -2186,7 +2186,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast",
                   "twin linked"
@@ -2207,7 +2207,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Crushing Treads",
+                "name": "Crushing Treads ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "6",
@@ -2307,7 +2307,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "120mm Low Recoil Cannon",
+                "name": "120mm Low Recoil Cannon ",
                 "keywords": [
                   "anti-titanic 4+",
                   "indirect fire"
@@ -2326,7 +2326,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast",
                   "twin-linked"
@@ -2347,7 +2347,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Crushing Treads",
+                "name": "Crushing Treads ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "6",
@@ -2457,7 +2457,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "240mm Cannons",
+                "name": "240mm Cannons ",
                 "keywords": [
                   "blast",
                   "indirect fire",
@@ -2477,7 +2477,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -2495,7 +2495,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Spray Missile Launchers",
+                "name": "Spray Missile Launchers ",
                 "keywords": [
                   "blast",
                   "twin linked"
@@ -2516,7 +2516,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Feet",
+                "name": "Armored Feet ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "6",
@@ -2624,7 +2624,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "240mm Cannon",
+                "name": "240mm Cannon ",
                 "keywords": [
                   "blast",
                   "indirect fire"
@@ -2643,7 +2643,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -2661,7 +2661,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Spray Missile Launcher",
+                "name": "Spray Missile Launcher ",
                 "keywords": [
                   "blast"
                 ],
@@ -2681,7 +2681,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Feet",
+                "name": "Armored Feet ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "6",
@@ -2786,7 +2786,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "240mm Cannons",
+                "name": "240mm Cannons ",
                 "keywords": [
                   "blast",
                   "indirect fire",
@@ -2806,7 +2806,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -2826,7 +2826,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Armored Feet",
+                "name": "Armored Feet ",
                 "keywords": [],
                 "range": "Melee",
                 "attacks": "6",
@@ -2939,7 +2939,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -2957,7 +2957,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2977,7 +2977,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Javelin",
+                "name": "Beam Javelin ",
                 "keywords": [
                   "devastating wounds",
                   "lance"
@@ -2996,7 +2996,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -3007,7 +3007,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",
@@ -3123,7 +3123,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3141,7 +3141,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Long Beam Rifle",
+                "name": "Long Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy",
@@ -3163,7 +3163,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -3174,7 +3174,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",
@@ -3290,7 +3290,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3308,7 +3308,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Mega Gatling Cannon",
+                "name": "Mega Gatling Cannon ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -3329,7 +3329,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -3340,7 +3340,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",
@@ -3450,7 +3450,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "240mm Cannons",
+                "name": "240mm Cannons ",
                 "keywords": [
                   "blast",
                   "indirect fire",
@@ -3470,7 +3470,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3488,7 +3488,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hyper Bazooka",
+                "name": "Hyper Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -3506,7 +3506,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -3526,7 +3526,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -3537,7 +3537,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",
@@ -3648,7 +3648,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "360mm Cannon",
+                "name": "360mm Cannon ",
                 "keywords": [
                   "blast",
                   "indirect fire"
@@ -3667,7 +3667,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launchers",
+                "name": "Missile Launchers ",
                 "keywords": [
                   "blast",
                   "twin-linked"
@@ -3686,7 +3686,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Rifle",
+                "name": "Twin Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3707,7 +3707,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -3718,7 +3718,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",
@@ -3834,7 +3834,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3852,7 +3852,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Gatling Cannons",
+                "name": "Gatling Cannons ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3873,7 +3873,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
@@ -3884,7 +3884,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "12",

@@ -1,446 +1,27 @@
 {
   "category": {
-    "uuid": "92fa512f-a26f-4db6-810c-db7def894bb1",
-    "name": "Zeon Units",
+    "uuid": "2d92f260-69bc-457b-baa2-e5138fd06838",
+    "name": "ZAFT Units CE71",
     "cards": [
       {
-        "id": "127bbec3-d912-4822-b23c-7599920209e5",
-        "name": "DFA-03 Dopp",
+        "id": "6cae3954-e92a-4382-9d6e-ac9864738745",
+        "name": "TMF/A-802 BuCUE",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1-3 DFA-03 Dopp"
+          "1 TMF/A-802 BuCUE"
         ],
-        "loadout": "Every model is equipped with: 1 Nose Vulcans; 1 Wing Missiles; 1 Armored Hull.",
+        "loadout": "This model is equipped with: 1 Linear Cannons; 1 Beam Sabers.",
         "wargear": [
-          "None."
+          "This model’s Linear Cannons can be replaced with 1 Missile Pod."
         ],
         "transport": "",
         "points": [
           {
             "models": "1",
-            "cost": "50",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "100",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "150",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise 1"
-          ],
-          "faction": [
-            "Spacenoid Supremacy"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only.",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Interceptor",
-              "description": "Each time a model in this unit makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "20ᐩ\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "7",
-            "ld": "7+",
-            "oc": "2",
-            "name": "DFA-03 Dopp",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Nose Vulcans",
-                "keywords": [],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-1",
-                "damage": "1"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Wing Missiles",
-                "keywords": [
-                  "anti-fly 2+",
-                  "twin-linked"
-                ],
-                "range": "60\"",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "7",
-                "ap": "-1",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Hull",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Fly",
-          "Aircraft",
-          "DFA-03 Dopp"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": true,
-        "uuid": "127bbec3-d912-4822-b23c-7599920209e5"
-      },
-      {
-        "id": "fd05fb1b-a4e9-47b8-81d4-baf764b2ba3a",
-        "name": "HT-01B-Top Magella Top",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1-3 HT-01B-Top Magella Top"
-        ],
-        "loadout": "Every model is equipped with: 1 Top Cannon; 1 Armored Hull.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "60",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "120",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "180",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise 1"
-          ],
-          "faction": [
-            "Spacenoid Supremacy"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only.",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Attacker",
-              "description": "Each time a model in this unit makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "20ᐩ\"",
-            "t": "7",
-            "sv": "3+",
-            "w": "7",
-            "ld": "7+",
-            "oc": "2",
-            "name": "HT-01B-Top Magella Top",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Hull",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Fly",
-          "Aircraft",
-          "HT-01B Magella"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": true,
-        "uuid": "fd05fb1b-a4e9-47b8-81d4-baf764b2ba3a"
-      },
-      {
-        "id": "f4a0e71b-0798-45a9-b0b8-4e29ba9a4cea",
-        "name": "HT-01B Magella Tank",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1-3 HT-01B Magella Tanks"
-        ],
-        "loadout": "Every model is equipped with: 1 Top Cannon; 1 Triple Machine Gun; 1 Armored Tracks.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "80",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "160",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "240",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise 1"
-          ],
-          "faction": [
-            "Spacenoid Supremacy"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Mobile Hunter-Killers",
-              "description": "Each time a model in this unit makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "8\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "7",
-            "ld": "7+",
-            "oc": "2",
-            "name": "M61A5 MBT",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Triple Machine Gun",
-                "keywords": [
-                  "rapid fire 3"
-                ],
-                "range": "24\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "4",
-                "ap": "-1",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Tracks",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Battleline",
-          "HT-01B Magella"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "f4a0e71b-0798-45a9-b0b8-4e29ba9a4cea"
-      },
-      {
-        "id": "8b174585-39e4-46bd-b4cc-a1b22c1f358a",
-        "name": "MS-05B Zaku I",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-05B Zaku I"
-        ],
-        "loadout": "This model is equipped with: Zaku Machine Gun; Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "120",
+            "cost": "200",
             "active": true
           }
         ],
@@ -452,7 +33,26 @@
           "faction": [
             "Spacenoid Supremacy, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+            {
+              "name": "BuCUE Abilities",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "High Speed Transformation",
+                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the number of attacks by 1.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Jet Engines",
+                  "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }                
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
             "info": "* Against ranged attacks only",
@@ -462,7 +62,7 @@
           "other": [
             {
               "name": "Squad Tactics",
-              "description": "Each time this model makes a ranged attack, and there is a PRINCIPALITY OF ZEON BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
+              "description": "Each time this model makes a ranged attack, and there is a ZAFT BATTLELINE TMF/A-802 BuCUE unit within 6\" of this model, reroll a hit roll of 1.",
               "showAbility": true,
               "showDescription": true
             }
@@ -477,13 +77,13 @@
         },
         "stats": [
           {
-            "m": "12\"",
+            "m": "15\"",
             "t": "10",
             "sv": "3+",
             "w": "12",
             "ld": "7+",
             "oc": "8",
-            "name": "MS-05B Zaku I",
+            "name": "TMF/A-802 BuCUE",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -495,17 +95,15 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Linear Cannons ",
                 "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
+                  "twin-linked"
                 ],
                 "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
+                "attacks": "D6+1",
+                "skill": "3+",
                 "strength": "12",
-                "ap": "-2",
+                "ap": "-3",
                 "damage": "3"
               }
             ]
@@ -515,34 +113,30 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Missile Pod - frag ",
                 "keywords": [
-                  "blast"
+                  "blast",
+                  "indirect"
                 ],
-                "range": "36\"",
-                "attacks": "D6",
+                "range": "48\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              },
+              {
+                "active": true,
+                "name": "Missile Pod - krak ",
+                "keywords": [
+                  "indirect"
+                ],
+                "range": "48\"",
+                "attacks": "4",
                 "skill": "3+",
                 "strength": "10",
                 "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
+                "damage": "D3"
               }
             ]
           }
@@ -553,24 +147,30 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
+                "name": "Beam Sabers – strike ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
                 "range": "Melee",
                 "attacks": "2",
                 "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
+                "name": "Beam Sabers – sweep ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
                 "range": "Melee",
                 "attacks": "6",
                 "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
+                "strength": "9",
+                "ap": "-3",
                 "damage": "2"
               }
             ]
@@ -582,25 +182,220 @@
           "Battleline",
           "Titanic",
           "Towering",
-          "MS-05B Zaku I"
+          "TMF/A-802 BuCUE"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
         "isCustom": false,
-        "uuid": "8b174585-39e4-46bd-b4cc-a1b22c1f358a"
+        "uuid": "6cae3954-e92a-4382-9d6e-ac9864738745"
       },
       {
-        "id": "5151c394-ef14-4eba-9140-74053b3ecd97",
-        "name": "MS-05L Zaku I Sniper",
+        "id": "d379a74a-713d-4207-be74-81fef3141975",
+        "name": "Martin DaCosta",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 MS-05L Zaku I Sniper"
+          "1 Martin DaCosta in a TMF/A-802 BuCUE"
         ],
-        "loadout": "This model is equipped with: 1 Long Beam Rifle; 1 Heat Hawk.",
+        "loadout": "This model is equipped with: 1 Linear Cannons; 1 Beam Sabers.",
+        "wargear": [
+          "This model’s Linear Cannons can be replaced with 1 Missile Pod."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "225",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "BuCUE Abilities",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "High Speed Transformation",
+                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the number of attacks by 1.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Jet Engines",
+                  "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }                
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "BuCUE Leader",
+              "description": "While this model is within 6\" of one or more other friendly ZAFT TMF/A-802 BuCUE units, this model has the [Lone Operative] ability.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Squad Tactics",
+              "description": "Each time this model makes a ranged attack, and there is a ZAFT BATTLELINE TMF/A-802 BuCUE unit within 6\" of this model, reroll a hit roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "15\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "12",
+            "ld": "6+",
+            "oc": "10",
+            "name": "TMF/A-802 BuCUE",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Linear Cannons ",
+                "keywords": [
+                  "twin-linked"
+                ],
+                "range": "48\"",
+                "attacks": "D6+3",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Pod - frag ",
+                "keywords": [
+                  "blast",
+                  "indirect"
+                ],
+                "range": "48\"",
+                "attacks": "2D6+1",
+                "skill": "3+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              },
+              {
+                "active": true,
+                "name": "Missile Pod - krak ",
+                "keywords": [
+                  "indirect"
+                ],
+                "range": "48\"",
+                "attacks": "5",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "D3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Sabers – strike ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Sabers – sweep ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "8",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "TMF/A-802 BuCUE",
+          "Martin DaCosta"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "isCustom": false,
+        "uuid": "d379a74a-713d-4207-be74-81fef3141975"
+      },
+      {
+        "id": "ee2dc4b7-6a7f-47fa-9bf4-57993b7b2333",
+        "name": "Andrew Waltfeld",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Andrew Waltfeld in a TMF/A-803 LaGOWE"
+        ],
+        "loadout": "This model is equipped with: 1 Beam Cannons; 1 Beam Fangs.",
         "wargear": [
           "None."
         ],
@@ -608,15 +403,187 @@
         "points": [
           {
             "models": "1",
-            "cost": "325",
+            "cost": "275",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "LaGOWE Abilities",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Beam Cannons",
+                  "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+                  "showAbility": true,
+                  "showDescription": true
+                },            
+                {
+                  "name": "High Speed Transformation",
+                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the Ballistic Skill by 1.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Jet Engines",
+                  "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }                
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "BuCUE Leader",
+              "description": "While this model is within 6\" of one or more other friendly ZAFT TMF/A-802 BuCUE units, this model has the [ Lone Operative ] ability.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Ace",
+              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-6 WOUNDS REMAINING",
+            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "15\"",
+            "t": "11",
+            "sv": "3+",
+            "w": "15",
+            "ld": "5+",
+            "oc": "10",
+            "name": "TMF/A-803 LaGOWE",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Cannons ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Fangs – strike ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "8",
+                "skill": "2+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "3"
+              },
+              {
+                "active": true,
+                "name": "Beam Fangs – sweep ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "16",
+                "skill": "2+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "TMF/A-803 LaGOWE",
+          "Andrew Waltfeld"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "isCustom": false,
+        "uuid": "ee2dc4b7-6a7f-47fa-9bf4-57993b7b2333"
+      },
+      {
+        "id": "15a03783-803b-4fae-8750-903fe3a37afa",
+        "name": "ZGMF-1017 GINN",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 ZGMF-1017 GINN"
+        ],
+        "loadout": "This model is equipped with: 1 Machine Gun; 1 Heavy Sword.",
+        "wargear": [
+          "This model’s Machine Gun can be replaced with one of the following: ◦ 1 Bazooka ◦ 1 Beam Cannon ◦ 1 Heavy Missiles",
+          "This model may be equipped with 1 Leg Missiles."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "150",
             "active": true
           }
         ],
         "abilities": {
           "wargear": [
             {
-              "name": "Long Beam Rifle",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "name": "Beam Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from these weapons score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
             }            
@@ -636,8 +603,8 @@
           },
           "other": [
             {
-              "name": "Sniper Smite",
-              "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the Lethal Hits ability.",
+              "name": "Squad Tactics",
+              "description": "Each time this model makes a ranged attack, and there is a ZAFT BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
               "showAbility": true,
               "showDescription": true
             }
@@ -658,7 +625,7 @@
             "w": "12",
             "ld": "7+",
             "oc": "8",
-            "name": "MS-05B Zaku I",
+            "name": "ZGMF-1017 GINN",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -670,139 +637,63 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Long Beam Rifle",
+                "name": "Bazooka ",
                 "keywords": [
-                  "devastating wounds",
-                  "heavy",
                   "blast"
                 ],
-                "range": "72\"",
-                "attacks": "D3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-5",
-                "damage": "D6+8"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "2",
+                "range": "36\"",
+                "attacks": "D6",
                 "skill": "3+",
                 "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "8",
                 "ap": "-2",
-                "damage": "2"
+                "damage": "3"
               }
             ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Titanic",
-          "Towering",
-          "MS-05L Zaku I Sniper"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "5151c394-ef14-4eba-9140-74053b3ecd97"
-      },
-      {
-        "id": "ae22e85d-4586-4f79-baa5-555dd63afb74",
-        "name": "MS-06 Zaku II",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-06 Zaku II"
-        ],
-        "loadout": "This model is equipped with: Zaku Machine Gun; Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon",
-          "This model may be equipped with 1 Leg Missiles."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "150",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
           },
-          "other": [
-            {
-              "name": "Squad Tactics",
-              "description": "Each time this model makes a ranged attack, and there is a PRINCIPALITY OF ZEON BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "12",
-            "ld": "7+",
-            "oc": "8",
-            "name": "MS-06 Zaku II",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Leg Missiles",
+                "name": "Beam Cannon ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Missiles ",
+                "keywords": [
+                  "anti-vehicle 4+",
+                  "heavy",
+                  "twin-linked"
+                ],
+                "range": "48\"",
+                "attacks": "4",
+                "skill": "4+",
+                "strength": "12",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Leg Missiles ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -822,45 +713,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -880,8 +733,8 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
+                "name": "Heavy Sword – strike ",
+                "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "2",
                 "skill": "3+",
@@ -891,8 +744,8 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
+                "name": "Heavy Sword – sweep ",
+                "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "6",
                 "skill": "3+",
@@ -909,27 +762,27 @@
           "Battleline",
           "Titanic",
           "Towering",
-          "MS-06 Zaku II"
+          "ZGMF-1017 GINN"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
         "isCustom": false,
-        "uuid": "ae22e85d-4586-4f79-baa5-555dd63afb74"
+        "uuid": "15a03783-803b-4fae-8750-903fe3a37afa"
       },
       {
-        "id": "a0a717c6-db40-4853-8f6f-4c60f926166c",
-        "name": "MS-06FZ Zaku II Kai",
+        "id": "3555dbb7-ee69-466a-a1f0-5e0521c765d9",
+        "name": "ZGMF-1017M GINN High Mobility",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 MS-06FZ Zaku II Kai"
+          "1 ZGMF-1017M GINN High Mobility"
         ],
-        "loadout": "This model is equipped with: MMP Machine Gun; Heat Hawk.",
+        "loadout": "This model is equipped with: 1 Machine Gun; 1 Heavy Sword.",
         "wargear": [
-          "This model’s MMP Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Zaku Machine Gun"
+          "This model’s Machine Gun can be replaced with 1 Bazooka."
         ],
         "transport": "",
         "points": [
@@ -950,405 +803,9 @@
           "primarch": [],
           "invul": {
             "value": "5+",
-            "info": "",
+            "info": "* Against ranged attacks only",
             "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Squad Tactics",
-              "description": "Each time this model makes a ranged attack, and there is a PRINCIPALITY OF ZEON BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "12",
-            "ld": "7+",
-            "oc": "9",
-            "name": "MS-06FZ Zaku II Kai",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "MMP Machine Gun",
-                "keywords": [
-                  "rapid fire D6+6"
-                ],
-                "range": "30\"",
-                "attacks": "D6+6",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "2",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Battleline",
-          "Grenades",
-          "Titanic",
-          "Towering",
-          "MS-06 Zaku II"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "a0a717c6-db40-4853-8f6f-4c60f926166c"
-      },
-      {
-        "id": "0e1c9e77-32ba-4b79-b88f-ae94730148a0",
-        "name": "MS-06K Zaku Cannon",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-06K Zaku Cannon"
-        ],
-        "loadout": "This model is equipped with: 1 Rocket Launchers; 1 Top Cannon; 1 Zaku Machine Gun; Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with 1 Zaku Bazooka.",
-          "This model's Top Cannon can be replaced with 1 Heavy Gatling."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "190",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Fire Support",
-              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "12",
-            "ld": "7+",
-            "oc": "8",
-            "name": "MS-06K Zaku Cannon",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heavy Gatling",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "12",
-                "skill": "4+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Rocket Launchers",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "twin linked"
-                ],
-                "range": "24\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "D6"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "2",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Smoke",
-          "Titanic",
-          "Towering",
-          "MS-06K Zaku Cannon"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "0e1c9e77-32ba-4b79-b88f-ae94730148a0"
-      },
-      {
-        "id": "b732d680-b6d5-403b-8b14-e24723f0fb3e",
-        "name": "MS-06R-1A Zaku II High Mobility Type",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-06R-1A Zaku II High Mobility Type"
-        ],
-        "loadout": "This model is equipped with: 1 Zaku Machine Gun; 1 Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with 1 Zaku Bazooka.",
-          "This model's Heat Hawk can be replaced with 1 Giant Heat Hawk."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "190",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
+            "showInfo": true
           },
           "other": [
             {
@@ -1368,13 +825,13 @@
         },
         "stats": [
           {
-            "m": "12\"",
+            "m": "15\"",
             "t": "10",
-            "sv": "2+",
+            "sv": "3+",
             "w": "12",
-            "ld": "6+",
+            "ld": "7+",
             "oc": "8",
-            "name": "MS-06R-1A Zaku II High Mobility Type",
+            "name": "ZGMF-1017M GINN High Mobility",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -1386,7 +843,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1404,7 +861,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1424,10 +881,10 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
+                "name": "Heavy Sword – strike ",
+                "keywords": ["lethal hits"],
                 "range": "Melee",
-                "attacks": "3",
+                "attacks": "2",
                 "skill": "3+",
                 "strength": "10",
                 "ap": "-3",
@@ -1435,643 +892,9 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
+                "name": "Heavy Sword – sweep ",
+                "keywords": ["lethal hits"],
                 "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Giant Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "4",
-                "skill": "4+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
-              },
-              {
-                "active": true,
-                "name": "Giant Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "12",
-                "skill": "4+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          }
-
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Titanic",
-          "Towering",
-          "MS-06R-1A Zaku II High Mobility Type"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "b732d680-b6d5-403b-8b14-e24723f0fb3e"
-      },
-      {
-        "id": "090ed68f-81b2-4392-9621-36a443c189e0",
-        "name": "Johnny Ridden",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Johnny Ridden in an MS-06R-2 Zaku II High Mobility Type"
-        ],
-        "loadout": "This model is equipped with: 1 Zaku Machine Gun; 1 Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with 1 Zaku Bazooka."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "210",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "BST Pack",
-              "description": "In your Shooting phase, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "15\"",
-            "t": "10",
-            "sv": "2+",
-            "w": "12",
-            "ld": "6+",
-            "oc": "8",
-            "name": "MS-06R-2 Zaku II High Mobility Type",
-            "showDamagedMarker": true,
-            "showName": true,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "2+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "2+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Titanic",
-          "Towering",
-          "MS-06R-2 Zaku II High Mobility Type",
-          "Johnny Ridden"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "090ed68f-81b2-4392-9621-36a443c189e0"
-      },
-      {
-        "id": "d3565b0e-7964-4824-aeec-e033969035af",
-        "name": "MS-06S Zaku II Commander Type",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-06S Zaku II Commander Type"
-        ],
-        "loadout": "This model is equipped with: 1 Zaku Machine Gun; 1 Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "190",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Squad Tactics",
-              "description": "Each time this model makes a ranged attack, and there is a PRINCIPALITY OF ZEON BATTLELINE WALKER unit within 6\" of this model, reroll a hit roll of 1.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "12",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-06S Zaku II Commander Type",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Titanic",
-          "Towering",
-          "MS-06S Zaku II Commander Type"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "d3565b0e-7964-4824-aeec-e033969035af"
-      },
-      {
-        "id": "f587d3c9-869b-4481-bdba-3e41fd355194",
-        "name": "Char Aznable",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Char Aznable in an MS-06S Zaku II Commander Type"
-        ],
-        "loadout": "This model is equipped with: 1 Zaku Machine Gun; 1 Heat Hawk.",
-        "wargear": [
-          "This model’s Zaku Machine Gun can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "240",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Plot Armor",
-              "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "12",
-            "ld": "5+",
-            "oc": "10",
-            "name": "MS-06S Zaku II Commander Type",
-            "showDamagedMarker": true,
-            "showName": true,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Top Cannon",
-                "keywords": [
-                  "blast",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "12",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "2+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "2+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Hawk – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "5",
-                "skill": "2+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Hawk – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "9",
-                "skill": "2+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Titanic",
-          "Towering",
-          "MS-06S Zaku II Commander Type",
-          "Char Aznable"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "f587d3c9-869b-4481-bdba-3e41fd355194"
-      },
-      {
-        "id": "7bddb43c-7078-4e3a-991d-f436a94b5b9d",
-        "name": "MS-07B Gouf",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-07B Gouf"
-        ],
-        "loadout": "This model is equipped with: 1 Hand Machine Gun; 1 Heat Rod; 1 Heat Saber.",
-        "wargear": [
-          "This model’s Heat Rod can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "250",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "15",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-07B Gouf",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Hand Cannon",
-                "keywords": [
-                  "devastating wounds"
-                ],
-                "range": "24\"",
                 "attacks": "6",
                 "skill": "3+",
                 "strength": "8",
@@ -2079,90 +902,6 @@
                 "damage": "2"
               }
             ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Rod",
-                "keywords": [
-                  "extra attacks",
-                  "devastating wounds"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Saber – strike",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Saber – sweep",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
           }
         ],
         "keywords": [
@@ -2171,714 +910,27 @@
           "Character",
           "Titanic",
           "Towering",
-          "MS-07B Gouf"
+          "ZGMF-1017M GINN High Mobility"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
         "isCustom": false,
-        "uuid": "7bddb43c-7078-4e3a-991d-f436a94b5b9d"
+        "uuid": "3555dbb7-ee69-466a-a1f0-5e0521c765d9"
       },
       {
-        "id": "faa88d03-a174-4db3-a2fe-fa502276ac7e",
-        "name": "Ramba Ral",
+        "id": "d837a388-7523-457a-b5c7-b8000e0b83cc",
+        "name": "ZGMF-515 CGUE",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 Ramba Ral in an MS-07B Gouf"
+          "1 ZGMF-515 CGUE"
         ],
-        "loadout": "This model is equipped with: 1 Hand Machine Gun; 1 Heat Rod; 1 Heat Saber.",
+        "loadout": "This model is equipped with: 1 Machine Gun; 1 Shield Vulcan Cannon; 1 Heavy Sword.",
         "wargear": [
-          "This model’s Heat Rod can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Top Cannon"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "300",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "No Zaku!",
-              "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "15",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-07B Gouf",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Hand Cannon",
-                "keywords": [
-                  "devastating wounds"
-                ],
-                "range": "24\"",
-                "attacks": "6",
-                "skill": "2+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Rod",
-                "keywords": [
-                  "extra attacks",
-                  "devastating wounds"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "2+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Saber – strike",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Saber – sweep",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Titanic",
-          "Towering",
-          "MS-07B Gouf",
-          "Ramba Ral"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "faa88d03-a174-4db3-a2fe-fa502276ac7e"
-      },
-      {
-        "id": "9a3c5676-cdc0-425e-8eb5-46ccdc0563ca",
-        "name": "Norris Packard",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Norris Packard in an MS-07B-3 Gouf Custom"
-        ],
-        "loadout": "This model is equipped with: 1 Hand Machine Gun; 1 Heavy Gatling; 1 Heat Rod; 1 Heat Saber.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "350",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Custom",
-              "description": "In your Shooting phase, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "15",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-07B-3 Gouf Custom",
-            "showDamagedMarker": true,
-            "showName": true,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Hand Cannon",
-                "keywords": [
-                  "devastating wounds"
-                ],
-                "range": "24\"",
-                "attacks": "6",
-                "skill": "2+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heavy Gatling",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "12",
-                "skill": "4+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Rod",
-                "keywords": [
-                  "extra attacks",
-                  "devastating wounds"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "2+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Saber – strike",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Saber – sweep",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Titanic",
-          "Towering",
-          "MS-07B-3 Gouf Custom",
-          "Norris Packard"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "9a3c5676-cdc0-425e-8eb5-46ccdc0563ca"
-      },
-      {
-        "id": "7487ea3f-0f62-4269-9835-c41ef4da7d68",
-        "name": "MS-07H-B Gouf Flight Type",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-07H-B Gouf Flight Type"
-        ],
-        "loadout": "This model is equipped with: 1 Hand Machine Guns; 1 Heat Saber.",
-        "wargear": [
-          "This model’s Hand Machine Guns can be replaced by 1 Heavy Gatling."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "250",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6",
-            "Scouts 8"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Hover Jets",
-              "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "15\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "15",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-07H-B Gouf Flight Type",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Hand Cannons",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "24\"",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },          
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heavy Gatling",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "12",
-                "skill": "4+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Saber – strike",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Saber – sweep",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Fly",
-          "Titanic",
-          "Towering",
-          "MS-07H-B Gouf Flight Type"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "7487ea3f-0f62-4269-9835-c41ef4da7d68"
-      },
-      {
-        "id": "0a2cd38e-6b72-4f69-a3cf-36f3cb993690",
-        "name": "MS-09 Dom",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-09 Dom"
-        ],
-        "loadout": "This model is equipped with: 1 Giant Bazooka; 1 Heat Rod.",
-        "wargear": [
-          "This model’s Giant Bazooka can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Zaku Machine Gun"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "200",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Hover Jets",
-              "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "15\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "15",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-09 Dom",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Giant Bazooka",
-                "keywords": [
-                  "assault",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "2D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
-                "keywords": [
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Machine Gun",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heat Saber – strike",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "D6"
-              },
-              {
-                "active": true,
-                "name": "Heat Saber – sweep",
-                "keywords": ["lethal hits"],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Titanic",
-          "Towering",
-          "MS-09 Dom"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "0a2cd38e-6b72-4f69-a3cf-36f3cb993690"
-      },
-      {
-        "id": "0c3add3a-d552-4ffd-baf1-3147c04c6e94",
-        "name": "Gaia",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Gaia in an MS-09 Dom"
-        ],
-        "loadout": "This model is equipped with: 1 Giant Bazooka; 1 Heat Rod.",
-        "wargear": [
-          "This model’s Giant Bazooka can be replaced with one of the following: ◦ 1 Zaku Bazooka ◦ 1 Zaku Machine Gun"
+          "This model’s Machine Gun can be replaced with 1 Bazooka."
         ],
         "transport": "",
         "points": [
@@ -2899,20 +951,14 @@
           "primarch": [],
           "invul": {
             "value": "5+",
-            "info": "* Against ranged attacks only",
+            "info": "",
             "showInvulnerableSave": true,
-            "showInfo": true
+            "showInfo": false
           },
           "other": [
             {
-              "name": "Hover Jets",
-              "description": "Each time this model Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Tri Star",
-              "description": "When this model is within 6\" of other MS-09 Dom models, this model and up to two other MS-09 Dom models gain the [Stealth] ability.",
+              "name": "Ace",
+              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
               "showAbility": true,
               "showDescription": true
             }
@@ -2921,8 +967,8 @@
           "damaged": {
             "showDamagedAbility": true,
             "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
           }
         },
         "stats": [
@@ -2933,9 +979,9 @@
             "w": "15",
             "ld": "6+",
             "oc": "10",
-            "name": "MS-09 Dom",
+            "name": "ZGMF-515 CGUE",
             "showDamagedMarker": true,
-            "showName": true,
+            "showName": false,
             "active": true
           }
         ],
@@ -2945,27 +991,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Giant Bazooka",
-                "keywords": [
-                  "assault",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "2D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2983,7 +1009,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -2995,6 +1021,25 @@
                 "damage": "2"
               }
             ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Shield Gatling ",
+                "keywords": [
+                  "assault",
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "18",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "1"
+              }
+            ]
           }
         ],
         "meleeWeapons": [
@@ -3003,7 +1048,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heavy Sword – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -3014,10 +1059,10 @@
               },
               {
                 "active": true,
-                "name": "Heat Saber – sweep",
+                "name": "Heavy Sword – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
-                "attacks": "7",
+                "attacks": "8",
                 "skill": "3+",
                 "strength": "8",
                 "ap": "-2",
@@ -3029,336 +1074,41 @@
         "keywords": [
           "Vehicle",
           "Walker",
-          "Titanic",
-          "Towering",
-          "MS-09 Dom"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "0c3add3a-d552-4ffd-baf1-3147c04c6e94"
-      },
-      {
-        "id": "d51aa1fd-246c-4a0e-b52a-63d4ca0214c9",
-        "name": "MS-14A Gelgoog",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-14A Gelgoog"
-        ],
-        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Twin Beam Saber.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "275",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Beam Rifle",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Limited Production",
-              "description": "Each time this model makes an attack that targets a unit Below Half-strength, add 1 to the Hit roll.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "18",
-            "ld": "7+",
-            "oc": "10",
-            "name": "MS-14A Gelgoog",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Beam Rifle",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Twin Beam Saber – strike",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
-              },
-              {
-                "active": true,
-                "name": "Twin Beam Saber – sweep",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Titanic",
-          "Towering",
-          "MS-14A Gelgoog"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "d51aa1fd-246c-4a0e-b52a-63d4ca0214c9"
-      },
-      {
-        "id": "9d6b4cd4-5253-4f67-a0d0-4e9d57bee9a8",
-        "name": "MS-14B Gelgoog High Mobility",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-14B Gelgoog High Mobility"
-        ],
-        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Twin Beam Saber.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "275",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Beam Rifle",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "High Mobility",
-              "description": "In your Shooting phase, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "18",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-14B Gelgoog High Mobility",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Beam Rifle",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Twin Beam Saber – strike",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "4",
-                "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
-              },
-              {
-                "active": true,
-                "name": "Twin Beam Saber – sweep",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "10",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
           "Character",
           "Titanic",
           "Towering",
-          "MS-14B Gelgoog High Mobility"
+          "ZGMF-515 CGUE"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
-        "print_side": "front",        
         "isCustom": false,
-        "uuid": "9d6b4cd4-5253-4f67-a0d0-4e9d57bee9a8"
+        "uuid": "d837a388-7523-457a-b5c7-b8000e0b83cc"
       },
       {
-        "id": "24cd841e-39c5-4504-86c3-c12c0d858df4",
-        "name": "MS-14C Gelgoog Cannon",
+        "id": "1d9464bf-d22c-413b-b363-d8a1c1546d59",
+        "name": "Rau Le Creuset",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 MS-14C Gelgoog Cannon"
+          "1 Rau Le Creuset in a ZGMF-515 CGUE"
         ],
-        "loadout": "This model is equipped with: 1 Beam Cannon; 1 Beam Rifle; 1 Twin Beam Saber.",
+        "loadout": "This model is equipped with: 1 Machine Gun; 1 Shield Vulcan Cannon; 1 Heavy Sword.",
         "wargear": [
-          "This model's Beam Rifle can be replaced with one of the following: ◦ 1 Giant Bazooka ◦ 1 Zaku Bazooka"
+          "This model’s Machine Gun can be replaced with 1 Bazooka."
         ],
         "transport": "",
         "points": [
           {
             "models": "1",
-            "cost": "275",
+            "cost": "250",
             "active": true
           }
         ],
         "abilities": {
-          "wargear": [
-            {
-              "name": "Beam Cannon and Beam Rifle",
-              "description": "When targeting a Vehicle or a Monster, attacks from these weapons score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
+          "wargear": [],
           "core": [
             "Deadly Demise D6"
           ],
@@ -3374,8 +1124,14 @@
           },
           "other": [
             {
-              "name": "Fire Support",
-              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability.",
+              "name": "Ace",
+              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Plot Armor",
+              "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
               "showAbility": true,
               "showDescription": true
             }
@@ -3384,21 +1140,21 @@
           "damaged": {
             "showDamagedAbility": true,
             "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
           }
         },
         "stats": [
           {
-            "m": "12\"",
-            "t": "11",
+            "m": "15\"",
+            "t": "10",
             "sv": "3+",
-            "w": "18",
-            "ld": "7+",
-            "oc": "8",
-            "name": "MS-14C Gelgoog Cannon",
+            "w": "15",
+            "ld": "5+",
+            "oc": "10",
+            "name": "ZGMF-515 CGUE",
             "showDamagedMarker": true,
-            "showName": false,
+            "showName": true,
             "active": true
           }
         ],
@@ -3408,64 +1164,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Cannon",
-                "keywords": [
-                  "devastating wounds"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Beam Rifle",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Giant Bazooka",
-                "keywords": [
-                  "assault",
-                  "heavy",
-                  "indirect fire"
-                ],
-                "range": "48\"",
-                "attacks": "2D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -3477,148 +1176,41 @@
                 "damage": "3"
               }
             ]
-          }
-        ],
-        "meleeWeapons": [
+          },
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Machine Gun ",
                 "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
+                  "assault"
                 ],
-                "range": "Melee",
-                "attacks": "3",
+                "range": "24\"",
+                "attacks": "12",
                 "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
-              },
-              {
-                "active": true,
-                "name": "Twin Beam Saber – sweep",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-3",
+                "strength": "6",
+                "ap": "-2",
                 "damage": "2"
               }
             ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Titanic",
-          "Towering",
-          "MS-14C Gelgoog Cannon"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "24cd841e-39c5-4504-86c3-c12c0d858df4"
-      },
-      {
-        "id": "a6339087-b374-4371-9261-b066f500d85d",
-        "name": "MS-14Jg Gelgoog Jaeger",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MS-14Jg Gelgoog Jaeger"
-        ],
-        "loadout": "This model is equipped with: 1 Beam Machine Gun; 1 Beam Saber.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "300",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Beam Machine Gun",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
           },
-          "other": [
-            {
-              "name": "High Mobility",
-              "description": "In your Shooting phase, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "15\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "18",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MS-14Jg Gelgoog Jaeger",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Machine Gun",
+                "name": "Shield Gatling ",
                 "keywords": [
                   "assault",
                   "devastating wounds"
                 ],
                 "range": "36\"",
-                "attacks": "12",
+                "attacks": "18",
                 "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "2"
+                "strength": "8",
+                "ap": "-2",
+                "damage": "1"
               }
             ]
           }
@@ -3629,28 +1221,24 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
-                "keywords": [
-                  "devastating wounds"
-                ],
+                "name": "Heavy Sword – strike ",
+                "keywords": ["lethal hits"],
                 "range": "Melee",
-                "attacks": "4",
+                "attacks": "3",
                 "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
+                "strength": "10",
+                "ap": "-3",
+                "damage": "D6"
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
-                "keywords": [
-                  "devastating wounds"
-                ],
+                "name": "Heavy Sword – sweep ",
+                "keywords": ["lethal hits"],
                 "range": "Melee",
-                "attacks": "10",
+                "attacks": "8",
                 "skill": "3+",
-                "strength": "9",
-                "ap": "-3",
+                "strength": "8",
+                "ap": "-2",
                 "damage": "2"
               }
             ]
@@ -3660,28 +1248,29 @@
           "Vehicle",
           "Walker",
           "Character",
+          "Epic Hero",
           "Titanic",
           "Towering",
-          "MS-14Jg Gelgoog Jaeger"
+          "ZGMF-1017M GINN High Mobility",
+          "Rau Le Creuset"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
-        "print_side": "front",        
         "isCustom": false,
-        "uuid": "a6339087-b374-4371-9261-b066f500d85d"
+        "uuid": "1d9464bf-d22c-413b-b363-d8a1c1546d59"
       },
       {
-        "id": "23371e3c-8a81-454c-b2d2-63cb4a1a8944",
-        "name": "MS-14S Gelgoog Commander Type",
+        "id": "046a9480-319b-411a-beb7-da9856cc55fa",
+        "name": "ZGMF-600 GuAIZ",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 MS-14S Gelgoog Commander Type"
+          "1 ZGMF-600 GuAIZ"
         ],
-        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Twin Beam Saber.",
+        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Rocket Anchors; 1 Beam Claws.",
         "wargear": [
           "None."
         ],
@@ -3689,7 +1278,7 @@
         "points": [
           {
             "models": "1",
-            "cost": "300",
+            "cost": "275",
             "active": true
           }
         ],
@@ -3700,7 +1289,13 @@
               "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
-            }            
+            },            
+            {
+              "name": "Rocket Anchor",
+              "description": "You can re-roll Charge rolls made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            }                      
           ],
           "core": [
             "Deadly Demise D6"
@@ -3739,7 +1334,7 @@
             "w": "18",
             "ld": "6+",
             "oc": "10",
-            "name": "MS-14S Gelgoog Commander Type",
+            "name": "ZGMF-600 GuAIZ",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -3751,13 +1346,14 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
-                  "devastating wounds"
+                  "devastating wounds",
+                  "heavy"
                 ],
                 "range": "36\"",
                 "attacks": "3",
-                "skill": "3+",
+                "skill": "4+",
                 "strength": "18",
                 "ap": "-4",
                 "damage": "D6+3"
@@ -3771,31 +1367,31 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Beam Claws – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
                 ],
                 "range": "Melee",
-                "attacks": "4",
+                "attacks": "6",
                 "skill": "3+",
                 "strength": "14",
                 "ap": "-4",
-                "damage": "6"
+                "damage": "3"
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
+                "name": "Beam Claws – sweep ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
                 ],
                 "range": "Melee",
-                "attacks": "10",
+                "attacks": "14",
                 "skill": "3+",
-                "strength": "9",
+                "strength": "8",
                 "ap": "-3",
-                "damage": "2"
+                "damage": "1"
               }
             ]
           }
@@ -3803,29 +1399,28 @@
         "keywords": [
           "Vehicle",
           "Walker",
-          "Character",
           "Titanic",
           "Towering",
-          "MS-14S Gelgoog Commander Type"
+          "ZGMF-600 GuAIZ"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "23371e3c-8a81-454c-b2d2-63cb4a1a8944"
+        "uuid": "046a9480-319b-411a-beb7-da9856cc55fa"
       },
       {
-        "id": "76d7f2d3-1ab8-470b-8e8e-3f4e46a352b8",
-        "name": "Char Aznable",
+        "id": "bdfd38df-2aac-404e-ae0a-bff3f94075e3",
+        "name": "Rau Le Creuset",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 Char Aznable in an MS-14S Gelgoog Commander Type"
+          "1 Rau Le Creuset in a ZGMF-600 GuAIZ"
         ],
-        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Twin Beam Saber.",
+        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Rocket Anchors; 1 Beam Claws.",
         "wargear": [
           "None."
         ],
@@ -3833,7 +1428,7 @@
         "points": [
           {
             "models": "1",
-            "cost": "350",
+            "cost": "275",
             "active": true
           }
         ],
@@ -3844,7 +1439,13 @@
               "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
-            }            
+            },            
+            {
+              "name": "Rocket Anchor",
+              "description": "You can re-roll Charge rolls made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            }                      
           ],
           "core": [
             "Deadly Demise D6"
@@ -3889,7 +1490,7 @@
             "w": "18",
             "ld": "5+",
             "oc": "10",
-            "name": "MS-14S Gelgoog Commander Type",
+            "name": "ZGMF-600 GuAIZ",
             "showDamagedMarker": true,
             "showName": true,
             "active": true
@@ -3901,13 +1502,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
                 "range": "36\"",
-                "attacks": "4",
-                "skill": "3+",
+                "attacks": "3",
+                "skill": "2+",
                 "strength": "18",
                 "ap": "-4",
                 "damage": "D6+3"
@@ -3921,28 +1522,165 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Beam Claws – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
                 ],
                 "range": "Melee",
-                "attacks": "4",
+                "attacks": "8",
                 "skill": "2+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "3"
+              },
+              {
+                "active": true,
+                "name": "Beam Claws – sweep ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "16",
+                "skill": "2+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "ZGMF-600 GuAIZ"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "bdfd38df-2aac-404e-ae0a-bff3f94075e3"
+      },
+      {
+        "id": "413f9e7a-8edb-43b3-afa8-45f5cd34851a",
+        "name": "Yzak Joule",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Yzak Joule in a GAT-X102 Duel Gundam"
+        ],
+        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Beam Saber.",
+        "wargear": [
+          "This model can be equipped with 1 [Assault Shroud] unit."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "400",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Spacenoid Supremacy, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Hair Trigger",
+              "description": "If this model is Below Half-strength, ranged attacks made by this model gain the [Assault] keyword.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "5+",
+            "oc": "10",
+            "name": "GAT-X102 Duel Gundam",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "3+",
                 "strength": "14",
                 "ap": "-4",
                 "damage": "6"
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
+                "name": "Beam Saber – sweep ",
+                "keywords": ["devastating wounds"],
                 "range": "Melee",
-                "attacks": "10",
-                "skill": "2+",
+                "attacks": "12",
+                "skill": "3+",
                 "strength": "9",
                 "ap": "-3",
                 "damage": "2"
@@ -3955,29 +1693,31 @@
           "Walker",
           "Character",
           "Epic Hero",
+          "Grenades",
           "Titanic",
           "Towering",
-          "MS-14S Gelgoog Commander Type",
-          "Char Aznable"
+          "GAT-X102 Duel",
+          "Gundam",
+          "Yzak Joule"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "76d7f2d3-1ab8-470b-8e8e-3f4e46a352b8"
+        "uuid": "413f9e7a-8edb-43b3-afa8-45f5cd34851a"
       },
       {
-        "id": "7a7a092d-cd8c-4634-a18c-58a3e7f3f887",
-        "name": "MS-18e Kampfer",
+        "id": "eed8b562-b142-4f84-9a11-e92c5575fc69",
+        "name": "Dearka Elsman",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 MS-18e Kampfer"
+          "1 Dearka Elsman in a GAT-X103 Buster Gundam"
         ],
-        "loadout": "This model is equipped with: 1 Bazookas; 1 Shotguns; 1 Beam Saber; 1 Chain Mine.",
+        "loadout": "This model is equipped with: 1 Beam Cannon; 1 Missile Launchers; 1 Railcannon; 1 Titanic Feet.",
         "wargear": [
           "None."
         ],
@@ -3985,13 +1725,18 @@
         "points": [
           {
             "models": "1",
-            "cost": "350",
+            "cost": "400",
             "active": true
           }
         ],
         "abilities": {
           "wargear": [
-                       
+            {
+              "name": "Beam Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
           ],
           "core": [
             "Deadly Demise D6"
@@ -3999,17 +1744,30 @@
           "faction": [
             "Spacenoid Supremacy, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+            {
+              "name": "Combining Arms",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Note",
+                  "description": "When firing the Beam Cannon in launcher mode, this model may not fire the Railcannon in either mode.  Likewise, when firing the Railcannon in shotgun mode, this model may not fire the Beam Cannon in either mode.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
-            "info": "* Against ranged attacks only",
+            "info": "",
             "showInvulnerableSave": true,
-            "showInfo": true
+            "showInfo": false
           },
           "other": [
             {
-              "name": "High Mobility",
-              "description": "In your Shooting phase, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
+              "name": "Fire Support",
+              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability.",
               "showAbility": true,
               "showDescription": true
             }
@@ -4018,21 +1776,21 @@
           "damaged": {
             "showDamagedAbility": true,
             "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
           }
         },
         "stats": [
           {
-            "m": "15\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "18",
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
             "ld": "6+",
             "oc": "10",
-            "name": "MS-18e Kampfer",
+            "name": "GAT-X103 Buster Gundam",
             "showDamagedMarker": true,
-            "showName": false,
+            "showName": true,
             "active": true
           }
         ],
@@ -4042,17 +1800,91 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Cannon - single ",
                 "keywords": [
-                  "devastating wounds",
-                  "heavy"
+                  "devastating wounds"
                 ],
                 "range": "36\"",
                 "attacks": "3",
-                "skill": "4+",
+                "skill": "2+",
                 "strength": "18",
                 "ap": "-4",
                 "damage": "D6+3"
+              },
+              {
+                "active": true,
+                "name": "Beam Cannon - launcher ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "6",
+                "skill": "2+",
+                "strength": "24",
+                "ap": "-5",
+                "damage": "D6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launchers - frag ",
+                "keywords": [
+                  "blast",
+                  "indirect"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              },
+              {
+                "active": true,
+                "name": "Missile Launchers - krak ",
+                "keywords": [
+                  "indirect"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "D3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Railcannon - single ",
+                "keywords": [
+                ],
+                "range": "48\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              },
+              {
+                "active": true,
+                "name": "Railcannon - shotgun ",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "24\"",
+                "attacks": "3D6",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-3",
+                "damage": "3"
               }
             ]
           }
@@ -4063,10 +1895,8 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
-                "keywords": [
-                  "devastating wounds"
-                ],
+                "name": "Beam Saber – strike ",
+                "keywords": ["devastating wounds"],
                 "range": "Melee",
                 "attacks": "4",
                 "skill": "3+",
@@ -4076,36 +1906,14 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
-                "keywords": [
-                  "devastating wounds"
-                ],
+                "name": "Beam Saber – sweep ",
+                "keywords": ["devastating wounds"],
                 "range": "Melee",
-                "attacks": "10",
+                "attacks": "12",
                 "skill": "3+",
                 "strength": "9",
                 "ap": "-3",
                 "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Chain Mine",
-                "keywords": [
-                  "devastating wounds",
-                  "one shot",
-                  "sustained hits 1"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "4+",
-                "strength": "14",
-                "ap": "-3",
-                "damage": "3"
               }
             ]
           }
@@ -4114,31 +1922,32 @@
           "Vehicle",
           "Walker",
           "Character",
+          "Epic Hero",
+          "Grenades",
           "Titanic",
           "Towering",
-          "MS-18e Kampfer"
+          "GAT-X103 Buster",
+          "Gundam",
+          "Dearka Elsman"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "7a7a092d-cd8c-4634-a18c-58a3e7f3f887"
+        "uuid": "eed8b562-b142-4f84-9a11-e92c5575fc69"
       },
+
       {
-        "id": "0b5cf0e1-6687-4d21-8d87-c212d574d4cb",
-        "name": "MSM-04 Acguy",
+        "id": "22d77d0d-f716-4196-97ef-5c635f6c11c8",
+        "name": "Duel Assault Shroud",
         "source": "40k-10e",
         "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
-        "composition": [
-          "1 MSM-04 Acguy"
-        ],
-        "loadout": "This model is equipped with: 1 Mega Particle Cannon; 1 Missile Launcher; 1 Iron Nails.",
-        "wargear": [
-          "None."
-        ],
+        "composition": [],
+        "loadout": "",
+        "wargear": [],
         "transport": "",
         "points": [
           {
@@ -4148,615 +1957,112 @@
           }
         ],
         "abilities": {
-          "wargear": [
+          "wargear": [],
+          "core": [],
+          "faction": [],
+          "primarch": [
             {
-              "name": "Mega Particle Cannon",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "name": "Duel Assault Shroud",
               "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6",
-            "Scout 8\""
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Aquatic Tactics",
-              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
-              "showAbility": true,
-              "showDescription": true
+              "abilities": [
+                {
+                  "name": "Assault Shroud",
+                  "description": "If you have upgraded a model to have an [Assault Shroud] unit, attach the appropriate [Assault Shroud] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Duel Assault Shroud",
+                  "description": "Increase this model's W to 30, T to 7, and Invulnerable Save to 4+.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Wargear",
+                  "description": "This model gains the following wargear: 1 Missile Launchers; 1 Railcannon.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
             }
           ],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [],
           "special": [],
           "damaged": {
-            "showDamagedAbility": true,
+            "showDamagedAbility": false,
             "showDescription": true,
-            "range": "1-5 WOUNDS REMAINING",
-            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+            "range": "",
+            "description": ""
           }
         },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "15",
-            "ld": "7+",
-            "oc": "10",
-            "name": "MSM-04 Acguy",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
+        "stats": [],
         "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Mega Particle Cannon",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launchers - frag ",
                 "keywords": [
                   "blast",
-                  "heavy"
+                  "indirect"
                 ],
-                "range": "24\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Iron Nails – strike",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "2",
+                "range": "36\"",
+                "attacks": "2D6",
                 "skill": "3+",
-                "strength": "14",
-                "ap": "-3",
-                "damage": "D6+3"
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
               },
               {
                 "active": true,
-                "name": "Iron Nails – sweep",
-                "keywords": ["sustained hits 1"],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Battleline",
-          "Titanic",
-          "Towering",
-          "MSM-04 Acguy"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "0b5cf0e1-6687-4d21-8d87-c212d574d4cb"
-      },
-      {
-        "id": "3989b130-9cae-41e8-9300-e43dbfd78e4f",
-        "name": "MSM-07 Z'Gok",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MSM-07 Z'Gok"
-        ],
-        "loadout": "This model is equipped with: 1 Twin Mega Particle Cannon; 1 Missile Launcher; 1 Twin Iron Nails.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "250",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Twin Mega Particle Cannon",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Aquatic Tactics",
-              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "11",
-            "sv": "3+",
-            "w": "18",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MSM-07 Z'Gok",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launchers - krak ",
                 "keywords": [
-                  "blast",
-                  "heavy"
-                ],
-                "range": "24\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Twin Mega Particle Cannon",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy",
-                  "twin-linked"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Iron Nails – strike",
-                "keywords": [
-                  "sustained hits 1",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "14",
-                "ap": "-3",
-                "damage": "D6+3"
-              },
-              {
-                "active": true,
-                "name": "Iron Nails – sweep",
-                "keywords": [
-                  "sustained hits 1",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Titanic",
-          "Towering",
-          "MSM-07 Z'Gok"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "3989b130-9cae-41e8-9300-e43dbfd78e4f"
-      },
-      {
-        "id": "8e59345e-fd00-4acc-b5ae-257020d91df9",
-        "name": "Char Aznable",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Char Aznable in an MSM-07S Z'Gok Commander Type"
-        ],
-        "loadout": "This model is equipped with: 1 Twin Mega Particle Cannon; 1 Missile Launcher; 1 Twin Iron Nails.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "300",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Twin Mega Particle Cannon",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Aquatic Tactics",
-              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-6 WOUNDS REMAINING",
-            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "12",
-            "sv": "3+",
-            "w": "18",
-            "ld": "5+",
-            "oc": "10",
-            "name": "MSM-07S Z'Gok Commander Type",
-            "showDamagedMarker": true,
-            "showName": true,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Missile Launcher",
-                "keywords": [
-                  "blast",
-                  "heavy"
-                ],
-                "range": "24\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Twin Mega Particle Cannon",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy",
-                  "twin-linked"
+                  "indirect"
                 ],
                 "range": "36\"",
                 "attacks": "3",
                 "skill": "3+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Iron Nails – strike",
-                "keywords": [
-                  "sustained hits 1",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "2+",
-                "strength": "14",
-                "ap": "-3",
-                "damage": "D6+3"
-              },
-              {
-                "active": true,
-                "name": "Iron Nails – sweep",
-                "keywords": [
-                  "sustained hits 1",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "2+",
                 "strength": "10",
                 "ap": "-2",
-                "damage": "3"
+                "damage": "D3"
               }
             ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Titanic",
-          "Towering",
-          "MSM-07 Z'Gok",
-          "Char Aznable"
-        ],
-        "factions": [
-          "Principality of Zeon"
-        ],
-        "isCustom": false,
-        "uuid": "8e59345e-fd00-4acc-b5ae-257020d91df9"
-      },
-      {
-        "id": "907d612d-1629-4a6a-903f-5e973b8b1d72",
-        "name": "MSM-10 Zock",
-        "source": "40k-10e",
-        "faction_id": "CHDA",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 MSM-10 Zock"
-        ],
-        "loadout": "This model is equipped with: 2 Quad Mega Particle Cannons; 1 Twin Iron Nails.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "650",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Quad Mega Particle Cannon",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            }            
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
           },
-          "other": [
-            {
-              "name": "Fire Support",
-              "description": "Each time this model Remains Stationary, until the end of the turn, ranged weapons equipped by this model have the [Lethal Hits] ability.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-10 WOUNDS REMAINING",
-            "description": "While this model has 1-10 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "13",
-            "sv": "3+",
-            "w": "30",
-            "ld": "6+",
-            "oc": "10",
-            "name": "MSM-10 Zock",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Quad Mega Particle Cannon",
+                "name": "Railcannon ",
                 "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
                 ],
                 "range": "48\"",
                 "attacks": "D6",
                 "skill": "3+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+6"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Iron Nails – strike",
-                "keywords": [
-                  "sustained hits 1",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "14",
+                "strength": "12",
                 "ap": "-3",
-                "damage": "D6+3"
-              },
-              {
-                "active": true,
-                "name": "Iron Nails – sweep",
-                "keywords": [
-                  "sustained hits 1",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "7",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-2",
                 "damage": "3"
               }
             ]
           }
         ],
+        "meleeWeapons": [],
         "keywords": [
-          "Vehicle",
-          "Walker",
-          "Titanic",
-          "Towering",
-          "MSM-10 Zock"
+          "Assault Shroud"
         ],
         "factions": [
-          "Principality of Zeon"
+          "ZAFT"
         ],
-        "isCustom": false,
-        "uuid": "907d612d-1629-4a6a-903f-5e973b8b1d72"
-      }     
-
+        "isCustom": true,
+        "uuid": "22d77d0d-f716-4196-97ef-5c635f6c11c8"
+      }
     ],
     "closed": false
   },

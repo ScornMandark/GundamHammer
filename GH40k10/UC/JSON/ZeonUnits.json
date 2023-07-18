@@ -1,7 +1,7 @@
 {
   "category": {
     "uuid": "92fa512f-a26f-4db6-810c-db7def894bb1",
-    "name": "Zeon Units",
+    "name": "Zeon Units 0079",
     "cards": [
       {
         "id": "127bbec3-d912-4822-b23c-7599920209e5",
@@ -102,7 +102,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Wing Missiles",
+                "name": "Wing Missiles ",
                 "keywords": [
                   "anti-fly 2+",
                   "twin-linked"
@@ -230,7 +230,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "indirect fire"
@@ -358,7 +358,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -378,7 +378,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Triple Machine Gun",
+                "name": "Triple Machine Gun ",
                 "keywords": [
                   "rapid fire 3"
                 ],
@@ -495,7 +495,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -515,7 +515,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -533,7 +533,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -553,7 +553,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "2",
@@ -564,7 +564,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "6",
@@ -670,7 +670,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Long Beam Rifle",
+                "name": "Long Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy",
@@ -692,7 +692,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "2",
@@ -703,7 +703,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "6",
@@ -802,7 +802,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Leg Missiles",
+                "name": "Leg Missiles ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -822,7 +822,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -842,7 +842,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -860,7 +860,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -880,7 +880,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "2",
@@ -891,7 +891,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "6",
@@ -990,7 +990,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "MMP Machine Gun",
+                "name": "MMP Machine Gun ",
                 "keywords": [
                   "rapid fire D6+6"
                 ],
@@ -1008,7 +1008,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -1028,7 +1028,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1046,7 +1046,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1066,7 +1066,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1077,7 +1077,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1178,7 +1178,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heavy Gatling",
+                "name": "Heavy Gatling ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -1197,7 +1197,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Rocket Launchers",
+                "name": "Rocket Launchers ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -1217,7 +1217,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -1237,7 +1237,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1255,7 +1255,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1275,7 +1275,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "2",
@@ -1286,7 +1286,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "6",
@@ -1386,7 +1386,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1404,7 +1404,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1424,7 +1424,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "3",
@@ -1435,7 +1435,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "7",
@@ -1451,7 +1451,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Giant Heat Hawk – strike",
+                "name": "Giant Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "4",
@@ -1462,7 +1462,7 @@
               },
               {
                 "active": true,
-                "name": "Giant Heat Hawk – sweep",
+                "name": "Giant Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "12",
@@ -1567,7 +1567,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1585,7 +1585,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1605,7 +1605,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "3",
@@ -1616,7 +1616,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "7",
@@ -1723,7 +1723,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -1743,7 +1743,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1761,7 +1761,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1781,7 +1781,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "3",
@@ -1792,7 +1792,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "7",
@@ -1897,7 +1897,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Top Cannon",
+                "name": "Top Cannon ",
                 "keywords": [
                   "blast",
                   "heavy",
@@ -1917,7 +1917,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -1935,7 +1935,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -1955,7 +1955,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Hawk – strike",
+                "name": "Heat Hawk – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "5",
@@ -1966,7 +1966,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Hawk – sweep",
+                "name": "Heat Hawk – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "9",
@@ -2067,7 +2067,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hand Cannon",
+                "name": "Hand Cannon ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -2085,7 +2085,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2103,7 +2103,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -2123,13 +2123,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Rod",
+                "name": "Heat Rod ",
                 "keywords": [
                   "extra attacks",
                   "devastating wounds"
                 ],
                 "range": "Melee",
-                "attacks": "8",
+                "attacks": "4",
                 "skill": "3+",
                 "strength": "9",
                 "ap": "-3",
@@ -2142,7 +2142,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heat Saber – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -2153,7 +2153,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Saber – sweep",
+                "name": "Heat Saber – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "7",
@@ -2258,7 +2258,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hand Cannon",
+                "name": "Hand Cannon ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -2276,7 +2276,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2294,7 +2294,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -2314,13 +2314,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Rod",
+                "name": "Heat Rod ",
                 "keywords": [
                   "extra attacks",
                   "devastating wounds"
                 ],
                 "range": "Melee",
-                "attacks": "8",
+                "attacks": "4",
                 "skill": "2+",
                 "strength": "9",
                 "ap": "-3",
@@ -2333,7 +2333,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heat Saber – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -2344,7 +2344,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Saber – sweep",
+                "name": "Heat Saber – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "7",
@@ -2451,7 +2451,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hand Cannon",
+                "name": "Hand Cannon ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -2469,7 +2469,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heavy Gatling",
+                "name": "Heavy Gatling ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -2490,13 +2490,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Rod",
+                "name": "Heat Rod ",
                 "keywords": [
                   "extra attacks",
                   "devastating wounds"
                 ],
                 "range": "Melee",
-                "attacks": "8",
+                "attacks": "4",
                 "skill": "2+",
                 "strength": "9",
                 "ap": "-3",
@@ -2509,7 +2509,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heat Saber – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -2520,7 +2520,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Saber – sweep",
+                "name": "Heat Saber – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "7",
@@ -2622,7 +2622,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Hand Cannons",
+                "name": "Hand Cannons ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -2641,7 +2641,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heavy Gatling",
+                "name": "Heavy Gatling ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -2662,7 +2662,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heat Saber – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -2673,7 +2673,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Saber – sweep",
+                "name": "Heat Saber – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "7",
@@ -2772,7 +2772,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Giant Bazooka",
+                "name": "Giant Bazooka ",
                 "keywords": [
                   "assault",
                   "heavy",
@@ -2792,7 +2792,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2810,7 +2810,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -2830,7 +2830,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heat Saber – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -2841,7 +2841,7 @@
               },
               {
                 "active": true,
-                "name": "Heat Saber – sweep",
+                "name": "Heat Saber – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "7",
@@ -2945,7 +2945,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Giant Bazooka",
+                "name": "Giant Bazooka ",
                 "keywords": [
                   "assault",
                   "heavy",
@@ -2965,7 +2965,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -2983,7 +2983,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Machine Gun",
+                "name": "Zaku Machine Gun ",
                 "keywords": [
                   "assault"
                 ],
@@ -3003,7 +3003,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Heat Saber – strike",
+                "name": "Heat Saber – strike ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "3",
@@ -3013,8 +3013,8 @@
                 "damage": "D6"
               },
               {
-                "active": true,
-                "name": "Heat Saber – sweep",
+                "active": true, 
+                "name": "Heat Saber – sweep ",
                 "keywords": ["lethal hits"],
                 "range": "Melee",
                 "attacks": "7",
@@ -3119,7 +3119,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -3140,7 +3140,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Twin Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3154,7 +3154,7 @@
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
+                "name": "Twin Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3263,7 +3263,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -3284,7 +3284,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Twin Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3298,7 +3298,7 @@
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
+                "name": "Twin Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3408,7 +3408,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Cannon",
+                "name": "Beam Cannon ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3426,7 +3426,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -3445,7 +3445,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Giant Bazooka",
+                "name": "Giant Bazooka ",
                 "keywords": [
                   "assault",
                   "heavy",
@@ -3465,7 +3465,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Zaku Bazooka",
+                "name": "Zaku Bazooka ",
                 "keywords": [
                   "blast"
                 ],
@@ -3485,7 +3485,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Twin Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3499,7 +3499,7 @@
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
+                "name": "Twin Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3608,7 +3608,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Machine Gun",
+                "name": "Beam Machine Gun ",
                 "keywords": [
                   "assault",
                   "devastating wounds"
@@ -3629,7 +3629,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3642,7 +3642,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3751,7 +3751,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3771,7 +3771,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Twin Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3785,7 +3785,7 @@
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
+                "name": "Twin Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3901,7 +3901,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Beam Rifle ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -3921,7 +3921,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Beam Saber – strike",
+                "name": "Twin Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -3935,7 +3935,7 @@
               },
               {
                 "active": true,
-                "name": "Twin Beam Saber – sweep",
+                "name": "Twin Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -4042,17 +4042,38 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Rifle",
+                "name": "Bazookas ",
                 "keywords": [
-                  "devastating wounds",
-                  "heavy"
+                  "blast",
+                  "twin-linked"
                 ],
                 "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "18",
-                "ap": "-4",
-                "damage": "D6+3"
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Shotguns ",
+                "keywords": [
+                  "assault",
+                  "blast",
+                  "rapid fire D6",
+                  "twin-linked"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
               }
             ]
           }
@@ -4063,7 +4084,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Beam Saber – strike",
+                "name": "Beam Saber – strike ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -4076,7 +4097,7 @@
               },
               {
                 "active": true,
-                "name": "Beam Saber – sweep",
+                "name": "Beam Saber – sweep ",
                 "keywords": [
                   "devastating wounds"
                 ],
@@ -4094,7 +4115,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Chain Mine",
+                "name": "Chain Mine ",
                 "keywords": [
                   "devastating wounds",
                   "one shot",
@@ -4206,7 +4227,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Mega Particle Cannon",
+                "name": "Mega Particle Cannon ",
                 "keywords": [
                   "devastating wounds",
                   "heavy"
@@ -4225,7 +4246,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast",
                   "heavy"
@@ -4246,7 +4267,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Iron Nails – strike",
+                "name": "Iron Nails – strike ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "2",
@@ -4257,7 +4278,7 @@
               },
               {
                 "active": true,
-                "name": "Iron Nails – sweep",
+                "name": "Iron Nails – sweep ",
                 "keywords": ["sustained hits 1"],
                 "range": "Melee",
                 "attacks": "6",
@@ -4363,7 +4384,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast",
                   "heavy"
@@ -4382,7 +4403,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Mega Particle Cannon",
+                "name": "Twin Mega Particle Cannon ",
                 "keywords": [
                   "devastating wounds",
                   "heavy",
@@ -4404,7 +4425,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Iron Nails – strike",
+                "name": "Iron Nails – strike ",
                 "keywords": [
                   "sustained hits 1",
                   "twin-linked"
@@ -4418,7 +4439,7 @@
               },
               {
                 "active": true,
-                "name": "Iron Nails – sweep",
+                "name": "Iron Nails – sweep ",
                 "keywords": [
                   "sustained hits 1",
                   "twin-linked"
@@ -4493,8 +4514,14 @@
           },
           "other": [
             {
-              "name": "Aquatic Tactics",
-              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
+              "name": "Ace",
+              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Plot Armor",
+              "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
               "showAbility": true,
               "showDescription": true
             }
@@ -4527,7 +4554,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Launcher",
+                "name": "Missile Launcher ",
                 "keywords": [
                   "blast",
                   "heavy"
@@ -4546,7 +4573,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Mega Particle Cannon",
+                "name": "Twin Mega Particle Cannon ",
                 "keywords": [
                   "devastating wounds",
                   "heavy",
@@ -4568,7 +4595,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Iron Nails – strike",
+                "name": "Iron Nails – strike ",
                 "keywords": [
                   "sustained hits 1",
                   "twin-linked"
@@ -4582,7 +4609,7 @@
               },
               {
                 "active": true,
-                "name": "Iron Nails – sweep",
+                "name": "Iron Nails – sweep ",
                 "keywords": [
                   "sustained hits 1",
                   "twin-linked"
@@ -4693,7 +4720,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Quad Mega Particle Cannon",
+                "name": "Quad Mega Particle Cannon ",
                 "keywords": [
                   "devastating wounds",
                   "twin-linked"
@@ -4714,7 +4741,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Iron Nails – strike",
+                "name": "Iron Nails – strike ",
                 "keywords": [
                   "sustained hits 1",
                   "twin-linked"
@@ -4728,7 +4755,7 @@
               },
               {
                 "active": true,
-                "name": "Iron Nails – sweep",
+                "name": "Iron Nails – sweep ",
                 "keywords": [
                   "sustained hits 1",
                   "twin-linked"
