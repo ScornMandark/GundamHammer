@@ -1,157 +1,13 @@
 {
   "category": {
-    "uuid": "003d10cf-4241-408b-b710-717ca63d7b74",
-    "name": "OMNI Units CE71",
+    "uuid": "95682ecf-8e7b-4eb2-891f-34f5734da17d",
+    "name": "ORB Units CE71",
     "cards": [
       {
-        "id": "86bf3e0f-15fe-48a6-ab9e-6e1563605b21",
-        "name": "F-7D Spearhead",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1-3 F-7D Spearheads"
-        ],
-        "loadout": "Every model is equipped with: 1 Nose Vulcans; 1 Wing Missiles; 1 Armored Hull.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "45",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "90",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "135",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise 1"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Interceptor",
-              "description": "Each time a model in this unit makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "20ᐩ\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "7",
-            "ld": "7+",
-            "oc": "2",
-            "name": "F-7D Spearhead",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Nose Vulcans",
-                "keywords": [],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-1",
-                "damage": "1"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Wing Missiles ",
-                "keywords": [
-                  "anti-fly 2+",
-                  "twin-linked"
-                ],
-                "range": "60\"",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "7",
-                "ap": "-1",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Hull",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Fly",
-          "Aircraft",
-          "F-7D Spearhead"
-        ],
-        "factions": [
-          "OMNI"
-        ],
-        "isCustom": true,
-        "uuid": "86bf3e0f-15fe-48a6-ab9e-6e1563605b21"
-      },
-      {
-        "id": "579e9d53-2400-4631-9d79-0eccb79124ec",
+        "id": "430f71bc-0ecb-4668-8ee3-be787c98e690",
         "name": "FX-550 Skygrasper",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
@@ -295,17 +151,17 @@
           "FX-550 Skygrasper"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "579e9d53-2400-4631-9d79-0eccb79124ec"
+        "uuid": "430f71bc-0ecb-4668-8ee3-be787c98e690"
       },
       {
-        "id": "76f68790-4502-4574-b813-eb6fd67ecde9",
+        "id": "f7bba581-af70-4525-beae-4ab4fff78e6e",
         "name": "Linear Gun Tank",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
@@ -423,23 +279,23 @@
           "Linear Gun Tank"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "76f68790-4502-4574-b813-eb6fd67ecde9"
+        "uuid": "f7bba581-af70-4525-beae-4ab4fff78e6e"
       },
       {
-        "id": "8a804702-9157-4d9b-811a-4dd8a15626bb",
-        "name": "TS-MA2 Moebius",
+        "id": "ed229270-c4b9-4d96-8cde-f3e02e8610e2",
+        "name": "MBF-M1 M1 Astray",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1-3 TS-MA2 Moebius"
+          "1 MBF-M1 M1 Astray"
         ],
-        "loadout": "Every model is equipped with: 1 Nose Vulcans; 1 Linear Cannon; 1 Armored Hull.",
+        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Beam Saber.",
         "wargear": [
           "None."
         ],
@@ -447,433 +303,19 @@
         "points": [
           {
             "models": "1",
-            "cost": "75",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "150",
-            "active": true
-          },
-          {
-            "models": "3",
             "cost": "225",
             "active": true
           }
         ],
         "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise 1"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [
+          "wargear": [
             {
-              "name": "Interceptor",
-              "description": "Each time a model in this unit makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "20ᐩ\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "7",
-            "ld": "7+",
-            "oc": "2",
-            "name": "TS-MA2 Moebius",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Nose Vulcans",
-                "keywords": [],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-1",
-                "damage": "1"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Linear Cannon ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Hull",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Fly",
-          "Aircraft",
-          "TS-MA2 Moebius"
-        ],
-        "factions": [
-          "OMNI"
-        ],
-        "isCustom": true,
-        "uuid": "8a804702-9157-4d9b-811a-4dd8a15626bb"
-      },
-      {
-        "id": "b7dede19-af6f-4a85-84c4-938f056222a1",
-        "name": "Mu La Flaga",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Mu La Flaga in a TS-MA2mod.00 Moebius Zero"
-        ],
-        "loadout": "Every model is equipped with: 1 Linear Cannon; 1 Rocket Anchor; 4 Wired Gunbarrel Cannons; 1 Armored Hull.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "150",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise 1"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Interceptor",
-              "description": "Each time a model in this unit makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
             }            
           ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "20ᐩ\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "7",
-            "ld": "7+",
-            "oc": "2",
-            "name": "TS-MA2 Moebius",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Wired Gunbarrel Cannon ",
-                "keywords": [
-                  "ignores cover",
-                  "indirect",
-                  "twin-linked"
-                ],
-                "range": "24\"",
-                "attacks": "4",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Linear Cannon ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "2+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Hull",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Fly",
-          "Character",
-          "Epic Hero",
-          "Aircraft",
-          "TS-MA2mod.00 Moebius Zero",
-          "Mu La Flaga"
-        ],
-        "factions": [
-          "OMNI"
-        ],
-        "isCustom": true,
-        "uuid": "b7dede19-af6f-4a85-84c4-938f056222a1"
-      },
-      {
-        "id": "a7489835-71b1-4a82-8ea1-e4d23a7ff3e0",
-        "name": "GAT-01 Strike Dagger",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 GAT-01 Strike Dagger"
-        ],
-        "loadout": "This model is equipped with: 1 M703 Beam Rifle; 1 Beam Saber.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "160",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Mobile Suit Madness, Super-heavy Walker"
-          ],
-          "primarch": [],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Safety in Numbers",
-              "description": "Each time a ranged attack targets this model, and there is an OMNI BATTLELINE WALKER unit within 6\" of this model, reduce the AP of the incoming attack by 1.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-4 WOUNDS REMAINING",
-            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "10",
-            "sv": "3+",
-            "w": "12",
-            "ld": "7+",
-            "oc": "8",
-            "name": "GAT-01 Strike Dagger",
-            "showDamagedMarker": true,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "M703 Beam Rifle ",
-                "keywords": [
-                  "melta 4",
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "2",
-                "skill": "3+",
-                "strength": "12",
-                "ap": "-4",
-                "damage": "D6"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Beam Saber – strike ",
-                "keywords": ["devastating wounds"],
-                "range": "Melee",
-                "attacks": "2",
-                "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
-              },
-              {
-                "active": true,
-                "name": "Beam Saber – sweep ",
-                "keywords": ["devastating wounds"],
-                "range": "Melee",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-3",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Battleline",
-          "Titanic",
-          "Towering",
-          "GAT-01 Strike Dagger"
-        ],
-        "factions": [
-          "OMNI"
-        ],
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "a7489835-71b1-4a82-8ea1-e4d23a7ff3e0"
-      },
-      {
-        "id": "435aa365-2b52-4cdd-97fa-8e2b9534a013",
-        "name": "GAT-01A1 Dagger",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 GAT-01A1 Dagger"
-        ],
-        "loadout": "This model is equipped with: 1 M703 Beam Rifle; 1 Beam Saber.",
-        "wargear": [
-          "This model’s M703 Beam Rifle can be replaced with one of the following: ◦ 1 [Striker Pack] unit ◦ 1 Machine Gun"
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "180",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
           "core": [
             "Deadly Demise D6"
           ],
@@ -881,13 +323,13 @@
             "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [
-              {
-              "name": "Dagger",
+            {
+              "name": "M1 Astray",
               "showAbility": true,
               "abilities": [
                 {
-                  "name": "Striker Pack",
-                  "description": "If you have upgraded this model to have a [Striker Pack] unit, attach the appropriate [Striker Pack] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "name": "Technological Superiority",
+                  "description": "Each time a saving throw or invulnerable saving throw is made for this model, and there is an ORB BATTLELINE WALKER unit within 6\" of this model, re-roll a saving throw of 1.",
                   "showAbility": true,
                   "showDescription": true
                 }
@@ -900,14 +342,7 @@
             "showInvulnerableSave": true,
             "showInfo": false
           },
-          "other": [
-            {
-              "name": "Safety in Numbers",
-              "description": "Each time a ranged attack targets this model, and there is an OMNI BATTLELINE WALKER unit within 6\" of this model, reduce the AP of the incoming attack by 1.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
+          "other": [],
           "special": [],
           "damaged": {
             "showDamagedAbility": true,
@@ -918,13 +353,13 @@
         },
         "stats": [
           {
-            "m": "12\"",
+            "m": "15\"",
             "t": "10",
             "sv": "3+",
-            "w": "12",
+            "w": "15",
             "ld": "7+",
             "oc": "8",
-            "name": "GAT-01A1 Dagger",
+            "name": "MBF-M1 M1 Astray",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -936,35 +371,17 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Machine Gun ",
+                "name": "Beam Rifle ",
                 "keywords": [
-                  "assault"
+                  "devastating wounds",
+                  "heavy"
                 ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "M703 Beam Rifle ",
-                "keywords": [
-                  "melta 4",
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "2",
-                "skill": "3+",
-                "strength": "12",
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "18",
                 "ap": "-4",
-                "damage": "D6"
+                "damage": "D6+3"
               }
             ]
           }
@@ -1002,26 +419,205 @@
           "Vehicle",
           "Walker",
           "Battleline",
+          "Fly",
           "Titanic",
           "Towering",
-          "GAT-01A1 Dagger"
+          "MBF-M1 M1 Astray"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "435aa365-2b52-4cdd-97fa-8e2b9534a013"
-      },      
+        "uuid": "ed229270-c4b9-4d96-8cde-f3e02e8610e2"
+      },
       {
-        "id": "2ba70696-5c75-447f-b32d-dbb59a1aeeb7",
-        "name": "Kira Yamato",
+        "id": "e114181a-b859-4d55-bc3d-79cfe94f57a8",
+        "name": "MBF-M1 M1 Astray Ace",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 Kira Yamato in a GAT-X105 Strike Gundam"
+          "1 MBF-M1 M1 Astray Ace"
+        ],
+        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Beam Saber.",
+        "wargear": [
+          "This model may be equipped with 1 Anti-Ship Sabers"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "250",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "M1 Astray",
+              "showAbility": true,
+              "abilities": [
+                 {
+                  "name": "Ace",
+                  "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Technological Superiority",
+                  "description": "Each time a saving throw or invulnerable saving throw is made for this model, and there is an ORB BATTLELINE WALKER unit within 6\" of this model, re-roll a saving throw of 1.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "15\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "15",
+            "ld": "6+",
+            "oc": "10",
+            "name": "MBF-M1 M1 Astray",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Anti-Ship Sabers – strike ",
+                "keywords": ["twin-linked"],
+                "range": "Melee",
+                "attacks": "5",
+                "skill": "4+",
+                "strength": "16",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Anti-ship Sabers – sweep ",
+                "keywords": ["twin-linked"],
+                "range": "Melee",
+                "attacks": "10",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Fly",
+          "Titanic",
+          "Towering",
+          "MBF-M1 M1 Astray"
+        ],
+        "factions": [
+          "ORB"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "e114181a-b859-4d55-bc3d-79cfe94f57a8"
+      },
+      {
+        "id": "2fa95e9b-76db-4a06-a871-1eddd535287c",
+        "name": "Mu La Flaga",
+        "source": "40k-10e",
+        "faction_id": "CHBA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Mu La Flaga in a GAT-X105 Strike Gundam"
         ],
         "loadout": "This model is equipped with: 1 Beam Rifle; 1 Armor Schneider.",
         "wargear": [
@@ -1064,17 +660,17 @@
               ]
             },
             {
-              "name": "Kira Yamato",
+              "name": "Mu La Flaga",
               "showAbility": true,
               "abilities": [
                 {
-                  "name": "Plot Armor",
-                  "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
+                  "name": "Fortress",
+                  "description": "This model has the Feel No Pain 5+ ability against ranged attacks.",
                   "showAbility": true,
                   "showDescription": true
                 },
                 {
-                  "name": "Hacker",
+                  "name": "Ace",
                   "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
                   "showAbility": true,
                   "showDescription": true
@@ -1187,42 +783,42 @@
           "Towering",
           "GAT-X105 Strike",
           "Gundam",
-          "Kira Yamato"
+          "Mu La Flaga"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "2ba70696-5c75-447f-b32d-dbb59a1aeeb7"
+        "uuid": "2fa95e9b-76db-4a06-a871-1eddd535287c"
       },
       {
-        "id": "c59c710a-8b5e-4001-9688-20a9f58eff09",
-        "name": "Orga Sabnak",
+        "id": "1d3041f6-44ff-4b0f-b51d-dbebbd5619b3",
+        "name": "Cagalli Yula Athha",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 Orga Sabnak in a GAT-X131 Calamity Gundam"
+          "1 Cagalli Yula Athha in a MBF-02 Strike Rouge Gundam"
         ],
-        "loadout": "This model is equipped with: 1 Bazooka; 1 Energy Cannon; 1 Shield Cannons; 1 Shoulder Beam Cannons; 1 Titanic Feet.",
+        "loadout": "This model is equipped with: 1 Beam Rifle; 1 Armor Schneider.",
         "wargear": [
-          "None."
+          "This model’s Beam Rifle can be replaced with one of the following: ◦ 1 [Striker Pack] unit ◦ 1 Bazooka"
         ],
         "transport": "",
         "points": [
           {
             "models": "1",
-            "cost": "650",
+            "cost": "400",
             "active": true
           }
         ],
         "abilities": {
           "wargear": [
             {
-              "name": "Energy Cannon / Shield Beam Cannons / Shoulder Beam Cannons",
-              "description": "When targeting a Vehicle or a Monster, attacks from these weapons score Critical Wounds on a 5+.",
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
             }            
@@ -1235,18 +831,30 @@
           ],
           "primarch": [
             {
-              "name": "Calamity Gundam",
+              "name": "Strike Rouge Gundam",
               "showAbility": true,
               "abilities": [
                 {
-                  "name": "Trans-Phase Shift",
-                  "description": "This model has the Feel No Pain 6+ ability against ranged attacks.",
+                  "name": "Power Pack Extender",
+                  "description": "This model has the Feel No Pain 5+ ability against ranged attacks.",
                   "showAbility": true,
                   "showDescription": true
                 },
                 {
-                  "name": "Hunter",
-                  "description": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, re-roll a Damage roll of 1.",
+                  "name": "Striker Pack",
+                  "description": "If you have upgraded this model to have a [Striker Pack] unit, attach the appropriate [Striker Pack] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+            {
+              "name": "Cagalli Yula Athha",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Avenging Protector",
+                  "description": "Once per turn, in your opponent’s Shooting phase, when a friendly ORB WALKER unit within 6\" of this unit is selected as the target of an attack, this unit can use this ability. If it does, after that enemy unit has finished making its attacks, this unit can shoot as if it were your Shooting phase, but when resolving those attacks it can only target that enemy unit (and only if it is an eligible target).",
                   "showAbility": true,
                   "showDescription": true
                 }
@@ -1276,7 +884,7 @@
             "w": "24",
             "ld": "5+",
             "oc": "10",
-            "name": "GAT-X131 Calamity Gundam",
+            "name": "MBF-02 Strike Rouge Gundam",
             "showDamagedMarker": true,
             "showName": true,
             "active": true
@@ -1294,7 +902,7 @@
                 ],
                 "range": "36\"",
                 "attacks": "2D6",
-                "skill": "3+",
+                "skill": "2+",
                 "strength": "10",
                 "ap": "-2",
                 "damage": "3"
@@ -1306,52 +914,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Energy Cannon ",
+                "name": "Beam Rifle ",
                 "keywords": [
-                  "devastating wounds",
-                  "heavy"
+                  "devastating wounds"
                 ],
                 "range": "36\"",
                 "attacks": "3",
-                "skill": "4+",
-                "strength": "20",
-                "ap": "-5",
-                "damage": "D6+3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Shield Beam Cannons ",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "24\"",
-                "attacks": "6",
-                "skill": "3+",
-                "strength": "14",
-                "ap": "-3",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Shoulder Beam Cannons ",
-                "keywords": [
-                  "devastating wounds",
-                  "twin-linked"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "3+",
+                "skill": "2+",
                 "strength": "18",
                 "ap": "-4",
                 "damage": "D6+3"
@@ -1360,219 +929,7 @@
           }
         ],
         "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Titanic Feet",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "4",
-                "skill": "4+",
-                "strength": "8",
-                "ap": "-1",
-                "damage": "2"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Titanic",
-          "Towering",
-          "GAT-X131 Calamity",
-          "Gundam",
-          "Orga Sabnak"
-        ],
-        "factions": [
-          "OMNI"
-        ],
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "c59c710a-8b5e-4001-9688-20a9f58eff09"
-      },
-      {
-        "id": "da456522-efdd-49f1-a5a2-1d6037414541",
-        "name": "Edward Harrelson",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1 Edward Harrelson in a GAT-X133 Sword Calamity Gundam"
-        ],
-        "loadout": "This model is equipped with: 1 Beam Boomerangs; 1 Energy Cannon; 1 Laser Guns; 1 Rocket Anchors; 1 Armor Schneiders; 1 Anti-Ship Swords.",
-        "wargear": [
-          "None."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "550",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Energy Cannon",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Rocket Anchors",
-              "description": "You can re-roll Charge rolls made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            }                      
-          ],
-          "core": [
-            "Deadly Demise D6"
-          ],
-          "faction": [
-            "Mobile Suit Madness, Super-heavy Walker"
-          ],
-          "primarch": [
-            {
-              "name": "Sword Calamity Gundam",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Trans-Phase Shift",
-                  "description": "This model has the Feel No Pain 6+ ability against ranged attacks.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Melee Specialist",
-                  "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "5+",
-            "info": "",
-            "showInvulnerableSave": true,
-            "showInfo": false
-          },
-          "other": [],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": true,
-            "showDescription": true,
-            "range": "1-8 WOUNDS REMAINING",
-            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
-          }
-        },
-        "stats": [
-          {
-            "m": "15\"",
-            "t": "12",
-            "sv": "2+",
-            "w": "24",
-            "ld": "5+",
-            "oc": "10",
-            "name": "GAT-X133 Sword Calamity Gundam",
-            "showDamagedMarker": true,
-            "showName": true,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Beam Boomerang ",
-                "keywords": [
-                  "devastating wounds"
-                ],
-                "range": "18\"",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "6"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Energy Cannon ",
-                "keywords": [
-                  "devastating wounds",
-                  "heavy"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "14",
-                "ap": "-4",
-                "damage": "D3+3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Laser Guns ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "24\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "3"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
            {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Anti-Ship Swords – strike ",
-                "keywords": ["twin-linked"],
-                "range": "Melee",
-                "attacks": "5",
-                "skill": "3+",
-                "strength": "20",
-                "ap": "-4",
-                "damage": "8"
-              },
-              {
-                "active": true,
-                "name": "Anti-Ship Swords – sweep ",
-                "keywords": ["twin-linked"],
-                "range": "Melee",
-                "attacks": "10",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "3"
-              }
-            ]
-          },
-          {
             "active": true,
             "profiles": [
               {
@@ -1607,28 +964,28 @@
           "Epic Hero",
           "Titanic",
           "Towering",
-          "GAT-X133 Sword Calamity",
+          "MBF-02 Strike Rouge",
           "Gundam",
-          "Edward Harrelson"
+          "Cagalli Yula Athha"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "da456522-efdd-49f1-a5a2-1d6037414541"
+        "uuid": "1d3041f6-44ff-4b0f-b51d-dbebbd5619b3"
       },
       {
-        "id": "a93eda8a-d4fc-412d-9188-2fdba0895aac",
-        "name": "Shani Andras",
+        "id": "c7b99a90-c885-4276-afe2-839e5d64e510",
+        "name": "Athrun Zala",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 Shani Andras in a GAT-X252 Forbidden Gundam"
+          "1 Athrun Zala in a ZGMF-X09A Justice Gundam"
         ],
-        "loadout": "This model is equipped with: 1 Plasma Cannon; 1 Railgun; 1 Twin Machine Gun; 1 Heavy Scythe.",
+        "loadout": "This model is equipped with: 1 Beam Cannons; 1 Beam Rifle; 1 Machine Guns; 1 Beam Sabers.",
         "wargear": [
           "None."
         ],
@@ -1636,18 +993,18 @@
         "points": [
           {
             "models": "1",
-            "cost": "550",
+            "cost": "650",
             "active": true
           }
         ],
         "abilities": {
           "wargear": [
             {
-              "name": "Plasma Cannon",
-              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "name": "Beam Cannons / Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from these weapons score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
-            }            
+            }
           ],
           "core": [
             "Deadly Demise D6"
@@ -1657,18 +1014,36 @@
           ],
           "primarch": [
             {
-              "name": "Forbidden Gundam",
+              "name": "Athrun Zala",
               "showAbility": true,
               "abilities": [
                 {
-                  "name": "Trans-Phase Shift",
-                  "description": "This model has the Feel No Pain 6+ ability against ranged attacks.",
+                  "name": "Slippery",
+                  "description": "In your Charge phase, this model may make a Normal move instead of declaring a charge.",
                   "showAbility": true,
                   "showDescription": true
                 },
                 {
-                  "name": "Geschmedig Panzer",
-                  "description": "Each time a ranged attack is allocated to this model, on an unmodified saving throw of 6, the attacking unit suffers 1 mortal wound after it has finished making its attacks.",
+                  "name": "SEED Activated",
+                  "description": "Once per game, this model may re-roll a charge roll.  Once per game, at any time, this model may gain the [Fights First] keyword until the end of the phase.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+            {
+              "name": "Justice Gundam",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Neutron Jammer Canceller Phase Shift",
+                  "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "HiMAT Mode",
+                  "description": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
                   "showAbility": true,
                   "showDescription": true
                 }
@@ -1692,13 +1067,13 @@
         },
         "stats": [
           {
-            "m": "12\"",
+            "m": "15\"",
             "t": "12",
             "sv": "2+",
-            "w": "24",
-            "ld": "6+",
+            "w": "30",
+            "ld": "5+",
             "oc": "10",
-            "name": "GAT-X252 Forbidden Gundam",
+            "name": "ZGMF-X09A Justice Gundam",
             "showDamagedMarker": true,
             "showName": true,
             "active": true
@@ -1710,14 +1085,32 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Plasma Cannon ",
+                "name": "Beam Cannons ",
                 "keywords": [
-                  "ignores cover",
-                  "indirect"
+                  "devastating wounds",
+                  "twin-linked"
                 ],
                 "range": "36\"",
-                "attacks": "D6",
+                "attacks": "3",
                 "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "D3+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
                 "strength": "18",
                 "ap": "-4",
                 "damage": "D6+3"
@@ -1729,25 +1122,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Railgun ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "48\"",
-                "attacks": "D6",
-                "skill": "3+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Twin Machine Gun ",
+                "name": "Machine Guns ",
                 "keywords": [
                   "assault",
                   "twin-linked"
@@ -1763,62 +1138,68 @@
           }
         ],
         "meleeWeapons": [
-           {
+          {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Heavy Scythe – strike",
-                "keywords": [],
+                "name": "Beam Sabers – strike ",
+                "keywords": [
+                  "devastating wounds"
+                ],
                 "range": "Melee",
-                "attacks": "5",
-                "skill": "3+",
-                "strength": "20",
+                "attacks": "6",
+                "skill": "2+",
+                "strength": "14",
                 "ap": "-4",
-                "damage": "8"
+                "damage": "6"
               },
               {
                 "active": true,
-                "name": "Heavy Scythe – sweep",
-                "keywords": [],
+                "name": "Beam Sabers – sweep ",
+                "keywords": [
+                  "devastating wounds"
+                ],
                 "range": "Melee",
-                "attacks": "10",
-                "skill": "3+",
-                "strength": "10",
+                "attacks": "14",
+                "skill": "2+",
+                "strength": "9",
                 "ap": "-3",
-                "damage": "3"
+                "damage": "2"
               }
             ]
-          }        ],
+          }
+        ],
         "keywords": [
           "Vehicle",
           "Walker",
           "Character",
           "Epic Hero",
+          "Fly",
           "Titanic",
           "Towering",
-          "GAT-X252 Forbidden",
+          "ZGMF-X09A Justice",
           "Gundam",
-          "Shani Andras"
+          "Athrun Zala"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "a93eda8a-d4fc-412d-9188-2fdba0895aac"
+        "uuid": "c7b99a90-c885-4276-afe2-839e5d64e510"
       },
       {
-        "id": "0a51c49d-6c68-4ccd-b52a-ee49a2f31d99",
-        "name": "Clotho Buer",
+        "id": "6ea8483e-1a44-4753-9d9a-98a6a1f7d01b",
+        "name": "Kira Yamato",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1 Clotho Buer in a GAT-X370 Raider Gundam"
+          "1 Kira Yamato in a ZGMF-X10A Freedom Gundam"
         ],
-        "loadout": "This model is equipped with: 1 Bazooka; 1 Energy Cannon; 1 Shield Cannons; 1 Shoulder Beam Cannons; 1 Titanic Feet.",
+        "loadout": "This model is equipped with: 1 Beam Rifle; 2 Plasma Cannons; 2 Railcannons; 1 Beam Sabers.",
         "wargear": [
           "None."
         ],
@@ -1826,18 +1207,18 @@
         "points": [
           {
             "models": "1",
-            "cost": "600",
+            "cost": "850",
             "active": true
           }
         ],
         "abilities": {
           "wargear": [
             {
-              "name": "Energy Cannon / Shield Beam Cannons / Shoulder Beam Cannons",
+              "name": "Beam Cannons / Beam Rifle",
               "description": "When targeting a Vehicle or a Monster, attacks from these weapons score Critical Wounds on a 5+.",
               "showAbility": true,
               "showDescription": true
-            }            
+            }
           ],
           "core": [
             "Deadly Demise D6"
@@ -1847,18 +1228,36 @@
           ],
           "primarch": [
             {
-              "name": "Raider Gundam",
+              "name": "Kira Yamato",
               "showAbility": true,
               "abilities": [
                 {
-                  "name": "Trans-Phase Shift",
-                  "description": "This model has the Feel No Pain 6+ ability against ranged attacks.",
+                  "name": "Ultimate Coordinator",
+                  "description": "In your Shooting phase, if this unit Remained Stationary, it may re-roll any hit roll.",
                   "showAbility": true,
                   "showDescription": true
                 },
                 {
-                  "name": "High Speed Transformation",
-                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, this unit gains the [Aircraft] keyword and it's Movement characteristic becomes 20+.",
+                  "name": "SEED Activated",
+                  "description": "Once per game, in your Shooting phase, after this model has shot, this unit may fire again.  If any models would test for Deadly Demise as a result of this shooting, do not roll a D6 - each dice is considered to have rolled a 1.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+            {
+              "name": "Freedom Gundam",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Neutron Jammer Canceller Phase Shift",
+                  "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "HiMAT Mode",
+                  "description": "Each time a saving throw or invulnerable saving throw is made for this model, re-roll a saving throw of 1.",
                   "showAbility": true,
                   "showDescription": true
                 }
@@ -1871,8 +1270,7 @@
             "showInvulnerableSave": true,
             "showInfo": false
           },
-          "other": [
-          ],
+          "other": [],
           "special": [],
           "damaged": {
             "showDamagedAbility": true,
@@ -1883,13 +1281,13 @@
         },
         "stats": [
           {
-            "m": "12\"",
+            "m": "15\"",
             "t": "12",
             "sv": "2+",
-            "w": "24",
-            "ld": "6+",
+            "w": "30",
+            "ld": "5+",
             "oc": "10",
-            "name": "GAT-X370 Raider Gundam",
+            "name": "ZGMF-X10A Freedom Gundam",
             "showDamagedMarker": true,
             "showName": true,
             "active": true
@@ -1901,14 +1299,13 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Energy Cannon ",
+                "name": "Beam Rifle ",
                 "keywords": [
-                  "ignores cover",
-                  "indirect"
+                  "devastating wounds"
                 ],
                 "range": "36\"",
                 "attacks": "3",
-                "skill": "3+",
+                "skill": "2+",
                 "strength": "18",
                 "ap": "-4",
                 "damage": "D6+3"
@@ -1920,17 +1317,17 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Shield Cannons ",
+                "name": "Plasma Cannons ",
                 "keywords": [
-                  "twin-linked",
-                  "rapid fire 3"
+                  "devastating wounds",
+                  "twin-linked"
                 ],
-                "range": "48\"",
+                "range": "36\"",
                 "attacks": "3",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-3",
-                "damage": "3"
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
               }
             ]
           },
@@ -1939,74 +1336,79 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Twin Machine Guns ",
+                "name": "Rail Cannons ",
                 "keywords": [
-                  "assault",
+                  "blast",
                   "twin-linked"
                 ],
-                "range": "24\"",
-                "attacks": "12",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "2"
+                "range": "48\"",
+                "attacks": "3D3",
+                "skill": "2+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
               }
             ]
           }
         ],
         "meleeWeapons": [
-           {
+          {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "Mjolnir Spherical Breaker – strike",
-                "keywords": [],
+                "name": "Beam Sabers – strike ",
+                "keywords": [
+                  "devastating wounds"
+                ],
                 "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "20",
-                "ap": "-3",
-                "damage": "10"
+                "attacks": "6",
+                "skill": "2+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
               },
               {
                 "active": true,
-                "name": "Mjolnir Spherical Breaker – sweep",
-                "keywords": [],
+                "name": "Beam Sabers – sweep ",
+                "keywords": [
+                  "devastating wounds"
+                ],
                 "range": "Melee",
                 "attacks": "14",
-                "skill": "3+",
-                "strength": "8",
-                "ap": "-2",
+                "skill": "2+",
+                "strength": "9",
+                "ap": "-3",
                 "damage": "2"
               }
             ]
-          }        ],
+          }
+        ],
         "keywords": [
           "Vehicle",
           "Walker",
-          "Fly",
           "Character",
           "Epic Hero",
+          "Fly",
           "Titanic",
           "Towering",
-          "GAT-X370 Raider",
+          "ZGMF-X10A Freedom",
           "Gundam",
-          "Clotho Buer"
+          "Kira Yamato"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "0a51c49d-6c68-4ccd-b52a-ee49a2f31d99"
+        "uuid": "6ea8483e-1a44-4753-9d9a-98a6a1f7d01b"
       },
 
       {
-        "id": "67ed6dd2-514d-4e14-b9c1-7d988b2d0baf",
+        "id": "790e1e48-0aca-4f61-ad04-1161045d08c3",
         "name": "Aile Striker",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [],
@@ -2140,16 +1542,16 @@
           "Striker Pack"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "isCustom": true,
-        "uuid": "67ed6dd2-514d-4e14-b9c1-7d988b2d0baf"
+        "uuid": "790e1e48-0aca-4f61-ad04-1161045d08c3"
       },
       {
-        "id": "81390a15-d8ea-4cda-9aaf-39b9c8bd2774",
+        "id": "656c7436-e382-4afd-a322-8a45c4376057",
         "name": "Launcher Striker",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [],
@@ -2286,16 +1688,16 @@
           "Striker Pack"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "isCustom": true,
-        "uuid": "81390a15-d8ea-4cda-9aaf-39b9c8bd2774"
+        "uuid": "656c7436-e382-4afd-a322-8a45c4376057"
       },
       {
-        "id": "93a3772b-92b9-4847-8345-b18c23a37beb",
+        "id": "4057bc23-40b0-44d8-a130-896d60efa41f",
         "name": "Sword Striker",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHBA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [],
@@ -2422,10 +1824,402 @@
           "Striker Pack"
         ],
         "factions": [
-          "OMNI"
+          "ORB"
         ],
         "isCustom": true,
-        "uuid": "93a3772b-92b9-4847-8345-b18c23a37beb"
+        "uuid": "4057bc23-40b0-44d8-a130-896d60efa41f"
+      },
+      {
+        "id": "21fa3b45-b1b2-4071-bf38-808624fd8e49",
+        "name": "Perfect Striker",
+        "source": "40k-10e",
+        "faction_id": "CHBA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [],
+        "loadout": "",
+        "wargear": [],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "300",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Long Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Rocket Anchor",
+              "description": "You can re-roll Charge rolls made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            }                      
+          ],
+          "core": [],
+          "faction": [],
+          "primarch": [
+            {
+              "name": "Perfect Pack",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Striker Pack",
+                  "description": "If you have upgraded a model to have a [Striker Pack] unit, attach the appropriate [Striker Pack] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Perfect Pack",
+                  "description": "This model gains the [Fly] keyword, add 3\" to the bearer's Move characteristic, and add 6 to the bearer's Wounds characteristic.  This pack may only be equipped by a GUNDAM unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Wargear",
+                  "description": "This model gains the following wargear: 1 Beam Boomerang; 1 Rocket Anchor; 1 Schwert Gewehr; 1 Bazooka; 1 Long Beam Rifle; 1 Machine Gun.",
+                  "showAbility": true,
+                  "showDescription": true
+                }                
+              ]
+            }
+          ],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": true,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Bazooka ",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Boomerang ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "18\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Beam Rifle ",
+                "keywords": [
+                  "devastating wounds",
+                  "blast"
+                ],
+                "range": "72\"",
+                "attacks": "D3+1",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-5",
+                "damage": "D6+8"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Machine Gun ",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }        
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Schwert Gewehr – strike ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "3+",
+                "strength": "20",
+                "ap": "-4",
+                "damage": "8"
+              },
+              {
+                "active": true,
+                "name": "Schwert Gewehr – sweep ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "8",
+                "skill": "2+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Striker Pack"
+        ],
+        "factions": [
+          "ORB"
+        ],
+        "isCustom": true,
+        "uuid": "21fa3b45-b1b2-4071-bf38-808624fd8e49"
+      },
+      {
+        "id": "736dc47f-bbe4-4920-8a79-1f7f370c0af7",
+        "name": "Perfect Striker",
+        "source": "40k-10e",
+        "faction_id": "CHBA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [],
+        "loadout": "",
+        "wargear": [],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "200",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }                     
+          ],
+          "core": [],
+          "faction": [],
+          "primarch": [
+            {
+              "name": "Integrated Weapons Striker Pack",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Striker Pack",
+                  "description": "If you have upgraded a model to have a [Striker Pack] unit, attach the appropriate [Striker Pack] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "IWSP",
+                  "description": "This model gains the [Fly] keyword, add 3\" to the bearer's Move characteristic, and add 3 to the bearer's Wounds characteristic.  This pack may only be equipped by a GUNDAM unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Wargear",
+                  "description": "This model gains the following wargear: 1 Beam Rifle; 1 Beam Boomerang; 1 Heavy Gatling; 1 Linear Cannons; 1 Small Cannons; 1 Anti-Ship Sabers.",
+                  "showAbility": true,
+                  "showDescription": true
+                }                
+              ]
+            }
+          ],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": true,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Boomerang ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "18\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Gatling ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "12",
+                "skill": "4+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Linear Cannons ",
+                "keywords": [
+                  "blast",
+                  "twin-linked"
+                ],
+                "range": "48\"",
+                "attacks": "3D3",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Small Cannons ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "24\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Anti-Ship Sabers – strike ",
+                "keywords": ["twin-linked"],
+                "range": "Melee",
+                "attacks": "5",
+                "skill": "3+",
+                "strength": "16",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Anti-ship Sabers – sweep ",
+                "keywords": ["twin-linked"],
+                "range": "Melee",
+                "attacks": "10",
+                "skill": "2+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          }        
+        ],
+        "keywords": [
+          "Striker Pack"
+        ],
+        "factions": [
+          "ORB"
+        ],
+        "isCustom": true,
+        "uuid": "736dc47f-bbe4-4920-8a79-1f7f370c0af7"
       }
     ],
     "closed": false

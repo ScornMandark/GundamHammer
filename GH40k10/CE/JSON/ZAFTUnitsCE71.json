@@ -4,6 +4,351 @@
     "name": "ZAFT Units CE71",
     "cards": [
       {
+        "id": "8225c2b2-d2b9-4d22-a173-553a9a6ed3ec",
+        "name": "AMF-101 DINN",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 AMF-101 DINN"
+        ],
+        "loadout": "This model is equipped with: 1 Anti-Air Shotgun; 1 Machine Gun; 1 Missile Launchers; 1 Heavy Sword.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "180",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "DINN",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "High Speed Transformation",
+                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, this unit gains the [Aircraft] keyword and it's Movement characteristic becomes 20+.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Interceptor",
+              "description": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": false,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "10",
+            "ld": "7+",
+            "oc": "8",
+            "name": "AMF-101 DINN",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Anti-Air Shotgun ",
+                "keywords": [
+                  "anti-fly 4+",
+                  "blast"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launchers - frag ",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              },
+              {
+                "active": true,
+                "name": "Missile Launchers - krak ",
+                "keywords": [],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "D3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Machine Gun ",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Sword – strike ",
+                "keywords": ["lethal hits"],
+                "range": "Melee",
+                "attacks": "2",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-3",
+                "damage": "D6"
+              },
+              {
+                "active": true,
+                "name": "Heavy Sword – sweep ",
+                "keywords": ["lethal hits"],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Battleline",
+          "Fly",
+          "Titanic",
+          "Towering",
+          "AMF-101 DINN"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "isCustom": false,
+        "uuid": "8225c2b2-d2b9-4d22-a173-553a9a6ed3ec"
+      },
+      {
+        "id": "4a0a1250-a2b9-445b-bdac-99ddee075e00",
+        "name": "TFA-2 ZuOOT",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 TFA-2 ZuOOT"
+        ],
+        "loadout": "This model is equipped with: 2 Twin Cannons; 2 Twin Secondary Cannons; 1 Crushing Treads.",
+        "wargear": [
+          "None"
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "400",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "ZuOOT",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Tank Transformation",
+                  "description": "Before the first turn and the beginning of each of your Command phases, this unit may choose to enter a Tank Form.  Until your next Command phase, reduce this unit's Movement characteristic to 6\", and this model counts as having Reamined Stationary in the if it makes a Normal move.",
+                  "showAbility": true,
+                  "showDescription": true
+                }            
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Fire Support",
+              "description": "Each time this model Remains Stationary, until the start of your next Movement phase, ranged weapons equipped this model have the [Ignores Cover] ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-5 WOUNDS REMAINING",
+            "description": "While this model has 1-5 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "10",
+            "sv": "3+",
+            "w": "15",
+            "ld": "7+",
+            "oc": "10",
+            "name": "TFA-2 ZuOOT ",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Cannons ",
+                "keywords": [
+                  "anti-titanic 4+",
+                  "indirect fire",
+                  "twin-linked"
+                ],
+                "range": "48\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Secondary Cannons ",
+                "keywords": [
+                  "blast",
+                  "twin linked"
+                ],
+                "range": "24\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Crushing Treads ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "TFA-2 ZuOOT"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "4a0a1250-a2b9-445b-bdac-99ddee075e00"
+      },      
+      {
         "id": "6cae3954-e92a-4382-9d6e-ac9864738745",
         "name": "TMF/A-802 BuCUE",
         "source": "40k-10e",
@@ -31,7 +376,7 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [
             {
@@ -40,7 +385,7 @@
               "abilities": [
                 {
                   "name": "High Speed Transformation",
-                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the number of attacks by 1.",
+                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the number of attacks by 1.",
                   "showAbility": true,
                   "showDescription": true
                 },
@@ -218,7 +563,7 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [
             {
@@ -227,7 +572,7 @@
               "abilities": [
                 {
                   "name": "High Speed Transformation",
-                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the number of attacks by 1.",
+                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the number of attacks by 1.",
                   "showAbility": true,
                   "showDescription": true
                 },
@@ -414,7 +759,7 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [
             {
@@ -429,7 +774,7 @@
                 },            
                 {
                   "name": "High Speed Transformation",
-                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the Ballistic Skill by 1.",
+                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, each ranged weapon equipped by this model gains the [Assault] keyword and reduce the Ballistic Skill by 1.",
                   "showAbility": true,
                   "showDescription": true
                 },
@@ -557,6 +902,332 @@
         "uuid": "ee2dc4b7-6a7f-47fa-9bf4-57993b7b2333"
       },
       {
+        "id": "a4489cdf-f923-41e0-b83d-9268f3311fce",
+        "name": "UMF-5 ZnO",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 UMF-5 ZnO"
+        ],
+        "loadout": "This model is equipped with: 1 Twin Mega Particle Cannon; 1 Missile Launcher; 1 Twin Iron Nails.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "350",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Twin Mega Particle Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Aquatic Tactics",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-6 WOUNDS REMAINING",
+            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "3+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "10",
+            "name": "UMF-5 ZnO",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher ",
+                "keywords": [
+                  "blast",
+                  "heavy"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Mega Particle Cannon ",
+                "keywords": [
+                  "devastating wounds",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D3+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Iron Nails – strike ",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              },
+              {
+                "active": true,
+                "name": "Iron Nails – sweep ",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "7",
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Titanic",
+          "Towering",
+          "UMF-5 ZnO"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "isCustom": false,
+        "uuid": "a4489cdf-f923-41e0-b83d-9268f3311fce"
+      },
+      {
+        "id": "69da44a5-3116-4b4a-bc73-a3ca76bd7569",
+        "name": "UMF-4A GOOhN",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 UMF-4A GOOhN"
+        ],
+        "loadout": "This model is equipped with: 1 Twin Mega Particle Cannon; 1 Missile Launcher; 1 Twin Iron Nails.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "250",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Twin Mega Particle Cannon",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "Aquatic Tactics",
+              "description": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-6 WOUNDS REMAINING",
+            "description": "While this model has 1-6 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "11",
+            "sv": "3+",
+            "w": "18",
+            "ld": "6+",
+            "oc": "10",
+            "name": "UMF-4A GOOhN",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launcher ",
+                "keywords": [
+                  "blast",
+                  "heavy"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "8",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Twin Mega Particle Cannon ",
+                "keywords": [
+                  "devastating wounds",
+                  "heavy",
+                  "twin-linked"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Iron Nails – strike ",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-3",
+                "damage": "D6+3"
+              },
+              {
+                "active": true,
+                "name": "Iron Nails – sweep ",
+                "keywords": [
+                  "sustained hits 1",
+                  "twin-linked"
+                ],
+                "range": "Melee",
+                "attacks": "7",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "3"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Titanic",
+          "Towering",
+          "UMF-4A GOOhN"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "isCustom": false,
+        "uuid": "69da44a5-3116-4b4a-bc73-a3ca76bd7569"
+      },
+      {
         "id": "15a03783-803b-4fae-8750-903fe3a37afa",
         "name": "ZGMF-1017 GINN",
         "source": "40k-10e",
@@ -569,7 +1240,8 @@
         "loadout": "This model is equipped with: 1 Machine Gun; 1 Heavy Sword.",
         "wargear": [
           "This model’s Machine Gun can be replaced with one of the following: ◦ 1 Bazooka ◦ 1 Beam Cannon ◦ 1 Heavy Missiles",
-          "This model may be equipped with 1 Leg Missiles."
+          "This model may be equipped with 1 Leg Missiles.",
+          "This model can be equipped with 1 [Subflight] unit."
         ],
         "transport": "",
         "points": [
@@ -592,9 +1264,22 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+              {
+              "name": "GINN",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Subflight Unit",
+                  "description": "If you have upgraded this model to have a [Subflight] unit, attach the appropriate [Subflight] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
             "info": "* Against ranged attacks only",
@@ -782,7 +1467,8 @@
         ],
         "loadout": "This model is equipped with: 1 Machine Gun; 1 Heavy Sword.",
         "wargear": [
-          "This model’s Machine Gun can be replaced with 1 Bazooka."
+          "This model’s Machine Gun can be replaced with 1 Bazooka.",
+          "This model can be equipped with 1 [Subflight] unit."
         ],
         "transport": "",
         "points": [
@@ -798,9 +1484,22 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+              {
+              "name": "GINN High Mobility",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Subflight Unit",
+                  "description": "If you have upgraded this model to have a [Subflight] unit, attach the appropriate [Subflight] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
             "info": "* Against ranged attacks only",
@@ -946,7 +1645,7 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [],
           "invul": {
@@ -1113,7 +1812,7 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [],
           "invul": {
@@ -1272,7 +1971,7 @@
         ],
         "loadout": "This model is equipped with: 1 Beam Rifle; 1 Rocket Anchors; 1 Beam Claws.",
         "wargear": [
-          "None."
+          "This model can be equipped with 1 [Subflight] unit."
         ],
         "transport": "",
         "points": [
@@ -1301,9 +2000,22 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+              {
+              "name": "GuAIZ",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Subflight Unit",
+                  "description": "If you have upgraded this model to have a [Subflight] unit, attach the appropriate [Subflight] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
             "info": "",
@@ -1422,7 +2134,7 @@
         ],
         "loadout": "This model is equipped with: 1 Beam Rifle; 1 Rocket Anchors; 1 Beam Claws.",
         "wargear": [
-          "None."
+          "This model can be equipped with 1 [Subflight] unit."
         ],
         "transport": "",
         "points": [
@@ -1451,29 +2163,47 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+              {
+              "name": "GuAIZ",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Subflight Unit",
+                  "description": "If you have upgraded this model to have a [Subflight] unit, attach the appropriate [Subflight] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+              {
+              "name": "Rau Le Creuset",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Ace",
+                  "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Plot Armor",
+                  "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
             "info": "",
             "showInvulnerableSave": true,
             "showInfo": false
           },
-          "other": [
-            {
-              "name": "Ace",
-              "description": "Once per phase, you can re-roll one Hit roll, one Wound roll or one saving throw made for this model.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Plot Armor",
-              "description": "This model has the Feel No Pain 4+ ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
+          "other": [],
           "special": [],
           "damaged": {
             "showDamagedAbility": true,
@@ -1577,7 +2307,8 @@
         ],
         "loadout": "This model is equipped with: 1 Beam Rifle; 1 Beam Saber.",
         "wargear": [
-          "This model can be equipped with 1 [Assault Shroud] unit."
+          "This model can be equipped with 1 [Assault Shroud] unit.",
+          "This model can be equipped with 1 [Subflight] unit."
         ],
         "transport": "",
         "points": [
@@ -1600,9 +2331,28 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
-          "primarch": [],
+          "primarch": [
+              {
+              "name": "Duel",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Assault Shroud",
+                  "description": "If you have upgraded this model to have an [Assault Shroud] unit, attach the appropriate [Assault Shroud] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Subflight Unit",
+                  "description": "If you have upgraded this model to have a [Subflight] unit, attach the appropriate [Subflight] unit to this model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of this model by the cost of that unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
           "invul": {
             "value": "5+",
             "info": "",
@@ -1719,13 +2469,13 @@
         ],
         "loadout": "This model is equipped with: 1 Beam Cannon; 1 Missile Launchers; 1 Railcannon; 1 Titanic Feet.",
         "wargear": [
-          "None."
+          "This model can be equipped with 1 [Subflight] unit."
         ],
         "transport": "",
         "points": [
           {
             "models": "1",
-            "cost": "400",
+            "cost": "500",
             "active": true
           }
         ],
@@ -1742,15 +2492,15 @@
             "Deadly Demise D6"
           ],
           "faction": [
-            "Spacenoid Supremacy, Super-heavy Walker"
+            "Mobile Suit Madness, Super-heavy Walker"
           ],
           "primarch": [
             {
-              "name": "Combining Arms",
+              "name": "Buster",
               "showAbility": true,
               "abilities": [
                 {
-                  "name": "Note",
+                  "name": "Combining Arms",
                   "description": "When firing the Beam Cannon in launcher mode, this model may not fire the Railcannon in either mode.  Likewise, when firing the Railcannon in shotgun mode, this model may not fire the Beam Cannon in either mode.",
                   "showAbility": true,
                   "showDescription": true
@@ -1937,7 +2687,485 @@
         "isCustom": false,
         "uuid": "eed8b562-b142-4f84-9a11-e92c5575fc69"
       },
+      {
+        "id": "d609de95-6762-4721-b5b7-6f9d5413a07b",
+        "name": "Nicol Amalfi",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Nicol Amalfi in a GAT-X207 Blitz Gundam"
+        ],
+        "loadout": "This model is equipped with: 1 Beam Rifle; 3 Lancer Darts; 1 Rocket Anchor; 1 Beam Saber.",
+        "wargear": [
+          "This model can be equipped with 1 [Subflight] unit."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "500",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            },            
+            {
+              "name": "Rocket Anchor",
+              "description": "You can re-roll Charge rolls made for this model.",
+              "showAbility": true,
+              "showDescription": true
+            }                      
+          ],
+          "core": [
+            "Deadly Demise D6",
+            "Deep Strike"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "Blitz Gundam",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Mirage Colloid",
+                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit may choose to activate its Mirage Colloid until the beginning of your next Command phase.  While the Mirage Colloid is active, this unit's Invulnerable Save becomes 5+ * Against ranged attacks only; it gains the [LONE OPERATIVE] and [Stealth] abilities; it is always considered to have the Benefit of Cover.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+            {
+              "name": "Nicol Amalfi",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Brave Protector",
+                  "description": "You can target this model’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "5+",
+            "oc": "10",
+            "name": "GAT-X207 Blitz Gundam",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Lancer Dart ",
+                "keywords": [
+                  "one shot"
+                ],
+                "range": "48\"",
+                "attacks": "1",
+                "skill": "2+",
+                "strength": "14",
+                "ap": "-3",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "GAT-X207 Blitz",
+          "Gundam",
+          "Nicol Amalfi"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "d609de95-6762-4721-b5b7-6f9d5413a07b"
+      },
+      {
+        "id": "3d9c8180-5b8f-44a1-b1d8-1f6809fbed4e",
+        "name": "Athrun Zala",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Athrun Zala in a GAT-X303 Aegis Gundam"
+        ],
+        "loadout": "This model is equipped with: 1 Beam Launcher; 1 Beam Rifle; 1 Twin Beam Saber.",
+        "wargear": [
+          "This model can be equipped with 1 [Subflight] unit."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "500",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [
+            {
+              "name": "Beam Launcher / Beam Rifle",
+              "description": "When targeting a Vehicle or a Monster, attacks from this weapon score Critical Wounds on a 5+.",
+              "showAbility": true,
+              "showDescription": true
+            }                    
+          ],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness, Super-heavy Walker"
+          ],
+          "primarch": [
+            {
+              "name": "Athrun Zala",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Slippery",
+                  "description": "In your Shooting phase, when not in a High Speed Form, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Vector Dancer",
+                  "description": "When in a High Speed Form, this model may turn up to 90° before moving.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+            {
+              "name": "Aegis",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "High Speed Transformation",
+                  "description": "At the beginning of each of your Command phases, this unit may choose to enter a High Speed Form.  Until your next Command phase, this unit gains the [Aircraft] keyword and it's Movement characteristic becomes 20+.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Beam Launcher / Beam Rifle",
+                  "description": "The Beam Launcher may only be fired in High Speed Form, the Beam Rifle may only be fired when not in High Speed Form.",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-8 WOUNDS REMAINING",
+            "description": "While this model has 1-8 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "15\"",
+            "t": "12",
+            "sv": "2+",
+            "w": "24",
+            "ld": "5+",
+            "oc": "10",
+            "name": "GAT-X303 Aegis Gundam",
+            "showDamagedMarker": true,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Launcher ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "6",
+                "skill": "2+",
+                "strength": "24",
+                "ap": "-5",
+                "damage": "D6"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Rifle ",
+                "keywords": [
+                  "devastating wounds"
+                ],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "2+",
+                "strength": "18",
+                "ap": "-4",
+                "damage": "D6+3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Beam Saber – strike ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "4",
+                "skill": "3+",
+                "strength": "14",
+                "ap": "-4",
+                "damage": "6"
+              },
+              {
+                "active": true,
+                "name": "Beam Saber – sweep ",
+                "keywords": ["devastating wounds"],
+                "range": "Melee",
+                "attacks": "12",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-3",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Titanic",
+          "Towering",
+          "GAT-X303 Aegis",
+          "Gundam",
+          "Athrun Zala"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "3d9c8180-5b8f-44a1-b1d8-1f6809fbed4e"
+      },
 
+      {
+        "id": "f232a271-4b4c-47d0-8608-46922628dddc",
+        "name": "Guul Subflight Unit",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [],
+        "loadout": "",
+        "wargear": [],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "75",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [],
+          "faction": [],
+          "primarch": [
+            {
+              "name": "Guul Subflight Unit",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Subflight",
+                  "description": "If you have upgraded a model to have a [Subflight] unit, attach the appropriate [Subflight] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Guul",
+                  "description": "This model gains the [Fly] keyword, add 3\" to the bearer's Move characteristic, and add 3 to the bearer's Wounds characteristic.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Wargear",
+                  "description": "This model gains the following wargear: 1 Missile Launchers.",
+                  "showAbility": true,
+                  "showDescription": true
+                }                
+              ]
+            }
+          ],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": true,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Launchers - frag ",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              },
+              {
+                "active": true,
+                "name": "Missile Launchers - krak ",
+                "keywords": [],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "3+",
+                "strength": "10",
+                "ap": "-2",
+                "damage": "D3"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [],
+        "keywords": [
+          "Subflight"
+        ],
+        "factions": [
+          "ZAFT"
+        ],
+        "isCustom": true,
+        "uuid": "f232a271-4b4c-47d0-8608-46922628dddc"
+      },
       {
         "id": "22d77d0d-f716-4196-97ef-5c635f6c11c8",
         "name": "Duel Assault Shroud",
