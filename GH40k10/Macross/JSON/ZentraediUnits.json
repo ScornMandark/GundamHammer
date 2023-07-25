@@ -1,7 +1,7 @@
 {
   "category": {
-    "uuid": "bca6ad84-0815-414d-9823-84b260f9ce49",
-    "name": "UN Spacy Units",
+    "uuid": "8c59a662-2599-4908-874c-79df592d3b28",
+    "name": "Zentraedi Units",
     "cards": [
       {
         "id": "7bc27fe0-f771-471f-a6d8-9ac56e776cc7",
@@ -824,173 +824,6 @@
         "uuid": "f54acc6e-67e2-43f8-b608-029c4d288d0a"
       },
       {
-        "id": "c871eb0f-59aa-4cf4-bebc-173257669c2d",
-        "name": "VF-1D Trainer Valkyrie",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
-        "composition": [
-          "1 VF-1D Trainer Valkyrie"
-        ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
-        "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "140",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D3"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Second Set of Eyes",
-              "description": "For any ranged attacks that target this model, or models it a unit it is Leading, reduce the AP by 1.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "8",
-            "ld": "6+",
-            "oc": "5",
-            "name": "VF-1D Valkyrie",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "GU-11 Gunpod ",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "24",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Feet ",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Squad Leader"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "leads": {
-          "units": [
-            "VF-1A Valkyries"
-          ],
-          "extra": "You can attach this model to the above unit only if it contains 2 or more models."
-        },
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "c871eb0f-59aa-4cf4-bebc-173257669c2d"
-      },
-      {
         "id": "76264528-cd51-4432-b190-34f787db53c3",
         "name": "Squad Leader",
         "source": "40k-10e",
@@ -1182,8 +1015,7 @@
         "abilities": {
           "wargear": [],
           "core": [
-            "Deadly Demise D3",
-            "Stealth"
+            "Deadly Demise D3"
           ],
           "faction": [
             "Mobile Suit Madness"
@@ -1403,7 +1235,7 @@
           "other": [
             {
               "name": "Genius Pilot",
-              "description": "This model, and any models in a unit this model is Leading, are always considered to have the Benefit of Cover, and may reroll any Save roll of 1.",
+              "description": "When this model is leading a unit, models in that unit are always considered to have the Benefit of Cover, and may reroll any Save roll of 1.",
               "showAbility": true,
               "showDescription": true
             },
@@ -1571,7 +1403,7 @@
           "other": [
             {
               "name": "Crack Shot",
-              "description": "This model, and any models in a unit this model is Leading, may reroll any hit roll of 1.",
+              "description": "When this model is leading a unit, models in that unit may reroll any hit roll of 1.",
               "showAbility": true,
               "showDescription": true
             },
