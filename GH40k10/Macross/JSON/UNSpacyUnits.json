@@ -13,7 +13,7 @@
         "composition": [
           "1-3 ARX-04-MK-X Defender"
         ],
-        "loadout": "This model is equipped with: 1 Contraves II Autocannons; 1 Armored Feet.",
+        "loadout": "Each model is equipped with: 1 Contraves II Autocannons; 1 Armored Feet.",
         "wargear": [
           "None."
         ],
@@ -141,7 +141,7 @@
         "composition": [
           "1-3 SDR-04-MK-XII Phalanx"
         ],
-        "loadout": "This model is equipped with: 1 Contraves II Autocannons; 1 Armored Feet.",
+        "loadout": "Each model is equipped with: 1 Contraves II Autocannons; 1 Armored Feet.",
         "wargear": [
           "None."
         ],
@@ -283,7 +283,7 @@
         "composition": [
           "1-3 MBR-04-MK-IV Tomahawk"
         ],
-        "loadout": "This model is equipped with: 1 Anti-Air Missile Pod; 1 Anti-Infantry Array; 2 Missile Pods; 2 Particle Beam Cannons; 1 Armored Feet.",
+        "loadout": "Each model is equipped with: 1 Anti-Air Missile Pod; 1 Anti-Infantry Array; 2 Missile Pods; 2 Particle Beam Cannons; 1 Armored Feet.",
         "wargear": [
           "None."
         ],
@@ -463,7 +463,7 @@
         "composition": [
           "1-3 MBR-07-MK-II Spartan"
         ],
-        "loadout": "This model is equipped with: 1 Anti-Infantry Array; 2 Missile Pods; 1 Claw Hands.",
+        "loadout": "Each model is equipped with: 1 Anti-Infantry Array; 2 Missile Pods; 1 Claw Hands.",
         "wargear": [
           "Any number of models can each have their Claw Hands replaced with 1 Anti-Armor Club. "
         ],
@@ -646,6 +646,7 @@
         "isCustom": false,
         "uuid": "af0502de-df76-4d00-94e9-a553c46956d5"
       },
+
       {
         "id": "f54acc6e-67e2-43f8-b608-029c4d288d0a",
         "name": "VF-1A Valkyries",
@@ -656,7 +657,7 @@
         "composition": [
           "1-4 VF-1A Valkyries"
         ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
+        "loadout": "Each model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
         "wargear": [
           "Any number of models can each be equipped with 1 [Equipment Pack] unit."
         ],
@@ -822,173 +823,6 @@
         "print_side": "front",        
         "isCustom": false,
         "uuid": "f54acc6e-67e2-43f8-b608-029c4d288d0a"
-      },
-      {
-        "id": "c871eb0f-59aa-4cf4-bebc-173257669c2d",
-        "name": "VF-1D Trainer Valkyrie",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
-        "composition": [
-          "1 VF-1D Trainer Valkyrie"
-        ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
-        "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "140",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D3"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Second Set of Eyes",
-              "description": "For any ranged attacks that target this model, or models it a unit it is Leading, reduce the AP by 1.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "8",
-            "ld": "6+",
-            "oc": "5",
-            "name": "VF-1D Valkyrie",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "GU-11 Gunpod ",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "24",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Feet ",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Squad Leader"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "leads": {
-          "units": [
-            "VF-1A Valkyries"
-          ],
-          "extra": "You can attach this model to the above unit only if it contains 2 or more models."
-        },
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "c871eb0f-59aa-4cf4-bebc-173257669c2d"
       },
       {
         "id": "76264528-cd51-4432-b190-34f787db53c3",
@@ -1158,14 +992,14 @@
         "uuid": "76264528-cd51-4432-b190-34f787db53c3"
       },
       {
-        "id": "cb8c4fb6-0c03-48e0-942e-33dd8a18d206",
-        "name": "Hikaru Ichijo",
+        "id": "c871eb0f-59aa-4cf4-bebc-173257669c2d",
+        "name": "VF-1D Trainer Valkyrie",
         "source": "40k-10e",
         "faction_id": "QI",
         "cardType": "DataCard",
         "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
         "composition": [
-          "1 Hikaru Ichijo"
+          "1 VF-1D Trainer Valkyrie"
         ],
         "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
         "wargear": [
@@ -1175,7 +1009,7 @@
         "points": [
           {
             "models": "1",
-            "cost": "160",
+            "cost": "140",
             "active": true
           }
         ],
@@ -1183,7 +1017,7 @@
           "wargear": [],
           "core": [
             "Deadly Demise D3",
-            "Stealth"
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
@@ -1234,8 +1068,177 @@
           },
           "other": [
             {
+              "name": "Second Set of Eyes",
+              "description": "For any ranged attacks that target this model, or models it a unit it is Leading, reduce the AP by 1.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Laser CIWS",
+              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": false,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "12\"",
+            "t": "8",
+            "sv": "3+",
+            "w": "8",
+            "ld": "6+",
+            "oc": "5",
+            "name": "VF-1D Valkyrie",
+            "showDamagedMarker": false,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "GU-11 Gunpod ",
+                "keywords": [
+                  "assault"
+                ],
+                "range": "24\"",
+                "attacks": "24",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "6",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "VF-1D Trainer Valkyrie"
+        ],
+        "factions": [
+          "UN Spacy"
+        ],
+        "leads": {
+          "units": [
+            "VF-1A Valkyries"
+          ],
+          "extra": "You can attach this model to the above unit only if it contains 2 or more models. You can attach this model to one of the above units even if one Squad Leader model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        },
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "c871eb0f-59aa-4cf4-bebc-173257669c2d"
+      },
+      {
+        "id": "cb8c4fb6-0c03-48e0-942e-33dd8a18d206",
+        "name": "Hikaru Ichijo",
+        "source": "40k-10e",
+        "faction_id": "QI",
+        "cardType": "DataCard",
+        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
+        "composition": [
+          "1 Hikaru Ichijo"
+        ],
+        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
+        "wargear": [
+          "This model can be equipped with 1 [Equipment Pack] unit."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "160",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D3",
+            "Leader",
+            "Stealth"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [
+            {
+              "name": "Variable Fighter",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Battloid Mode",
+                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            },
+            {
+              "name": "Modes",
+              "showAbility": true,
+              "abilities": [
+                {
+                  "name": "Battloid Mode",
+                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Fighter Mode",
+                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
+                  "showAbility": true,
+                  "showDescription": true
+                },
+                {
+                  "name": "Gerwalk Mode",
+                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
+                  "showAbility": true,
+                  "showDescription": true
+                }
+              ]
+            }
+          ],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
               "name": "Ace Tactics",
-              "description": "When this model is leading a unit, models in that unit are always considered to have the [stealth] ability.",
+              "description": "When this model is leading a unit, models in that unit are always considered to have the [Stealth] ability.",
               "showAbility": true,
               "showDescription": true
             },
@@ -1262,7 +1265,7 @@
             "w": "8",
             "ld": "5+",
             "oc": "5",
-            "name": "VF-1J Valkyrie",
+            "name": "VF-1D Valkyrie",
             "showDamagedMarker": false,
             "showName": false,
             "active": true
@@ -1325,7 +1328,7 @@
         "print_side": "front",        
         "isCustom": false,
         "uuid": "cb8c4fb6-0c03-48e0-942e-33dd8a18d206"
-      },
+      },      
       {
         "id": "0fafcd07-a633-4669-a0c3-49cbe2a632bb",
         "name": "Maximilian Jenius",
@@ -1351,7 +1354,8 @@
         "abilities": {
           "wargear": [],
           "core": [
-            "Deadly Demise D3"
+            "Deadly Demise D3",
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
@@ -1395,7 +1399,7 @@
             }
           ],
           "invul": {
-            "value": "6+",
+            "value": "5+",
             "info": "* Against ranged attacks only",
             "showInvulnerableSave": true,
             "showInfo": true
@@ -1519,7 +1523,8 @@
         "abilities": {
           "wargear": [],
           "core": [
-            "Deadly Demise D3"
+            "Deadly Demise D3",
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
@@ -1563,7 +1568,7 @@
             }
           ],
           "invul": {
-            "value": "6+",
+            "value": "5+",
             "info": "* Against ranged attacks only",
             "showInvulnerableSave": true,
             "showInfo": true
@@ -1687,7 +1692,8 @@
         "abilities": {
           "wargear": [],
           "core": [
-            "Deadly Demise D3"
+            "Deadly Demise D3",
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
@@ -1731,7 +1737,7 @@
             }
           ],
           "invul": {
-            "value": "6+",
+            "value": "5+",
             "info": "* Against ranged attacks only",
             "showInvulnerableSave": true,
             "showInfo": true

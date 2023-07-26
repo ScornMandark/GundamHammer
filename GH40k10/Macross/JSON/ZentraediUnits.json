@@ -4,34 +4,24 @@
     "name": "Zentraedi Units",
     "cards": [
       {
-        "id": "7bc27fe0-f771-471f-a6d8-9ac56e776cc7",
-        "name": "ARX-04-MK-X Defender",
+        "id": "71cc3c7f-d2e2-4924-be54-2181ee71fc14",
+        "name": "Gnerl Fighter Pods",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1-3 ARX-04-MK-X Defender"
+          "3 Gnerl Fighter Pods"
         ],
-        "loadout": "This model is equipped with: 1 Contraves II Autocannons; 1 Armored Feet.",
+        "loadout": "Every model is equipped with: 1 Missile Pod; 1 Triple Barreled Nose Cannons; 1 Armored Hull.",
         "wargear": [
           "None."
         ],
         "transport": "",
         "points": [
           {
-            "models": "1",
-            "cost": "70",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "140",
-            "active": true
-          },
-          {
             "models": "3",
-            "cost": "210",
+            "cost": "150",
             "active": true
           }
         ],
@@ -52,8 +42,148 @@
           },
           "other": [
             {
-              "name": "Skyfire Protocols",
-              "description": "Each time you target this unit with the Overwatch Stratagem just after an enemy unit that can Fly starts or ends a Normal, Advance or Fall Back move, when resolving that Stratagem, in addition to shooting that enemy unit, you can select up to three additional enemy units within 24\" of this model that can Fly; models in this unit can also shoot at each of those units with their Contraves II Autocannons (provided each one is an eligible target), but when doing so, an unmodified Hit roll of 6 is required to score a hit.",
+              "name": "Interceptor",
+              "description": "Each time a model in this unit makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": true,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "20ᐩ\"",
+            "t": "5",
+            "sv": "3+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "0",
+            "name": "Gnerl Fighters",
+            "showDamagedMarker": false,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Missile Pod ",
+                "keywords": [
+                  "blast",
+                  "rapid-fire D6"
+                ],
+                "range": "60\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "5",
+                "ap": "-1",
+                "damage": "1"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Triple Barreled Nose Cannons ",
+                "keywords": [],
+                "range": "36\"",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Hull ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "6",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Fly",
+          "Aircraft",
+          "Battleline",
+          "Gnerl Fighter"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "isCustom": true,
+        "uuid": "71cc3c7f-d2e2-4924-be54-2181ee71fc14"
+      },
+      {
+        "id": "bdb89dcc-ee6c-42a4-9a27-ae42fc31e24f",
+        "name": "Regult Battle Pods",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "3-6 Regult Battle Pods"
+        ],
+        "loadout": "Each model is equipped with: 1 Electron Beam Guns; 1 Armored Feet.",
+        "wargear": [
+          "For every 3 models in this unit, 1 model may be equipped with one of the following: ◦ 1 Heavy Missile Pod ◦ 1 Light Missile Pod ◦ 1 Long Range Electron Beam Guns "
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "3",
+            "cost": "165",
+            "active": true
+          },
+          {
+            "models": "6",
+            "cost": "330",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise 1"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "High Speed Assault",
+              "description": "Each time this unit Advances, do not make an Advance roll for it. Instead, until the end of the phase, add 6\" to the Move characteristic of models in this unit.",
               "showAbility": true,
               "showDescription": true
             }
@@ -69,12 +199,12 @@
         "stats": [
           {
             "m": "10\"",
-            "t": "7",
+            "t": "5",
             "sv": "3+",
-            "w": "7",
+            "w": "4",
             "ld": "7+",
             "oc": "2",
-            "name": "ARX-04-MK-X Defender",
+            "name": "Regult Battle Pods",
             "showDamagedMarker": false,
             "showName": false,
             "active": true
@@ -86,12 +216,366 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Contraves II Autocannons ",
+                "name": "Electron Beam Guns ",
+                "keywords": [],
+                "range": "18\"",
+                "attacks": "4",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "1"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Missile Pod ",
                 "keywords": [
-                  "anti-fly 2+"
+                  "heavy"
                 ],
-                "range": "48\"",
-                "attacks": "12",
+                "range": "30\"",
+                "attacks": "2",
+                "skill": "5+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Light Missile Pod ",
+                "keywords": [],
+                "range": "30\"",
+                "attacks": "2",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Range Electron Beam Guns ",
+                "keywords": [
+                  "heavy",
+                  "twin-linked"
+                ],
+                "range": "30\"",
+                "attacks": "1",
+                "skill": "5+",
+                "strength": "9",
+                "ap": "-4",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "5+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Battleline",
+          "Regult Battle Pods"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "leadBy": [
+          "Regult Ace",
+          "Regult Tactical Scout"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "bdb89dcc-ee6c-42a4-9a27-ae42fc31e24f"
+      },
+      {
+        "id": "c128b6fd-e761-425c-89f3-eaedd67d05c7",
+        "name": "Regult Heavy Battle Pods",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1-3 Regult Heavy Battle Pods"
+        ],
+        "loadout": "Each model is equipped with: 1 Electron Beam Guns; 1 Heavy Missile Pod; 1 Armored Feet.",
+        "wargear": [
+          "Any model in this unit may each replace 1 Heavy Missile Pod with one of the following: ◦ 1 Light Missile Pod ◦ 1 Long Range Electron Beam Guns "
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "65",
+            "active": true
+          },
+           {
+            "models": "2",
+            "cost": "130",
+            "active": true
+          },
+          {
+            "models": "1",
+            "cost": "195",
+            "active": true
+          }
+       ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise 1"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Saturation Fire",
+              "description": "Each time this unit Remains Stationary, until the start of your next Movement phase, ranged weapons equipped by models in this unit have the [Ignores Cover] ability.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": false,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "10\"",
+            "t": "5",
+            "sv": "3+",
+            "w": "4",
+            "ld": "7+",
+            "oc": "1",
+            "name": "Regult Heavy Battle Pods",
+            "showDamagedMarker": false,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Electron Beam Guns ",
+                "keywords": [],
+                "range": "18\"",
+                "attacks": "4",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "1"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Missile Pod ",
+                "keywords": [
+                  "heavy"
+                ],
+                "range": "30\"",
+                "attacks": "2",
+                "skill": "5+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "3"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Light Missile Pod ",
+                "keywords": [],
+                "range": "30\"",
+                "attacks": "2",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Range Electron Beam Guns ",
+                "keywords": [
+                  "heavy",
+                  "twin-linked"
+                ],
+                "range": "30\"",
+                "attacks": "1",
+                "skill": "5+",
+                "strength": "9",
+                "ap": "-4",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "5+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Regult Heavy Battle Pods"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "leadBy": [
+          "Regult Ace",
+          "Regult Tactical Scout"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "c128b6fd-e761-425c-89f3-eaedd67d05c7"
+      },
+      {
+        "id": "d99b5908-7193-4f10-9f49-aac7e8bc729d",
+        "name": "Regult Ace",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "This model can be attached to the following unit: ■ Regult Battle Pods ■ Regult Heavy Battle Pods ",
+        "composition": [
+          "1 Regult Ace"
+        ],
+        "loadout": "This model is equipped with: 1 Electron Beam Guns; 1 Armored Feet.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "80",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise 1",
+            "Leader"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "",
+            "info": "",
+            "showInvulnerableSave": false,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Regult Commander",
+              "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": false,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "10\"",
+            "t": "5",
+            "sv": "3+",
+            "w": "5",
+            "ld": "7+",
+            "oc": "2",
+            "name": "Regult Ace",
+            "showDamagedMarker": false,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Electron Beam Guns ",
+                "keywords": [],
+                "range": "18\"",
+                "attacks": "4",
                 "skill": "3+",
                 "strength": "7",
                 "ap": "-1",
@@ -111,7 +595,7 @@
                 "range": "Melee",
                 "attacks": "3",
                 "skill": "4+",
-                "strength": "6",
+                "strength": "5",
                 "ap": "0",
                 "damage": "1"
               }
@@ -121,27 +605,34 @@
         "keywords": [
           "Vehicle",
           "Walker",
-          "Battleline",
-          "ARX-04-MK-X Defender"
+          "Character",
+          "Regult Ace"
         ],
         "factions": [
-          "UN Spacy"
+          "Zentraedi"
         ],
+        "leads": {
+          "units": [
+            "Regult Battle Pods",
+            "Regult Heavy Battle Pods"
+          ],
+          "extra": "You can attach this model to the above units only if the unit contains 2 or more models."
+        },
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "7bc27fe0-f771-471f-a6d8-9ac56e776cc7"
+        "uuid": "d99b5908-7193-4f10-9f49-aac7e8bc729d"
       },
       {
-        "id": "690a6e15-c9ce-4cf2-93a6-e5b3ce83521d",
-        "name": "SDR-04-MK-XII Phalanx",
+        "id": "d97f07fd-fcfe-4fff-98c6-055a882fbef5",
+        "name": "Regult Tactical Scout",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHDA",
         "cardType": "DataCard",
-        "leader": "",
+        "leader": "This model can be attached to the following unit: ■ Regult Battle Pods ■ Regult Heavy Battle Pods ",
         "composition": [
-          "1-3 SDR-04-MK-XII Phalanx"
+          "1 Regult Tactical Scout"
         ],
-        "loadout": "This model is equipped with: 1 Contraves II Autocannons; 1 Armored Feet.",
+        "loadout": "This model is equipped with: 1 Long Range Sensors; 1 Armored Feet.",
         "wargear": [
           "None."
         ],
@@ -149,24 +640,22 @@
         "points": [
           {
             "models": "1",
-            "cost": "70",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "140",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "210",
+            "cost": "60",
             "active": true
           }
         ],
         "abilities": {
-          "wargear": [],
+          "wargear": [
+            {
+              "name": "Long Range Sensors",
+              "description": "Enemy units that are set up on the battlefield from Reserves cannot be set up within 12\" of this model.",
+              "showAbility": true,
+              "showDescription": true
+            }            
+          ],
           "core": [
-            "Deadly Demise 1"
+            "Deadly Demise 1",
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
@@ -180,8 +669,8 @@
           },
           "other": [
             {
-              "name": "Target Saturation",
-              "description": "Each time a model in this unit makes a ranged attack that targets a unit that is not Below Half-strength, you can re-roll the Hit roll.",
+              "name": "Regult Tactical Scout",
+              "description": "While this model is leading a unit, each time a model in that unit is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving its attacks.",
               "showAbility": true,
               "showDescription": true
             }
@@ -197,13 +686,125 @@
         "stats": [
           {
             "m": "10\"",
-            "t": "7",
+            "t": "5",
             "sv": "3+",
-            "w": "7",
+            "w": "5",
             "ld": "7+",
-            "oc": "2",
-            "name": "SDR-04-MK-XII Phalanx",
+            "oc": "1",
+            "name": "Regult Tactical Scout",
             "showDamagedMarker": false,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "5",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Regult Tactical Scout"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "leads": {
+          "units": [
+            "Regult Battle Pods",
+            "Regult Heavy Battle Pods"
+          ],
+          "extra": "You can attach this model to the above units only if the unit contains 2 or more models. You can attach this model to one of the above units even if one Regult Ace model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
+        },
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "d97f07fd-fcfe-4fff-98c6-055a882fbef5"
+      },
+      {
+        "id": "e675a909-c2a8-4eaf-a16e-5fabfd05d644",
+        "name": "Glaug Battle Pod",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Glaug Battle Pod"
+        ],
+        "loadout": "This model is equipped with: 1 Heavy Impact Cannons; 1 Long Range Electron Beam Gun; 1 Armored Feet.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "200",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Battle Coordinator (Aura)",
+              "description": "While a friendly ZENTRAEDI WALKER BATTLELINE unit is within 6\" of this model, this model gains the [Lone Operative] ability. Each time a model in that unit makes a ranged attack, re-roll a Wound roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Trained Ace",
+              "description": "Each time this model makes a ranged attack, you can ignore any or all modifiers to the Hit roll.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "10\"",
+            "t": "9",
+            "sv": "2+",
+            "w": "14",
+            "ld": "7+",
+            "oc": "4",
+            "name": "Glaug",
+            "showDamagedMarker": true,
             "showName": false,
             "active": true
           }
@@ -214,29 +815,47 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Derringer Missile Pods - frag ",
+                "name": "Heavy Impact Cannons - small bore ",
                 "keywords": [
-                  "blast",
-                  "heavy"
+                  "twin-linked"
                 ],
-                "range": "48\"",
-                "attacks": "2D6",
+                "range": "72\"",
+                "attacks": "6",
                 "skill": "4+",
-                "strength": "4",
-                "ap": "0",
-                "damage": "1"
+                "strength": "7",
+                "ap": "-2",
+                "damage": "3"
               },
               {
                 "active": true,
-                "name": "Derringer Missile Pods - krak ",
+                "name": "Heavy Impact Cannons - large bore ",
+                "keywords": [
+                  "hazardous",
+                  "twin-linked"
+                ],
+                "range": "72\"",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "4"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Range Electron Beam Gun ",
                 "keywords": [
                   "heavy"
                 ],
-                "range": "48\"",
-                "attacks": "2",
+                "range": "30\"",
+                "attacks": "1",
                 "skill": "4+",
                 "strength": "9",
-                "ap": "-2",
+                "ap": "-4",
                 "damage": "D6"
               }
             ]
@@ -251,11 +870,11 @@
                 "name": "Armored Feet ",
                 "keywords": [],
                 "range": "Melee",
-                "attacks": "3",
-                "skill": "4+",
+                "attacks": "6",
+                "skill": "5+",
                 "strength": "6",
                 "ap": "0",
-                "damage": "1"
+                "damage": "2"
               }
             ]
           }
@@ -263,27 +882,343 @@
         "keywords": [
           "Vehicle",
           "Walker",
-          "Battleline",
-          "SDR-04-MK-XII Phalanx"
+          "Character",
+          "Glaug Battle Pod"
         ],
         "factions": [
-          "UN Spacy"
+          "Zentraedi"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "690a6e15-c9ce-4cf2-93a6-e5b3ce83521d"
+        "uuid": "e675a909-c2a8-4eaf-a16e-5fabfd05d644"
       },
       {
-        "id": "2792cbbb-c250-48fc-ac18-af372a0d37e9",
-        "name": "MBR-04-MK-IV Tomahawk",
+        "id": "1dcd3b34-cda6-4d30-9ce5-5f44542b4ea4",
+        "name": "Kamjin Kravshera",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHDA",
         "cardType": "DataCard",
         "leader": "",
         "composition": [
-          "1-3 MBR-04-MK-IV Tomahawk"
+          "1 Kamjin Kravshera in a Glaug Battle Pod"
         ],
-        "loadout": "This model is equipped with: 1 Anti-Air Missile Pod; 1 Anti-Infantry Array; 2 Missile Pods; 2 Particle Beam Cannons; 1 Armored Feet.",
+        "loadout": "This model is equipped with: 1 Heavy Impact Cannons; 1 Long Range Electron Beam Gun; 1 Armored Feet.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "235",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Battle Coordinator (Aura)",
+              "description": "While a friendly ZENTRAEDI WALKER BATTLELINE unit is within 6\" of this model, this model gains the [Lone Operative] ability. Each time a model in that unit makes a ranged attack, re-roll a Wound roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Bad Boss",
+              "description": "Once per battle round, at the start of any phase, you can select one friendly Zentraedi Walker unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "10\"",
+            "t": "9",
+            "sv": "2+",
+            "w": "14",
+            "ld": "7+",
+            "oc": "4",
+            "name": "Glaug",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Impact Cannons - small bore ",
+                "keywords": [
+                  "twin-linked"
+                ],
+                "range": "72\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-2",
+                "damage": "3"
+              },
+              {
+                "active": true,
+                "name": "Heavy Impact Cannons - large bore ",
+                "keywords": [
+                  "hazardous",
+                  "twin-linked"
+                ],
+                "range": "72\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "4"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Range Electron Beam Gun ",
+                "keywords": [
+                  "heavy"
+                ],
+                "range": "30\"",
+                "attacks": "1",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-4",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "6",
+                "ap": "0",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Glaug Battle Pod",
+          "Kamjin Kravshera"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "1dcd3b34-cda6-4d30-9ce5-5f44542b4ea4"
+      },
+      {
+        "id": "57cb7fb3-f809-4e21-903d-eaeb564a19aa",
+        "name": "Moruk Laplamiz",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1 Moruk Laplamiz in a Glaug Battle Pod"
+        ],
+        "loadout": "This model is equipped with: 1 Heavy Impact Cannons; 1 Long Range Electron Beam Gun; 1 Armored Feet.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "250",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D6"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "",
+            "showInvulnerableSave": true,
+            "showInfo": false
+          },
+          "other": [
+            {
+              "name": "Battle Coordinator (Aura)",
+              "description": "While a friendly ZENTRAEDI WALKER BATTLELINE unit is within 6\" of this model, this model gains the [Lone Operative] ability. Each time a model in that unit makes a ranged attack, re-roll a Wound roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Ace Pilot",
+              "description": "In your Shooting phase, after this model has shot, this unit can make a Normal move. If it does so, until the end of the turn, this unit is not eligible to declare a charge.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": true,
+            "showDescription": true,
+            "range": "1-4 WOUNDS REMAINING",
+            "description": "While this model has 1-4 wounds remaining, each time this model makes an attack, subtract 1 from the Hit roll."
+          }
+        },
+        "stats": [
+          {
+            "m": "10\"",
+            "t": "9",
+            "sv": "2+",
+            "w": "14",
+            "ld": "7+",
+            "oc": "4",
+            "name": "Glaug",
+            "showDamagedMarker": true,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Heavy Impact Cannons - small bore ",
+                "keywords": [
+                  "twin-linked"
+                ],
+                "range": "72\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-2",
+                "damage": "3"
+              },
+              {
+                "active": true,
+                "name": "Heavy Impact Cannons - large bore ",
+                "keywords": [
+                  "hazardous",
+                  "twin-linked"
+                ],
+                "range": "72\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-3",
+                "damage": "4"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Long Range Electron Beam Gun ",
+                "keywords": [
+                  "heavy"
+                ],
+                "range": "30\"",
+                "attacks": "1",
+                "skill": "3+",
+                "strength": "9",
+                "ap": "-4",
+                "damage": "D6"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "6",
+                "ap": "0",
+                "damage": "2"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Glaug Battle Pod",
+          "Moruk Laplamiz"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "57cb7fb3-f809-4e21-903d-eaeb564a19aa"
+      },
+      {
+        "id": "b17aaeb7-7142-461a-b675-31e660e6f863",
+        "name": "Nousjadeul-Ger Battle Suit",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1-3 Nousjadeul-Ger Battle Suits"
+        ],
+        "loadout": "This model is equipped with: 1 Laser Submachine Gun; 1 Large Bore Liquid Plasma Cannon; 1 Rapid Fire Impact Cannon; 1 Armored Feet.",
         "wargear": [
           "None."
         ],
@@ -315,10 +1250,10 @@
           ],
           "primarch": [],
           "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
+            "value": "6+",
+            "info": "* Against ranged attacks only.",
+            "showInvulnerableSave": true,
+            "showInfo": true
           },
           "other": [
             {
@@ -344,7 +1279,7 @@
             "w": "7",
             "ld": "7+",
             "oc": "2",
-            "name": "MBR-04-MK-IV Tomahawk",
+            "name": "Nousjadeul-Ger",
             "showDamagedMarker": false,
             "showName": false,
             "active": true
@@ -356,25 +1291,7 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Anti-Air Missile Pod ",
-                "keywords": [
-                  "anti-air 4+"
-                ],
-                "range": "36\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "8",
-                "ap": "-2",
-                "damage": "D6"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Anti-Infantry Array ",
+                "name": "Laser Submachine Gun ",
                 "keywords": [
                   "anti-infantry 4+",
                   "blast"
@@ -393,16 +1310,17 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Pod ",
+                "name": "Large Bore Liquid Plasma Cannon ",
                 "keywords": [
+                  "devastating wounds",
                   "heavy"
                 ],
-                "range": "36\"",
+                "range": "60\"",
                 "attacks": "2",
                 "skill": "4+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "D6"
+                "strength": "12",
+                "ap": "-4",
+                "damage": "D6+1"
               }
             ]
           },
@@ -411,14 +1329,16 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Particle Beam Cannon ",
-                "keywords": [],
-                "range": "48\"",
-                "attacks": "1",
+                "name": "Rapid Fire Impact Cannon ",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6+2",
                 "skill": "4+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "D6+1"
+                "strength": "8",
+                "ap": "-1",
+                "damage": "2"
               }
             ]
           }
@@ -444,44 +1364,37 @@
         "keywords": [
           "Vehicle",
           "Walker",
-          "MBR-04-MK-IV Tomahawk"
+          "Nousjadeul-Ger Battle Suit"
         ],
         "factions": [
-          "UN Spacy"
+          "Zentraedi"
+        ],
+        "leadBy": [
+          "Kamjin Kravshera"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "2792cbbb-c250-48fc-ac18-af372a0d37e9"
+        "uuid": "b17aaeb7-7142-461a-b675-31e660e6f863"
       },
       {
-        "id": "af0502de-df76-4d00-94e9-a553c46956d5",
-        "name": "MBR-07-MK-II Spartan",
+        "id": "c2bd878d-f91b-4254-a5cc-821a202652e5",
+        "name": "Kamjin Kravshera",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHDA",
         "cardType": "DataCard",
-        "leader": "",
+        "leader": "This model can be attached to the following unit: ■ Nousjadeul-Ger Battle Suits",
         "composition": [
-          "1-3 MBR-07-MK-II Spartan"
+          "1 Kamjin Kravshera in a Nousjadeul-Ger Battle Suit"
         ],
-        "loadout": "This model is equipped with: 1 Anti-Infantry Array; 2 Missile Pods; 1 Claw Hands.",
+        "loadout": "This model is equipped with: 1 Laser Submachine Gun; 1 Large Bore Liquid Plasma Cannon; 1 Rapid Fire Impact Cannon; 1 Armored Feet.",
         "wargear": [
-          "Any number of models can each have their Claw Hands replaced with 1 Anti-Armor Club. "
+          "None."
         ],
         "transport": "",
         "points": [
           {
             "models": "1",
-            "cost": "110",
-            "active": true
-          },
-          {
-            "models": "2",
-            "cost": "220",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "330",
+            "cost": "150",
             "active": true
           }
         ],
@@ -495,15 +1408,21 @@
           ],
           "primarch": [],
           "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
+            "value": "5+",
+            "info": "* Against ranged attacks only.",
+            "showInvulnerableSave": true,
+            "showInfo": true
           },
           "other": [
             {
-              "name": "Giant Killer",
-              "description": "In the Fight phase, when targeting a Vehicle or a Monster, models from this unit score Critical Wounds on a 5+.",
+              "name": "Battle Coordinator",
+              "description": "While leading a unit, each time a model in that unit makes a ranged attack, re-roll a Wound roll of 1.",
+              "showAbility": true,
+              "showDescription": true
+            },
+            {
+              "name": "Bad Boss",
+              "description": "Once per battle round, at the start of any phase, you can select one friendly Zentraedi Walker unit that is Battle-shocked and within 12\" of this model. If you do, one model in that unit is destroyed, and that unit is then no longer Battle-shocked.",
               "showAbility": true,
               "showDescription": true
             }
@@ -522,11 +1441,11 @@
             "t": "8",
             "sv": "2+",
             "w": "7",
-            "ld": "7+",
+            "ld": "6+",
             "oc": "2",
-            "name": "MBR-07-MK-II Spartan",
+            "name": "Nousjadeul-Ger",
             "showDamagedMarker": false,
-            "showName": false,
+            "showName": true,
             "active": true
           }
         ],
@@ -536,13 +1455,14 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Anti-Infantry Array ",
+                "name": "Laser Submachine Gun ",
                 "keywords": [
-                  "anti-infantry 4+"
+                  "anti-infantry 4+",
+                  "blast"
                 ],
                 "range": "24\"",
                 "attacks": "2D6",
-                "skill": "4+",
+                "skill": "3+",
                 "strength": "4",
                 "ap": "0",
                 "damage": "1"
@@ -554,16 +1474,35 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Missile Pod ",
+                "name": "Large Bore Liquid Plasma Cannon ",
                 "keywords": [
+                  "devastating wounds",
                   "heavy"
                 ],
-                "range": "36\"",
+                "range": "60\"",
                 "attacks": "2",
-                "skill": "4+",
-                "strength": "10",
-                "ap": "-2",
-                "damage": "D6"
+                "skill": "3+",
+                "strength": "12",
+                "ap": "-4",
+                "damage": "D6+1"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Rapid Fire Impact Cannon ",
+                "keywords": [
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "D6+2",
+                "skill": "3+",
+                "strength": "8",
+                "ap": "-1",
+                "damage": "2"
               }
             ]
           }
@@ -574,28 +1513,136 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Anti-Armor Club - strike ",
-                "keywords": [
-                  "anti-titanic 4+"
-                ],
+                "name": "Armored Feet ",
+                "keywords": [],
                 "range": "Melee",
-                "attacks": "4",
-                "skill": "3+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "D6+2"
-              },
-              {
-                "active": true,
-                "name": "Anti-Armor Club - sweep ",
-                "keywords": [
-                  "anti-titanic 4+"
-                ],
-                "range": "Melee",
-                "attacks": "8",
+                "attacks": "3",
                 "skill": "3+",
                 "strength": "6",
-                "ap": "-2",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Nousjadeul-Ger Battle Suit",
+          "Kamjin Kravshera"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "leads": {
+          "units": [
+            "Nousjadeul-Ger Battle Suits"
+          ],
+          "extra": "You can attach this model to the above unit only if it contains 2 or more models."
+        },
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "c2bd878d-f91b-4254-a5cc-821a202652e5"
+      },
+      {
+        "id": "29d61a22-54a0-45ec-ab5b-5e9b169e8cef",
+        "name": "Queadlunn Rau Battle Suit",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "",
+        "composition": [
+          "1-4 Queadlunn Rau Battle Suits"
+        ],
+        "loadout": "This model is equipped with: 1 Fire Linked Impact Cannons; 2 Micro-Missile Pods; 1 Triple Barreled Anti-Air Laser Guns; 1 Armored Feet.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "125",
+            "active": true
+          },
+          {
+            "models": "2",
+            "cost": "250",
+            "active": true
+          },
+          {
+            "models": "3",
+            "cost": "375",
+            "active": true
+          },
+          {
+            "models": "4",
+            "cost": "500",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D3"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
+          "invul": {
+            "value": "6+",
+            "info": "* Against ranged attacks only.",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
+            {
+              "name": "High Speed Maneuverability",
+              "description": "Models in this unit are eligible to shoot in a turn in which it Fell Back.",
+              "showAbility": true,
+              "showDescription": true
+            }
+          ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": false,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "14\"",
+            "t": "7",
+            "sv": "3+",
+            "w": "7",
+            "ld": "7+",
+            "oc": "2",
+            "name": "Queadlunn Rau",
+            "showDamagedMarker": false,
+            "showName": false,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Fire Linked Impact Cannon ",
+                "keywords": [
+                  "twin-linked"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
                 "damage": "2"
               }
             ]
@@ -605,181 +1652,34 @@
             "profiles": [
               {
                 "active": true,
-                "name": "Claw Hands - strike ",
+                "name": "Micro-Missile Clusters ",
                 "keywords": [
-                  "anti-titanic 4+",
-                  "twin-linked"
+                  "assault",
+                  "blast"
                 ],
-                "range": "Melee",
-                "attacks": "4",
-                "skill": "3+",
-                "strength": "10",
-                "ap": "-3",
-                "damage": "3"
-              },
-              {
-                "active": true,
-                "name": "Claw Hands - sweep ",
-                "keywords": [
-                  "anti-titanic 4+",
-                  "twin-linked"
-                ],
-                "range": "Melee",
-                "attacks": "8",
-                "skill": "3+",
-                "strength": "8",
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "4+",
+                "strength": "6",
                 "ap": "-2",
                 "damage": "1"
               }
             ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "MBR-07-MK-II Spartan"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "af0502de-df76-4d00-94e9-a553c46956d5"
-      },
-      {
-        "id": "f54acc6e-67e2-43f8-b608-029c4d288d0a",
-        "name": "VF-1A Valkyries",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [
-          "1-4 VF-1A Valkyries"
-        ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
-        "wargear": [
-          "Any number of models can each be equipped with 1 [Equipment Pack] unit."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "120",
-            "active": true
           },
-          {
-            "models": "2",
-            "cost": "240",
-            "active": true
-          },
-          {
-            "models": "3",
-            "cost": "360",
-            "active": true
-          },
-          {
-            "models": "4",
-            "cost": "480",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D3"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, this unit gains the [Aircraft] and [Fly] keywords, it's Objective Controlled characteristic becomes 0, and it's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, this unit gains the [Fly] keyword, it's Objective Controlled characteristic becomes 2, and it's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Laser CIWS",
-              "description": "Models in this unit have the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "8",
-            "sv": "3+",
-            "w": "8",
-            "ld": "7+",
-            "oc": "5",
-            "name": "VF-1A Valkyries",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "GU-11 Gunpod ",
+                "name": "Triple Barreled Anti-Air Laser Guns ",
                 "keywords": [
-                  "assault"
+                  "anti-air 4+"
                 ],
                 "range": "24\"",
-                "attacks": "24",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
+                "attacks": "6",
+                "skill": "4+",
+                "strength": "7",
+                "ap": "-1",
                 "damage": "1"
               }
             ]
@@ -806,107 +1706,62 @@
         "keywords": [
           "Vehicle",
           "Walker",
-          "Battleline",
-          "VF-1A Valkyries"
+          "Queadlunn Rau"
         ],
         "factions": [
-          "UN Spacy"
+          "Zentraedi"
         ],
         "leadBy": [
-          "Squad Leader",
-          "Hikaru Ichijo",
-          "Maximilian Jenius",
-          "Milia Jenius",
-          "Roy Focker"
+          "Queadlunn Rau Ace",
+          "Milia Falyna",
+          "Moruk Laplamiz"
         ],
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "f54acc6e-67e2-43f8-b608-029c4d288d0a"
+        "uuid": "29d61a22-54a0-45ec-ab5b-5e9b169e8cef"
       },
       {
-        "id": "76264528-cd51-4432-b190-34f787db53c3",
-        "name": "Squad Leader",
+        "id": "28232312-952f-490d-8f6e-3782d363ae7d",
+        "name": "Queadlunn Rau Ace",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHDA",
         "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
+        "leader": "This model can be attached to the following unit: ■ Queadlunn Rau Battle Suits",
         "composition": [
-          "1 Squad Leader"
+          "1 Queadlunn Rau Ace"
         ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
+        "loadout": "This model is equipped with: 1 Fire Linked Impact Cannons; 2 Micro-Missile Pods; 1 Triple Barreled Anti-Air Laser Guns; 1 Armored Feet.",
         "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
+          "None."
         ],
         "transport": "",
         "points": [
           {
             "models": "1",
-            "cost": "140",
+            "cost": "150",
             "active": true
           }
         ],
         "abilities": {
           "wargear": [],
           "core": [
-            "Deadly Demise D3"
+            "Deadly Demise D3",
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
           ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
+          "primarch": [],
           "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
+            "value": "5+",
+            "info": "* Against ranged attacks only.",
             "showInvulnerableSave": true,
             "showInfo": true
           },
           "other": [
             {
-              "name": "Coordinated Fire Arcs",
-              "description": "While this model is leading a unit, weapons equipped by models in that unit have the [LETHAL HITS] ability.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
+              "name": "Regult Commander",
+              "description": "While this model is leading a unit, each time a model in that unit makes a ranged attack, re-roll a Hit roll of 1.",
               "showAbility": true,
               "showDescription": true
             }
@@ -921,13 +1776,13 @@
         },
         "stats": [
           {
-            "m": "12\"",
-            "t": "8",
+            "m": "14\"",
+            "t": "7",
             "sv": "3+",
-            "w": "8",
+            "w": "7",
             "ld": "6+",
-            "oc": "5",
-            "name": "VF-1A Valkyrie",
+            "oc": "2",
+            "name": "Queadlunn Rau",
             "showDamagedMarker": false,
             "showName": false,
             "active": true
@@ -939,15 +1794,52 @@
             "profiles": [
               {
                 "active": true,
-                "name": "GU-11 Gunpod ",
+                "name": "Fire Linked Impact Cannon ",
                 "keywords": [
-                  "assault"
+                  "twin-linked"
                 ],
                 "range": "24\"",
-                "attacks": "24",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Micro-Missile Clusters ",
+                "keywords": [
+                  "assault",
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
                 "skill": "3+",
                 "strength": "6",
                 "ap": "-2",
+                "damage": "1"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Triple Barreled Anti-Air Laser Guns ",
+                "keywords": [
+                  "anti-air 4+"
+                ],
+                "range": "24\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-1",
                 "damage": "1"
               }
             ]
@@ -975,34 +1867,34 @@
           "Vehicle",
           "Walker",
           "Character",
-          "Squad Leader"
+          "Queadlunn Rau"
         ],
         "factions": [
-          "UN Spacy"
+          "Zentraedi"
         ],
         "leads": {
           "units": [
-            "VF-1A Valkyries"
+            "Queadlunn Rau Battle Suits"
           ],
           "extra": "You can attach this model to the above unit only if it contains 2 or more models."
         },
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "76264528-cd51-4432-b190-34f787db53c3"
+        "uuid": "28232312-952f-490d-8f6e-3782d363ae7d"
       },
       {
-        "id": "cb8c4fb6-0c03-48e0-942e-33dd8a18d206",
-        "name": "Hikaru Ichijo",
+        "id": "ff92c800-97b3-48bf-bf07-a1d103105541",
+        "name": "Milia Falyna",
         "source": "40k-10e",
-        "faction_id": "QI",
+        "faction_id": "CHDA",
         "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
+        "leader": "This model can be attached to the following unit: ■ Queadlunn Rau Battle Suits",
         "composition": [
-          "1 Hikaru Ichijo"
+          "1 Milia Falyna in a Queadlunn Rau Battle Suit"
         ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
+        "loadout": "This model is equipped with: 1 Fire Linked Impact Cannons; 2 Micro-Missile Pods; 1 Triple Barreled Anti-Air Laser Guns; 1 Armored Feet.",
         "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
+          "None."
         ],
         "transport": "",
         "points": [
@@ -1015,52 +1907,180 @@
         "abilities": {
           "wargear": [],
           "core": [
-            "Deadly Demise D3"
+            "Deadly Demise D3",
+            "Leader"
           ],
           "faction": [
             "Mobile Suit Madness"
           ],
-          "primarch": [
+          "primarch": [],
+          "invul": {
+            "value": "5+",
+            "info": "* Against ranged attacks only.",
+            "showInvulnerableSave": true,
+            "showInfo": true
+          },
+          "other": [
             {
-              "name": "Variable Fighter",
+              "name": "Ace Pilot",
+              "description": "This model, and any models in a unit this model is Leading, are always considered to have the Benefit of Cover, and may reroll any Save roll of 1.",
               "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
+              "showDescription": true
             }
           ],
+          "special": [],
+          "damaged": {
+            "showDamagedAbility": false,
+            "showDescription": false,
+            "range": "",
+            "description": ""
+          }
+        },
+        "stats": [
+          {
+            "m": "14\"",
+            "t": "7",
+            "sv": "3+",
+            "w": "7",
+            "ld": "5+",
+            "oc": "2",
+            "name": "Queadlunn Rau Battle Suit",
+            "showDamagedMarker": false,
+            "showName": true,
+            "active": true
+          }
+        ],
+        "rangedWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Fire Linked Impact Cannon ",
+                "keywords": [
+                  "twin-linked"
+                ],
+                "range": "24\"",
+                "attacks": "D6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "2"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Micro-Missile Clusters ",
+                "keywords": [
+                  "assault",
+                  "blast"
+                ],
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
+                "strength": "6",
+                "ap": "-2",
+                "damage": "1"
+              }
+            ]
+          },
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Triple Barreled Anti-Air Laser Guns ",
+                "keywords": [
+                  "anti-air 4+"
+                ],
+                "range": "24\"",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-1",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "meleeWeapons": [
+          {
+            "active": true,
+            "profiles": [
+              {
+                "active": true,
+                "name": "Armored Feet ",
+                "keywords": [],
+                "range": "Melee",
+                "attacks": "3",
+                "skill": "4+",
+                "strength": "6",
+                "ap": "0",
+                "damage": "1"
+              }
+            ]
+          }
+        ],
+        "keywords": [
+          "Vehicle",
+          "Walker",
+          "Character",
+          "Epic Hero",
+          "Queadlunn Rau",
+          "Milia Falyna"
+        ],
+        "factions": [
+          "Zentraedi"
+        ],
+        "leads": {
+          "units": [
+            "Queadlunn Rau Battle Suits"
+          ],
+          "extra": "You can attach this model to the above unit only if it contains 2 or more models."
+        },
+        "print_side": "front",        
+        "isCustom": false,
+        "uuid": "ff92c800-97b3-48bf-bf07-a1d103105541"
+      },
+      {
+        "id": "731fab4e-fd6e-4814-b4cd-1e1668a05f8f",
+        "name": "Moruk Laplamiz",
+        "source": "40k-10e",
+        "faction_id": "CHDA",
+        "cardType": "DataCard",
+        "leader": "This model can be attached to the following unit: ■ Queadlunn Rau Battle Suits",
+        "composition": [
+          "1 Moruk Laplamiz in a Queadlunn Rau Battle Suit"
+        ],
+        "loadout": "This model is equipped with: 1 Fire Linked Impact Cannons; 2 Micro-Missile Pods; 1 Triple Barreled Anti-Air Laser Guns; 1 Armored Feet.",
+        "wargear": [
+          "None."
+        ],
+        "transport": "",
+        "points": [
+          {
+            "models": "1",
+            "cost": "160",
+            "active": true
+          }
+        ],
+        "abilities": {
+          "wargear": [],
+          "core": [
+            "Deadly Demise D3",
+            "Leader"
+          ],
+          "faction": [
+            "Mobile Suit Madness"
+          ],
+          "primarch": [],
           "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
+            "value": "5+",
+            "info": "* Against ranged attacks only.",
             "showInvulnerableSave": true,
             "showInfo": true
           },
@@ -1070,12 +2090,6 @@
               "description": "When this model is leading a unit, models in that unit are always considered to have the [stealth] ability.",
               "showAbility": true,
               "showDescription": true
-            },
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
             }
           ],
           "special": [],
@@ -1088,15 +2102,15 @@
         },
         "stats": [
           {
-            "m": "12\"",
-            "t": "8",
-            "sv": "2+",
-            "w": "8",
-            "ld": "5+",
-            "oc": "5",
-            "name": "VF-1J Valkyrie",
+            "m": "14\"",
+            "t": "7",
+            "sv": "3+",
+            "w": "7",
+            "ld": "6+",
+            "oc": "2",
+            "name": "Queadlunn Rau Battle Suit",
             "showDamagedMarker": false,
-            "showName": false,
+            "showName": true,
             "active": true
           }
         ],
@@ -1106,351 +2120,52 @@
             "profiles": [
               {
                 "active": true,
-                "name": "GU-11 Gunpod ",
+                "name": "Fire Linked Impact Cannon ",
                 "keywords": [
-                  "assault"
+                  "twin-linked"
                 ],
                 "range": "24\"",
-                "attacks": "24",
-                "skill": "2+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Feet ",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "3",
+                "attacks": "D6",
                 "skill": "3+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
+                "strength": "7",
+                "ap": "-1",
+                "damage": "2"
               }
             ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Hikaru Ichijo"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "leads": {
-          "units": [
-            "VF-1A Valkyries"
-          ],
-          "extra": "You can attach this model to the above unit only if it contains 2 or more models. You can attach this model to the above unit even if one Roy Focker model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-        },
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "cb8c4fb6-0c03-48e0-942e-33dd8a18d206"
-      },
-      {
-        "id": "0fafcd07-a633-4669-a0c3-49cbe2a632bb",
-        "name": "Maximilian Jenius",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
-        "composition": [
-          "1 Maximilian Jenius"
-        ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
-        "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "160",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D3"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
           },
-          "other": [
-            {
-              "name": "Genius Pilot",
-              "description": "When this model is leading a unit, models in that unit are always considered to have the Benefit of Cover, and may reroll any Save roll of 1.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "8",
-            "sv": "2+",
-            "w": "8",
-            "ld": "5+",
-            "oc": "5",
-            "name": "VF-1J Valkyrie",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "GU-11 Gunpod ",
+                "name": "Micro-Missile Clusters ",
                 "keywords": [
-                  "assault"
+                  "assault",
+                  "blast"
                 ],
-                "range": "24\"",
-                "attacks": "24",
-                "skill": "2+",
+                "range": "36\"",
+                "attacks": "2D6",
+                "skill": "3+",
                 "strength": "6",
                 "ap": "-2",
                 "damage": "1"
               }
             ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Feet ",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Maximilian Jenius"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "leads": {
-          "units": [
-            "VF-1A Valkyries"
-          ],
-          "extra": "You can attach this model to the above unit only if it contains 2 or more models. You can attach this model to the above unit even if one Hikaru Ichijo model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-        },
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "0fafcd07-a633-4669-a0c3-49cbe2a632bb"
-      },
-      {
-        "id": "50540389-51db-4e64-848d-c24591d3cdee",
-        "name": "Milia Jenius",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
-        "composition": [
-          "1 Milia Jenius"
-        ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
-        "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "160",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D3"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
           },
-          "other": [
-            {
-              "name": "Crack Shot",
-              "description": "When this model is leading a unit, models in that unit may reroll any hit roll of 1.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "8",
-            "sv": "2+",
-            "w": "8",
-            "ld": "5+",
-            "oc": "5",
-            "name": "VF-1J Valkyrie",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
           {
             "active": true,
             "profiles": [
               {
                 "active": true,
-                "name": "GU-11 Gunpod ",
+                "name": "Triple Barreled Anti-Air Laser Guns ",
                 "keywords": [
-                  "assault"
+                  "anti-air 4+"
                 ],
                 "range": "24\"",
-                "attacks": "24",
-                "skill": "2+",
-                "strength": "6",
-                "ap": "-2",
+                "attacks": "6",
+                "skill": "3+",
+                "strength": "7",
+                "ap": "-1",
                 "damage": "1"
               }
             ]
@@ -1479,580 +2194,21 @@
           "Walker",
           "Character",
           "Epic Hero",
-          "Milia Jenius"
+          "Queadlunn Rau",
+          "Moruk Laplamiz"
         ],
         "factions": [
-          "UN Spacy"
+          "Zentraedi"
         ],
         "leads": {
           "units": [
-            "VF-1A Valkyries"
-          ],
-          "extra": "You can attach this model to the above unit only if it contains 2 or more models. You can attach this model to the above unit even if one Maximilian Jenius model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths."
-        },
-        "print_side": "front",        
-        "isCustom": false,
-        "uuid": "50540389-51db-4e64-848d-c24591d3cdee"
-      },
-      {
-        "id": "51586596-173f-4434-8d81-860eddda7e87",
-        "name": "Roy Focker",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "This model can be attached to the following unit: ■ VF-1A Valkyries",
-        "composition": [
-          "1 Milia Jenius"
-        ],
-        "loadout": "This model is equipped with: 1 GU-11 Gunpod; 1 Armored Feet.",
-        "wargear": [
-          "This model can be equipped with 1 [Equipment Pack] unit."
-        ],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "160",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [
-            "Deadly Demise D3"
-          ],
-          "faction": [
-            "Mobile Suit Madness"
-          ],
-          "primarch": [
-            {
-              "name": "Variable Fighter",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Before the first turn and at the beginning of each of your Command phases, this unit must choose a Mode for all models to enter (including attached Character models).",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            },
-            {
-              "name": "Modes",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Battloid Mode",
-                  "description": "Until the beginning of your next Command phase, return all characteristics to their printed values.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Fighter Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Aircraft] and [Fly] keywords, each model's Objective Controlled characteristic becomes 0, and each model's Movement characteristic becomes 20+\".",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Gerwalk Mode",
-                  "description": "Until the beginning of your next Command phase, models in this unit gains the [Fly] keyword, each model's Objective Controlled characteristic becomes 2, and each model's Movement characteristic becomes 20\".",
-                  "showAbility": true,
-                  "showDescription": true
-                }
-              ]
-            }
-          ],
-          "invul": {
-            "value": "6+",
-            "info": "* Against ranged attacks only",
-            "showInvulnerableSave": true,
-            "showInfo": true
-          },
-          "other": [
-            {
-              "name": "Laser CIWS",
-              "description": "This model has the 6+ Feel No Pain ability against ranged attacks.",
-              "showAbility": true,
-              "showDescription": true
-            },
-            {
-              "name": "Skull Leader (Psychic)",
-              "description": "At the start of your Shooting phase, select one enemy unit within 12\" of this model. That enemy unit must take a Battle-shock test.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": false,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [
-          {
-            "m": "12\"",
-            "t": "8",
-            "sv": "2+",
-            "w": "8",
-            "ld": "5+",
-            "oc": "5",
-            "name": "VF-1S Valkyrie",
-            "showDamagedMarker": false,
-            "showName": false,
-            "active": true
-          }
-        ],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "GU-11 Gunpod ",
-                "keywords": [
-                  "assault"
-                ],
-                "range": "24\"",
-                "attacks": "24",
-                "skill": "2+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Armored Feet ",
-                "keywords": [],
-                "range": "Melee",
-                "attacks": "3",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "0",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "keywords": [
-          "Vehicle",
-          "Walker",
-          "Character",
-          "Epic Hero",
-          "Roy Focker"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "leads": {
-          "units": [
-            "VF-1A Valkyries"
+            "Queadlunn Rau Battle Suits"
           ],
           "extra": "You can attach this model to the above unit only if it contains 2 or more models."
         },
         "print_side": "front",        
         "isCustom": false,
-        "uuid": "551586596-173f-4434-8d81-860eddda7e87"
-      },
-
-      {
-        "id": "ef1546d3-d44f-40e0-b327-1a81dddf3f8c",
-        "name": "GBP-1S Armored Pack",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [],
-        "loadout": "",
-        "wargear": [],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "100",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [],
-          "faction": [],
-          "primarch": [
-            {
-              "name": "GBP-1S Armored Pack",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Equipment Pack",
-                  "description": "If you have upgraded a model to have an [Equipment Pack] unit, attach the appropriate [Equipment Pack] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Armored Pack",
-                  "description": "This model gains the [Lone Operative] ability; may not Lead any units; must always choose Battloid Mode; increases its Toughness characteristic to 10; reduces its Speed characteristic to 10\"; adds 6 to the bearer's Wounds characteristic.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Character Locked",
-                  "description": "This unit may only be equipped to a [Character] model.",
-                  "showAbility": true,
-                  "showDescription": true
-                },           
-                {
-                  "name": "Wargear",
-                  "description": "This model gains the following wargear: 4 Micro-Missile Clusters; 1 Heavy Missile Clusters.",
-                  "showAbility": true,
-                  "showDescription": true
-                }                
-              ]
-            }
-          ],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ejection",
-              "description": "At any time, the bearer of this [Equipment Pack] may eject it.  If it does so: any weagear, abilities, and/or keywords from this unit are lost; all characteristics return to their printed values; that model regains up to 6 lost Wounds, not to exceed its printed Wounds characteristic.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heavy Missiles ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "24\"",
-                "attacks": "1",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-2",
-                "damage": "D6"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Micro-Missile Clusters ",
-                "keywords": [
-                  "assault",
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "2D6",
-                "skill": "3+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [],
-        "keywords": [
-          "Equipment Pack"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "isCustom": true,
-        "uuid": "ef1546d3-d44f-40e0-b327-1a81dddf3f8c"
-      },
-      {
-        "id": "4ff25120-fe5a-4784-bb8a-5a6da14a31ca",
-        "name": "FAST Pack",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [],
-        "loadout": "",
-        "wargear": [],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "50",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [],
-          "core": [],
-          "faction": [],
-          "primarch": [
-            {
-              "name": "FAST Pack",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Equipment Pack",
-                  "description": "If you have upgraded a model to have an [equipment pack] unit, attach the appropriate [equipment pack] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "FAST Pack",
-                  "description": "This model gains the [fly] keyword; gains the [STEALTH] ability; adds 6\" to the bearer's Move characteristic; adds 3 to the bearer's Wounds characteristic.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Character Bonus",
-                  "description": "If this unit is attached to a [character] model, improve each weapon’s Ballistic Skill characteristic by 1. If the model is also an [epic hero], improve each weapon's Attacks characteristic by +1.",
-                  "showAbility": true,
-                  "showDescription": true
-                },           
-                {
-                  "name": "Wargear",
-                  "description": "This model gains the following wargear: 2 Micro-Missile Clusters.\nIf this unit is attached to a [character] model, you may replace 1 Micro-Missile Clusters with 1 Twin Particle Beam Cannon.\nThis model may additionally take 1 Missile Pack [equipment pack].",
-                  "showAbility": true,
-                  "showDescription": true
-                }                
-              ]
-            }
-          ],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [
-            {
-              "name": "Ejection",
-              "description": "At any time, the bearer of this [equipment pack] may eject it.  If it does so: any weagear, abilities, and/or keywords from this unit are lost; all characteristics return to their printed values; that model regains up to 3 lost Wounds, not to exceed its printed Wounds characteristic.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Micro-Missile Clusters ",
-                "keywords": [
-                  "assault",
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "2D6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Twin Particle Beam Cannon ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "48\"",
-                "attacks": "1",
-                "skill": "4+",
-                "strength": "12",
-                "ap": "-3",
-                "damage": "D6+1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [],
-        "keywords": [
-          "Equipment Pack"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "isCustom": true,
-        "uuid": "4ff25120-fe5a-4784-bb8a-5a6da14a31ca"
-      },
-      {
-        "id": "e1de879e-e0b4-4aa6-90fd-14ea5b17758f",
-        "name": "Missile Pack",
-        "source": "40k-10e",
-        "faction_id": "QI",
-        "cardType": "DataCard",
-        "leader": "",
-        "composition": [],
-        "loadout": "",
-        "wargear": [],
-        "transport": "",
-        "points": [
-          {
-            "models": "1",
-            "cost": "25",
-            "active": true
-          }
-        ],
-        "abilities": {
-          "wargear": [
-            {
-              "name": "Anti-Air Missiles",
-              "description": "When targeting a unit that can [Fly], add +1 to the hit roll for this weapon.",
-              "showAbility": true,
-              "showDescription": true
-            }
-          ],
-          "core": [],
-          "faction": [],
-          "primarch": [
-            {
-              "name": "Missile Pack",
-              "showAbility": true,
-              "abilities": [
-                {
-                  "name": "Equipment Pack",
-                  "description": "If you have upgraded a model to have an [Equipment Pack] unit, attach the appropriate [Equipment Pack] unit to your model as a reminder. These do not count as models for any rules purposes.  Increase the base cost of that model by the cost of this unit.",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Wargear",
-                  "description": "This model can be equipped with up to two of the following, and can take duplicates: ◦ 1 Anti-Air Missile Clusters ◦ 1 Heavy Missiles ◦ 1 Micro-Missile Clusters ",
-                  "showAbility": true,
-                  "showDescription": true
-                },
-                {
-                  "name": "Character Bonus",
-                  "description": "If this unit is attached to a [Character] model, improve each weapon’s Ballistic Skill characteristic by 1. If the model is also an [Epic Hero], improve each weapon's Attacks characteristic by +1.",
-                  "showAbility": true,
-                  "showDescription": true
-                }           
-              ]
-            }
-          ],
-          "invul": {
-            "value": "",
-            "info": "",
-            "showInvulnerableSave": false,
-            "showInfo": false
-          },
-          "other": [],
-          "special": [],
-          "damaged": {
-            "showDamagedAbility": false,
-            "showDescription": true,
-            "range": "",
-            "description": ""
-          }
-        },
-        "stats": [],
-        "rangedWeapons": [
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Anti-Air Missile Clusters ",
-                "keywords": [
-                  "anti-fly 2+",
-                  "twin-linked"
-                ],
-                "range": "48\"",
-                "attacks": "3",
-                "skill": "4+",
-                "strength": "7",
-                "ap": "-1",
-                "damage": "3"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Heavy Missiles ",
-                "keywords": [
-                  "twin-linked"
-                ],
-                "range": "24\"",
-                "attacks": "1",
-                "skill": "3+",
-                "strength": "9",
-                "ap": "-2",
-                "damage": "D6"
-              }
-            ]
-          },
-          {
-            "active": true,
-            "profiles": [
-              {
-                "active": true,
-                "name": "Micro-Missile Clusters ",
-                "keywords": [
-                  "assault",
-                  "blast"
-                ],
-                "range": "36\"",
-                "attacks": "2D6",
-                "skill": "4+",
-                "strength": "6",
-                "ap": "-2",
-                "damage": "1"
-              }
-            ]
-          }
-        ],
-        "meleeWeapons": [],
-        "keywords": [
-          "Equipment Pack"
-        ],
-        "factions": [
-          "UN Spacy"
-        ],
-        "isCustom": false,
-        "uuid": "e1de879e-e0b4-4aa6-90fd-14ea5b17758f"
+        "uuid": "731fab4e-fd6e-4814-b4cd-1e1668a05f8f"
       }
     ],
     "closed": false
