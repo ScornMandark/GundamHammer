@@ -2027,7 +2027,7 @@
             "w": "18",
             "ld": "6+",
             "oc": "6",
-            "name": "OZ-12SMS Taurus Veteran",
+            "name": "OZ-12SMD Taurus Mobile Doll",
             "showDamagedMarker": true,
             "showName": false,
             "active": true
@@ -2611,9 +2611,9 @@
             "w": "18",
             "ld": "5+",
             "oc": "8",
-            "name": "OZ-12SMS Taurus Ace",
+            "name": "OZ-12SMS Taurus",
             "showDamagedMarker": true,
-            "showName": false,
+            "showName": true,
             "active": true
           }
         ],
